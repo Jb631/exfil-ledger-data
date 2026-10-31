@@ -1,9 +1,15 @@
 {
  "schema": 1,
- "rev": 2026103003,
+ "rev": 2026103004,
  "asOf": "Oct 30, 2026",
- "notice": "The map button is off for now: the map site started showing fake virus alerts. If you saw one, close it and don't tap anything in it.",
+ "notice": null,
  "mapURL": "https://github.com/Jb631/exfil-ledger-data/blob/main/MAP.md",
+ "safeMap": {
+  "url": "https://codmunity.gg/dmz/map",
+  "hosts": [
+   "codmunity.gg"
+  ]
+ },
  "weapons": [
   {
    "id": "w_han_86",
