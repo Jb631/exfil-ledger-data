@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "rev": 2026103001,
+ "rev": 2026103002,
  "asOf": "Oct 30, 2026",
  "notice": null,
  "mapURL": "https://dmzcodex.com/map/",
@@ -613,13 +613,6 @@
    "print": null
   },
   {
-   "id": "i_chemicals",
-   "name": "Chemicals",
-   "kind": "resource",
-   "find": "Homes, gas stations, clinics",
-   "print": null
-  },
-  {
    "id": "i_synthetics",
    "name": "Synthetics",
    "kind": "resource",
@@ -627,15 +620,22 @@
    "print": null
   },
   {
-   "id": "i_electronics",
-   "name": "Electronics",
+   "id": "i_chemicals",
+   "name": "Chemicals",
    "kind": "resource",
-   "find": "Homes and gas stations",
+   "find": "Homes, gas stations, clinics",
    "print": null
   },
   {
    "id": "i_metals",
    "name": "Metals",
+   "kind": "resource",
+   "find": "Homes and gas stations",
+   "print": null
+  },
+  {
+   "id": "i_electronics",
+   "name": "Electronics",
    "kind": "resource",
    "find": "Homes and gas stations",
    "print": null
@@ -1493,6 +1493,26 @@
  ],
  "recipes": [
   {
+   "id": "r_bandage",
+   "name": "Bandage",
+   "cat": "healing",
+   "tag": "Lvl 2",
+   "unlock": "level",
+   "lvl": 2,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 15
+    },
+    {
+     "i": "i_chemicals",
+     "q": 15
+    }
+   ],
+   "reserve": 2,
+   "why": "Cheap top-up heal"
+  },
+  {
    "id": "r_medkit",
    "name": "Medkit",
    "cat": "healing",
@@ -1517,40 +1537,20 @@
    "why": "Only heal that fixes a wound and resets the Tourniquet"
   },
   {
-   "id": "r_bandage",
-   "name": "Bandage",
-   "cat": "healing",
-   "tag": "Lvl 2",
-   "unlock": "level",
-   "lvl": 2,
-   "mats": [
-    {
-     "i": "i_synthetics",
-     "q": 15
-    },
-    {
-     "i": "i_chemicals",
-     "q": 15
-    }
-   ],
-   "reserve": 2,
-   "why": "Cheap top-up heal"
-  },
-  {
-   "id": "r_stim",
-   "name": "Stim",
+   "id": "r_energy_drink",
+   "name": "Energy Drink",
    "cat": "healing",
    "tag": "Found",
    "unlock": "toggle",
    "lvl": null,
    "mats": [
     {
-     "i": "i_synthetics",
-     "q": 15
+     "i": "i_chemicals",
+     "q": 10
     },
     {
-     "i": "i_chemicals",
-     "q": 15
+     "i": "i_metals",
+     "q": 10
     }
    ],
    "reserve": 0,
@@ -1577,26 +1577,6 @@
    "why": null
   },
   {
-   "id": "r_energy_drink",
-   "name": "Energy Drink",
-   "cat": "healing",
-   "tag": "Found",
-   "unlock": "toggle",
-   "lvl": null,
-   "mats": [
-    {
-     "i": "i_chemicals",
-     "q": 10
-    },
-    {
-     "i": "i_metals",
-     "q": 10
-    }
-   ],
-   "reserve": 0,
-   "why": null
-  },
-  {
    "id": "r_sedative_inhaler",
    "name": "Sedative Inhaler",
    "cat": "healing",
@@ -1611,26 +1591,6 @@
     {
      "i": "i_chemicals",
      "q": 15
-    }
-   ],
-   "reserve": 0,
-   "why": null
-  },
-  {
-   "id": "r_smelling_salts",
-   "name": "Smelling Salts",
-   "cat": "healing",
-   "tag": "Found",
-   "unlock": "toggle",
-   "lvl": null,
-   "mats": [
-    {
-     "i": "i_chemicals",
-     "q": 30
-    },
-    {
-     "i": "i_detonators",
-     "q": 3
     }
    ],
    "reserve": 0,
@@ -1657,6 +1617,26 @@
    "why": "Needed with Radiation Gear for the reactor"
   },
   {
+   "id": "r_smelling_salts",
+   "name": "Smelling Salts",
+   "cat": "healing",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_chemicals",
+     "q": 30
+    },
+    {
+     "i": "i_detonators",
+     "q": 3
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
    "id": "r_self_revive_kit",
    "name": "Self-Revive Kit",
    "cat": "healing",
@@ -1679,46 +1659,6 @@
    ],
    "reserve": 1,
    "why": "Second life; recipe at DMZ Level 48"
-  },
-  {
-   "id": "r_defibrillator",
-   "name": "Defibrillator",
-   "cat": "healing",
-   "tag": "Critical Extraction",
-   "unlock": "toggle",
-   "lvl": null,
-   "mats": [
-    {
-     "i": "i_electronics",
-     "q": 30
-    },
-    {
-     "i": "i_control_units",
-     "q": 3
-    }
-   ],
-   "reserve": 0,
-   "why": null
-  },
-  {
-   "id": "r_rebreather",
-   "name": "Rebreather",
-   "cat": "healing",
-   "tag": "Found",
-   "unlock": "toggle",
-   "lvl": null,
-   "mats": [
-    {
-     "i": "i_synthetics",
-     "q": 15
-    },
-    {
-     "i": "i_chemicals",
-     "q": 15
-    }
-   ],
-   "reserve": 0,
-   "why": null
   },
   {
    "id": "r_door_breacher_charge",
@@ -1746,7 +1686,7 @@
   },
   {
    "id": "r_1_plate_vest",
-   "name": "1-Plate Vest",
+   "name": "1-Plate Armor Vest",
    "cat": "armor",
    "tag": "Lvl 2",
    "unlock": "level",
@@ -1766,7 +1706,7 @@
   },
   {
    "id": "r_2_plate_vest",
-   "name": "2-Plate Vest",
+   "name": "2-Plate Armor Vest",
    "cat": "armor",
    "tag": "Lvl 2",
    "unlock": "level",
@@ -1810,7 +1750,7 @@
   },
   {
    "id": "r_2_plate_helmet_vest",
-   "name": "2-Plate Helmet Vest",
+   "name": "2-Plate Helmet Armor Vest",
    "cat": "armor",
    "tag": "Found",
    "unlock": "toggle",
@@ -1834,7 +1774,7 @@
   },
   {
    "id": "r_3_plate_vest",
-   "name": "3-Plate Vest",
+   "name": "3-Plate Armor Vest",
    "cat": "armor",
    "tag": "Orders",
    "unlock": "toggle",
@@ -1882,7 +1822,7 @@
   },
   {
    "id": "r_3_plate_helmet_vest",
-   "name": "3-Plate Helmet Vest",
+   "name": "3-Plate Helmet Armor Vest",
    "cat": "armor",
    "tag": "Found",
    "unlock": "toggle",
@@ -1906,7 +1846,7 @@
   },
   {
    "id": "r_tempered_vest",
-   "name": "Tempered Vest",
+   "name": "Tempered Armor Vest",
    "cat": "armor",
    "tag": "Found",
    "unlock": "toggle",
@@ -2161,186 +2101,6 @@
    "why": null
   },
   {
-   "id": "r_gas_mask",
-   "name": "Gas Mask",
-   "cat": "gear",
-   "tag": "Lvl 26",
-   "unlock": "level",
-   "lvl": 26,
-   "mats": [
-    {
-     "i": "i_chemicals",
-     "q": 30
-    },
-    {
-     "i": "i_rigid_synthetics",
-     "q": 3
-    }
-   ],
-   "reserve": 1,
-   "why": "Reactor and radiation runs"
-  },
-  {
-   "id": "r_durable_gas_mask",
-   "name": "Durable Gas Mask",
-   "cat": "gear",
-   "tag": "Found",
-   "unlock": "toggle",
-   "lvl": null,
-   "mats": [
-    {
-     "i": "i_chemicals",
-     "q": 30
-    },
-    {
-     "i": "i_high_tenacity_fibers",
-     "q": 1
-    },
-    {
-     "i": "i_biomaterials",
-     "q": 5
-    }
-   ],
-   "reserve": 0,
-   "why": null
-  },
-  {
-   "id": "r_weak_night_vision_goggles",
-   "name": "Weak Night Vision Goggles",
-   "cat": "gear",
-   "tag": "Found",
-   "unlock": "toggle",
-   "lvl": null,
-   "mats": [
-    {
-     "i": "i_metals",
-     "q": 25
-    },
-    {
-     "i": "i_control_units",
-     "q": 5
-    }
-   ],
-   "reserve": 0,
-   "why": null
-  },
-  {
-   "id": "r_nvgs",
-   "name": "NVGs",
-   "cat": "gear",
-   "tag": "Orders",
-   "unlock": "toggle",
-   "lvl": null,
-   "mats": [
-    {
-     "i": "i_metals",
-     "q": 50
-    },
-    {
-     "i": "i_printed_circuit_board",
-     "q": 3
-    },
-    {
-     "i": "i_control_units",
-     "q": 10
-    }
-   ],
-   "reserve": 0,
-   "why": null
-  },
-  {
-   "id": "r_elite_night_vision_goggles",
-   "name": "Elite Night Vision Goggles",
-   "cat": "gear",
-   "tag": "Found",
-   "unlock": "toggle",
-   "lvl": null,
-   "mats": [
-    {
-     "i": "i_power_regulator",
-     "q": 2
-    },
-    {
-     "i": "i_cpu",
-     "q": 3
-    },
-    {
-     "i": "i_electronic_sensors",
-     "q": 5
-    }
-   ],
-   "reserve": 0,
-   "why": null
-  },
-  {
-   "id": "r_disposable_parachute",
-   "name": "Disposable Parachute",
-   "cat": "gear",
-   "tag": "Lvl 55",
-   "unlock": "level",
-   "lvl": 55,
-   "mats": [
-    {
-     "i": "i_chemicals",
-     "q": 30
-    },
-    {
-     "i": "i_rigid_synthetics",
-     "q": 3
-    }
-   ],
-   "reserve": 0,
-   "why": "3 uses each since Oct 23; recipe at DMZ Level 55"
-  },
-  {
-   "id": "r_parachute_reusable",
-   "name": "Parachute (reusable)",
-   "cat": "gear",
-   "tag": "Found",
-   "unlock": "toggle",
-   "lvl": null,
-   "mats": [
-    {
-     "i": "i_turned_components",
-     "q": 2
-    },
-    {
-     "i": "i_nylon_cloth",
-     "q": 5
-    },
-    {
-     "i": "i_rigid_synthetics",
-     "q": 10
-    }
-   ],
-   "reserve": 0,
-   "why": null
-  },
-  {
-   "id": "r_fulton_drop_marker",
-   "name": "Fulton Drop Marker",
-   "cat": "gear",
-   "tag": "Found",
-   "unlock": "toggle",
-   "lvl": null,
-   "mats": [
-    {
-     "i": "i_prototype_rf_module",
-     "q": 1
-    },
-    {
-     "i": "i_comms_module",
-     "q": 3
-    },
-    {
-     "i": "i_control_units",
-     "q": 5
-    }
-   ],
-   "reserve": 0,
-   "why": null
-  },
-  {
    "id": "r_smoke_grenade",
    "name": "Smoke Grenade",
    "cat": "tactical",
@@ -2461,6 +2221,46 @@
    "why": null
   },
   {
+   "id": "r_screamer_mine",
+   "name": "Screamer Mine",
+   "cat": "tactical",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 10
+    },
+    {
+     "i": "i_chemicals",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_stim",
+   "name": "Stim",
+   "cat": "tactical",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 15
+    },
+    {
+     "i": "i_chemicals",
+     "q": 15
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
    "id": "r_heartbeat_sensor",
    "name": "Heartbeat Sensor",
    "cat": "tactical",
@@ -2475,6 +2275,26 @@
     {
      "i": "i_chemicals",
      "q": 25
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_spotter_scope",
+   "name": "Spotter Scope",
+   "cat": "tactical",
+   "tag": "Lvl 12",
+   "unlock": "level",
+   "lvl": 12,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 50
+    },
+    {
+     "i": "i_electronic_sensors",
+     "q": 5
     }
    ],
    "reserve": 0,
@@ -2522,7 +2342,7 @@
   },
   {
    "id": "r_semtex",
-   "name": "Sticky Grenade",
+   "name": "Semtex",
    "cat": "lethal",
    "tag": "Lvl 23",
    "unlock": "level",
@@ -2641,19 +2461,19 @@
    "why": null
   },
   {
-   "id": "r_screamer_mine",
-   "name": "Screamer Mine",
+   "id": "r_zip_gun",
+   "name": "Zip Gun",
    "cat": "lethal",
    "tag": "Found",
    "unlock": "toggle",
    "lvl": null,
    "mats": [
     {
-     "i": "i_synthetics",
+     "i": "i_chemicals",
      "q": 10
     },
     {
-     "i": "i_chemicals",
+     "i": "i_metals",
      "q": 10
     }
    ],
@@ -2690,26 +2510,6 @@
    "mats": [
     {
      "i": "i_chemicals",
-     "q": 15
-    },
-    {
-     "i": "i_metals",
-     "q": 15
-    }
-   ],
-   "reserve": 0,
-   "why": null
-  },
-  {
-   "id": "r_razor_wire_trap",
-   "name": "Razor Wire Trap",
-   "cat": "lethal",
-   "tag": "Found",
-   "unlock": "toggle",
-   "lvl": null,
-   "mats": [
-    {
-     "i": "i_electronics",
      "q": 15
     },
     {
@@ -2759,26 +2559,6 @@
    ],
    "reserve": 1,
    "why": "Squad replate"
-  },
-  {
-   "id": "r_spotter_scope",
-   "name": "Spotter Scope",
-   "cat": "field",
-   "tag": "Lvl 12",
-   "unlock": "level",
-   "lvl": 12,
-   "mats": [
-    {
-     "i": "i_synthetics",
-     "q": 50
-    },
-    {
-     "i": "i_electronic_sensors",
-     "q": 5
-    }
-   ],
-   "reserve": 0,
-   "why": null
   },
   {
    "id": "r_recon_drone",
@@ -2921,6 +2701,46 @@
    "why": null
   },
   {
+   "id": "r_rebreather",
+   "name": "Rebreather",
+   "cat": "field",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 15
+    },
+    {
+     "i": "i_chemicals",
+     "q": 15
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_razor_wire_trap",
+   "name": "Razor Wire Trap",
+   "cat": "field",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_electronics",
+     "q": 15
+    },
+    {
+     "i": "i_metals",
+     "q": 15
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
    "id": "r_trophy_system",
    "name": "Trophy System",
    "cat": "field",
@@ -2931,6 +2751,26 @@
     {
      "i": "i_electronics",
      "q": 15
+    },
+    {
+     "i": "i_control_units",
+     "q": 3
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_defibrillator",
+   "name": "Defibrillator",
+   "cat": "field",
+   "tag": "Critical Extraction",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_electronics",
+     "q": 30
     },
     {
      "i": "i_control_units",
@@ -2985,20 +2825,24 @@
    "why": null
   },
   {
-   "id": "r_zip_gun",
-   "name": "Zip Gun",
+   "id": "r_fulton_drop_marker",
+   "name": "Fulton Drop Marker",
    "cat": "field",
    "tag": "Found",
    "unlock": "toggle",
    "lvl": null,
    "mats": [
     {
-     "i": "i_chemicals",
-     "q": 10
+     "i": "i_prototype_rf_module",
+     "q": 1
     },
     {
-     "i": "i_metals",
-     "q": 10
+     "i": "i_comms_module",
+     "q": 3
+    },
+    {
+     "i": "i_control_units",
+     "q": 5
     }
    ],
    "reserve": 0,
@@ -3239,6 +3083,162 @@
     {
      "i": "i_detonators",
      "q": 5
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_gas_mask",
+   "name": "Gas Mask",
+   "cat": "gear",
+   "tag": "Lvl 26",
+   "unlock": "level",
+   "lvl": 26,
+   "mats": [
+    {
+     "i": "i_chemicals",
+     "q": 30
+    },
+    {
+     "i": "i_rigid_synthetics",
+     "q": 3
+    }
+   ],
+   "reserve": 1,
+   "why": "Reactor and radiation runs"
+  },
+  {
+   "id": "r_durable_gas_mask",
+   "name": "Durable Gas Mask",
+   "cat": "gear",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_chemicals",
+     "q": 30
+    },
+    {
+     "i": "i_high_tenacity_fibers",
+     "q": 1
+    },
+    {
+     "i": "i_biomaterials",
+     "q": 5
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_weak_night_vision_goggles",
+   "name": "Weak Night Vision Goggles",
+   "cat": "gear",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_metals",
+     "q": 25
+    },
+    {
+     "i": "i_control_units",
+     "q": 5
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_nvgs",
+   "name": "Night Vision Goggles",
+   "cat": "gear",
+   "tag": "Orders",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_metals",
+     "q": 50
+    },
+    {
+     "i": "i_printed_circuit_board",
+     "q": 3
+    },
+    {
+     "i": "i_control_units",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_elite_night_vision_goggles",
+   "name": "Elite Night Vision Goggles",
+   "cat": "gear",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_power_regulator",
+     "q": 2
+    },
+    {
+     "i": "i_cpu",
+     "q": 3
+    },
+    {
+     "i": "i_electronic_sensors",
+     "q": 5
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_disposable_parachute",
+   "name": "Disposable Parachute",
+   "cat": "gear",
+   "tag": "Lvl 55",
+   "unlock": "level",
+   "lvl": 55,
+   "mats": [
+    {
+     "i": "i_chemicals",
+     "q": 30
+    },
+    {
+     "i": "i_rigid_synthetics",
+     "q": 3
+    }
+   ],
+   "reserve": 0,
+   "why": "3 uses each since Oct 23; recipe at DMZ Level 55"
+  },
+  {
+   "id": "r_parachute_reusable",
+   "name": "Parachute",
+   "cat": "gear",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_turned_components",
+     "q": 2
+    },
+    {
+     "i": "i_nylon_cloth",
+     "q": 5
+    },
+    {
+     "i": "i_rigid_synthetics",
+     "q": 10
     }
    ],
    "reserve": 0,
@@ -3528,19 +3528,15 @@
  "cats": [
   {
    "id": "healing",
-   "name": "Healing"
+   "name": "Consumables"
   },
   {
    "id": "armor",
-   "name": "Armor"
+   "name": "Plate Carriers"
   },
   {
    "id": "packs",
    "name": "Backpacks"
-  },
-  {
-   "id": "gear",
-   "name": "Gear"
   },
   {
    "id": "tactical",
@@ -3559,8 +3555,12 @@
    "name": "Fire Support"
   },
   {
+   "id": "gear",
+   "name": "Gear"
+  },
+  {
    "id": "ingr",
-   "name": "Ingredient Printing"
+   "name": "Ingredients"
   }
  ],
  "intel": [
