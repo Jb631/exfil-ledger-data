@@ -1,0 +1,4181 @@
+{
+ "schema": 1,
+ "rev": 2026103001,
+ "asOf": "Oct 30, 2026",
+ "notice": null,
+ "mapURL": "https://dmzcodex.com/map/",
+ "weapons": [
+  {
+   "id": "w_han_86",
+   "name": "Han 86",
+   "cls": "Assault Rifles",
+   "price": 6000,
+   "tag": "default",
+   "note": "Reported starter",
+   "approx": false
+  },
+  {
+   "id": "w_m4",
+   "name": "M4",
+   "cls": "Assault Rifles",
+   "price": 6250,
+   "tag": null,
+   "note": "Other guides: 4,750 to 5,000",
+   "approx": false
+  },
+  {
+   "id": "w_hyeon_burst",
+   "name": "Hyeon Burst",
+   "cls": "Assault Rifles",
+   "price": 5250,
+   "tag": null,
+   "note": null,
+   "approx": false
+  },
+  {
+   "id": "w_kastov_762",
+   "name": "Kastov 762",
+   "cls": "Assault Rifles",
+   "price": 5500,
+   "tag": "seen",
+   "note": "Manual seen in a Reactor 02 container",
+   "approx": false
+  },
+  {
+   "id": "w_patriot_xmr",
+   "name": "Patriot XMR",
+   "cls": "Assault Rifles",
+   "price": 6500,
+   "tag": null,
+   "note": null,
+   "approx": false
+  },
+  {
+   "id": "w_oden",
+   "name": "Oden",
+   "cls": "Assault Rifles",
+   "price": null,
+   "tag": null,
+   "note": null,
+   "approx": false
+  },
+  {
+   "id": "w_axion",
+   "name": "Axion",
+   "cls": "Assault Rifles",
+   "price": null,
+   "tag": null,
+   "note": null,
+   "approx": false
+  },
+  {
+   "id": "w_cronen_squall",
+   "name": "Cronen Squall",
+   "cls": "Assault Rifles",
+   "price": null,
+   "tag": null,
+   "note": null,
+   "approx": false
+  },
+  {
+   "id": "w_iso_nightshade",
+   "name": "ISO Nightshade",
+   "cls": "SMGs",
+   "price": 3000,
+   "tag": null,
+   "note": null,
+   "approx": true
+  },
+  {
+   "id": "w_ppsh_41",
+   "name": "PPSh-41",
+   "cls": "SMGs",
+   "price": 3000,
+   "tag": "seen",
+   "note": "Manual seen dropping · some list it as a starter",
+   "approx": true
+  },
+  {
+   "id": "w_vel_46",
+   "name": "VEL 46",
+   "cls": "SMGs",
+   "price": 3000,
+   "tag": null,
+   "note": null,
+   "approx": true
+  },
+  {
+   "id": "w_wz_55_striga",
+   "name": "Wz. 55 Striga",
+   "cls": "SMGs",
+   "price": 3000,
+   "tag": null,
+   "note": "Limited DMZ access (one source)",
+   "approx": true
+  },
+  {
+   "id": "w_x_58_nyx",
+   "name": "X-58 Nyx",
+   "cls": "SMGs",
+   "price": 3000,
+   "tag": null,
+   "note": null,
+   "approx": true
+  },
+  {
+   "id": "w_rezi_12",
+   "name": "Rezi 12",
+   "cls": "Shotguns",
+   "price": 4000,
+   "tag": null,
+   "note": null,
+   "approx": false
+  },
+  {
+   "id": "w_warlord",
+   "name": "Warlord",
+   "cls": "Shotguns",
+   "price": 3500,
+   "tag": null,
+   "note": null,
+   "approx": false
+  },
+  {
+   "id": "w_finn_lmg",
+   "name": "FiNN LMG",
+   "cls": "LMGs",
+   "price": 8000,
+   "tag": null,
+   "note": null,
+   "approx": false
+  },
+  {
+   "id": "w_type_73",
+   "name": "Type 73",
+   "cls": "LMGs",
+   "price": 7500,
+   "tag": "seen",
+   "note": "Manual seen dropping",
+   "approx": false
+  },
+  {
+   "id": "w_apoc_338",
+   "name": "APOC-338",
+   "cls": "LMGs",
+   "price": 7750,
+   "tag": "seen",
+   "note": "Manual seen once",
+   "approx": false
+  },
+  {
+   "id": "w_mar_9",
+   "name": "MAR-9",
+   "cls": "Marksman Rifles",
+   "price": 6500,
+   "tag": "seen",
+   "note": "Manual seen dropping",
+   "approx": false
+  },
+  {
+   "id": "w_oris_8_6",
+   "name": "Oris 8.6",
+   "cls": "Marksman Rifles",
+   "price": 7000,
+   "tag": null,
+   "note": null,
+   "approx": false
+  },
+  {
+   "id": "w_mosin_nagant",
+   "name": "Mosin-Nagant",
+   "cls": "Marksman Rifles",
+   "price": 7500,
+   "tag": null,
+   "note": null,
+   "approx": false
+  },
+  {
+   "id": "w_signal_50",
+   "name": "Signal .50",
+   "cls": "Sniper Rifles",
+   "price": 14000,
+   "tag": null,
+   "note": null,
+   "approx": false
+  },
+  {
+   "id": "w_kg_7_vulcan",
+   "name": "KG-7 Vulcan",
+   "cls": "Sniper Rifles",
+   "price": 16000,
+   "tag": "seen",
+   "note": "Manual seen dropping",
+   "approx": false
+  },
+  {
+   "id": "w_astaroth_57",
+   "name": "Astaroth .57",
+   "cls": "Sniper Rifles",
+   "price": 24000,
+   "tag": null,
+   "note": null,
+   "approx": false
+  },
+  {
+   "id": "w_sang_9mm",
+   "name": "Sang 9mm",
+   "cls": "Pistols",
+   "price": null,
+   "tag": "seen",
+   "note": "Manual on the train · some list it as a starter",
+   "approx": false
+  },
+  {
+   "id": "w_krait_p68",
+   "name": "Krait P68",
+   "cls": "Pistols",
+   "price": null,
+   "tag": null,
+   "note": null,
+   "approx": false
+  },
+  {
+   "id": "w_50_gs",
+   "name": ".50 GS",
+   "cls": "Pistols",
+   "price": null,
+   "tag": null,
+   "note": null,
+   "approx": false
+  },
+  {
+   "id": "w_mojave_357",
+   "name": "Mojave .357",
+   "cls": "Pistols",
+   "price": null,
+   "tag": null,
+   "note": null,
+   "approx": false
+  },
+  {
+   "id": "w_rpg_8",
+   "name": "RPG-8",
+   "cls": "Launchers",
+   "price": null,
+   "tag": "seen",
+   "note": "Manual seen (one source)",
+   "approx": false
+  },
+  {
+   "id": "w_jokr",
+   "name": "JOKR",
+   "cls": "Launchers",
+   "price": null,
+   "tag": null,
+   "note": null,
+   "approx": false
+  },
+  {
+   "id": "w_pila",
+   "name": "PILA",
+   "cls": "Launchers",
+   "price": null,
+   "tag": "seen",
+   "note": "Manual seen (one source)",
+   "approx": false
+  },
+  {
+   "id": "w_pm_40_anvil",
+   "name": "PM-40 Anvil",
+   "cls": "Launchers",
+   "price": null,
+   "tag": null,
+   "note": null,
+   "approx": false
+  },
+  {
+   "id": "w_combat_knife",
+   "name": "FSS Carbon Edge 1095",
+   "cls": "Melee",
+   "price": null,
+   "tag": null,
+   "note": null,
+   "approx": false
+  }
+ ],
+ "items": [
+  {
+   "id": "i_infantry_invasion_plans",
+   "name": "Infantry Invasion Plans",
+   "kind": "valuable",
+   "find": "Compound Charlie and Delta safes, Signal Breaker",
+   "print": null
+  },
+  {
+   "id": "i_ballistic_flight_logs",
+   "name": "Ballistic Flight Logs",
+   "kind": "valuable",
+   "find": null,
+   "print": null
+  },
+  {
+   "id": "i_regional_combat_notes",
+   "name": "Regional Combat Notes",
+   "kind": "valuable",
+   "find": "Care packages, Compound Bravo safe, Special Delivery crate",
+   "print": null
+  },
+  {
+   "id": "i_degraded_execution_footage",
+   "name": "Degraded Execution Footage",
+   "kind": "valuable",
+   "find": null,
+   "print": null
+  },
+  {
+   "id": "i_nuclear_program_files",
+   "name": "Nuclear Program Files",
+   "kind": "valuable",
+   "find": null,
+   "print": null
+  },
+  {
+   "id": "i_encrypted_archive",
+   "name": "Encrypted Archive",
+   "kind": "valuable",
+   "find": null,
+   "print": null
+  },
+  {
+   "id": "i_w_m_d_manifest",
+   "name": "W.M.D Manifest",
+   "kind": "valuable",
+   "find": null,
+   "print": null
+  },
+  {
+   "id": "i_foreign_intelligence_targets",
+   "name": "Foreign Intelligence Targets",
+   "kind": "valuable",
+   "find": null,
+   "print": null
+  },
+  {
+   "id": "i_cipher_code_ledger",
+   "name": "Cipher Code Ledger",
+   "kind": "valuable",
+   "find": null,
+   "print": null
+  },
+  {
+   "id": "i_sanctioned_assassination_list",
+   "name": "Sanctioned Assassination List",
+   "kind": "valuable",
+   "find": null,
+   "print": null
+  },
+  {
+   "id": "i_gold_bar",
+   "name": "Gold Bar",
+   "kind": "valuable",
+   "find": "Silent Ledger reward; sells for 25,000",
+   "print": null
+  },
+  {
+   "id": "i_gold_skull",
+   "name": "Gold Skull",
+   "kind": "valuable",
+   "find": null,
+   "print": null
+  },
+  {
+   "id": "i_irradiated_container",
+   "name": "Irradiated Container",
+   "kind": "other",
+   "find": "Decontaminate one at Reactor 02 to open it",
+   "print": null
+  },
+  {
+   "id": "i_fulton_drop_marker",
+   "name": "Fulton Drop Marker",
+   "kind": "other",
+   "find": null,
+   "print": "r_fulton_drop_marker"
+  },
+  {
+   "id": "i_reactor_drc_locker",
+   "name": "Reactor DRC Locker",
+   "kind": "other",
+   "find": "Key comes from Operation Fallen Ember",
+   "print": null
+  },
+  {
+   "id": "i_shopping_drc_locker",
+   "name": "Shopping DRC Locker",
+   "kind": "other",
+   "find": "Key turned up once in a Cheonwang Peak Array safe",
+   "print": null
+  },
+  {
+   "id": "i_air_base_drc_weapons_locker",
+   "name": "Air Base DRC Weapons Locker",
+   "kind": "other",
+   "find": "Locker is deep in the Chang-san bunker",
+   "print": null
+  },
+  {
+   "id": "i_door_breacher_charge",
+   "name": "Door Breacher Charge",
+   "kind": "other",
+   "find": null,
+   "print": "r_door_breacher_charge"
+  },
+  {
+   "id": "i_rigid_synthetics",
+   "name": "Rigid Synthetics",
+   "kind": "ingredient",
+   "find": "2 at DMZ Level 6",
+   "print": "r_rigid_synthetics"
+  },
+  {
+   "id": "i_electronic_sensors",
+   "name": "Electronic Sensors",
+   "kind": "ingredient",
+   "find": "Tech bags, shops; grey IT bag in the Cheongun Village holding-cell building",
+   "print": "r_electronic_sensors"
+  },
+  {
+   "id": "i_detonators",
+   "name": "Detonators",
+   "kind": "ingredient",
+   "find": null,
+   "print": "r_detonators"
+  },
+  {
+   "id": "i_nylon_cloth",
+   "name": "Nylon Cloth",
+   "kind": "ingredient",
+   "find": "Citadel wings, Deadtown underground holding, Mujin Nightclub",
+   "print": null
+  },
+  {
+   "id": "i_power_regulator",
+   "name": "Power Regulator",
+   "kind": "ingredient",
+   "find": "Server blades in the Cheonwang Peak Array server building (4th floor)",
+   "print": "r_power_regulator"
+  },
+  {
+   "id": "i_binding_catalyst",
+   "name": "Binding Catalyst",
+   "kind": "ingredient",
+   "find": "Mirae General Hospital, medical tents; 2 at DMZ Level 49",
+   "print": null
+  },
+  {
+   "id": "i_stock_rod",
+   "name": "Stock Rod",
+   "kind": "ingredient",
+   "find": null,
+   "print": null
+  },
+  {
+   "id": "i_alloyed_plating",
+   "name": "Alloyed Plating",
+   "kind": "ingredient",
+   "find": null,
+   "print": "r_alloyed_plating"
+  },
+  {
+   "id": "i_experimental_compounds",
+   "name": "Experimental Compounds",
+   "kind": "ingredient",
+   "find": null,
+   "print": null
+  },
+  {
+   "id": "i_turned_components",
+   "name": "Turned Components",
+   "kind": "ingredient",
+   "find": null,
+   "print": "r_turned_components"
+  },
+  {
+   "id": "i_reactive_metals",
+   "name": "Reactive Metals",
+   "kind": "ingredient",
+   "find": "Industrial areas, toolboxes; 2 at DMZ Level 11",
+   "print": "r_reactive_metals"
+  },
+  {
+   "id": "i_comms_module",
+   "name": "Comms Module",
+   "kind": "ingredient",
+   "find": "Server rooms at Nenshin Tech and Cheonwang Peak Array; crashed large-drone Side Op panel",
+   "print": "r_comms_module"
+  },
+  {
+   "id": "i_structural_alloy",
+   "name": "Structural Alloy",
+   "kind": "ingredient",
+   "find": null,
+   "print": null
+  },
+  {
+   "id": "i_high_tenacity_fibers",
+   "name": "High-Tenacity Fibers",
+   "kind": "ingredient",
+   "find": "Colossus drops; blue duffel in a Hajin City barber shop",
+   "print": null
+  },
+  {
+   "id": "i_stabilized_reagents",
+   "name": "Stabilized Reagents",
+   "kind": "ingredient",
+   "find": null,
+   "print": "r_stabilized_reagents"
+  },
+  {
+   "id": "i_volatile_explosives",
+   "name": "Volatile Explosives",
+   "kind": "ingredient",
+   "find": null,
+   "print": "r_volatile_explosives"
+  },
+  {
+   "id": "i_nano_structured_alloy",
+   "name": "Nano-Structured Alloy",
+   "kind": "ingredient",
+   "find": "Tank (unconfirmed)",
+   "print": null
+  },
+  {
+   "id": "i_cpu",
+   "name": "CPU",
+   "kind": "ingredient",
+   "find": "Server rooms at Nenshin Tech and Cheonwang Peak Array; crashed large-drone Side Op panel",
+   "print": null
+  },
+  {
+   "id": "i_nitro_compounds",
+   "name": "Nitro Compounds",
+   "kind": "ingredient",
+   "find": null,
+   "print": null
+  },
+  {
+   "id": "i_military_composites",
+   "name": "Military Composites",
+   "kind": "ingredient",
+   "find": "Colossus (unconfirmed)",
+   "print": null
+  },
+  {
+   "id": "i_control_units",
+   "name": "Control Units",
+   "kind": "ingredient",
+   "find": "Computers, tech bags",
+   "print": "r_control_units"
+  },
+  {
+   "id": "i_ballistic_fabric",
+   "name": "Ballistic Fabric",
+   "kind": "ingredient",
+   "find": null,
+   "print": "r_ballistic_fabric"
+  },
+  {
+   "id": "i_nylon_laminate",
+   "name": "Nylon Laminate",
+   "kind": "ingredient",
+   "find": null,
+   "print": "r_nylon_laminate"
+  },
+  {
+   "id": "i_prototype_rf_module",
+   "name": "Prototype RF Module",
+   "kind": "ingredient",
+   "find": "Seen from Deathstalker",
+   "print": null
+  },
+  {
+   "id": "i_biomaterials",
+   "name": "Biomaterials",
+   "kind": "ingredient",
+   "find": "Hospitals, chemical lockers",
+   "print": "r_biomaterials"
+  },
+  {
+   "id": "i_printed_circuit_board",
+   "name": "Printed Circuit Board",
+   "kind": "ingredient",
+   "find": null,
+   "print": null
+  },
+  {
+   "id": "i_chemicals",
+   "name": "Chemicals",
+   "kind": "resource",
+   "find": "Homes, gas stations, clinics",
+   "print": null
+  },
+  {
+   "id": "i_synthetics",
+   "name": "Synthetics",
+   "kind": "resource",
+   "find": "Homes and gas stations",
+   "print": null
+  },
+  {
+   "id": "i_electronics",
+   "name": "Electronics",
+   "kind": "resource",
+   "find": "Homes and gas stations",
+   "print": null
+  },
+  {
+   "id": "i_metals",
+   "name": "Metals",
+   "kind": "resource",
+   "find": "Homes and gas stations",
+   "print": null
+  }
+ ],
+ "upgrades": [
+  {
+   "id": "u_bank_i",
+   "name": "Bank I",
+   "line": "l_bank",
+   "tier": 1,
+   "effect": "Cash cap 250,000",
+   "cash": 20000,
+   "cashKnown": true,
+   "mats": [],
+   "note": null
+  },
+  {
+   "id": "u_bank_ii",
+   "name": "Bank II",
+   "line": "l_bank",
+   "tier": 2,
+   "effect": "Cash cap 500,000",
+   "cash": 50000,
+   "cashKnown": true,
+   "mats": [],
+   "note": null
+  },
+  {
+   "id": "u_bank_iii",
+   "name": "Bank III",
+   "line": "l_bank",
+   "tier": 3,
+   "effect": "Cash cap 1,000,000",
+   "cash": 100000,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_infantry_invasion_plans",
+     "q": 5
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "u_bank_iv",
+   "name": "Bank IV",
+   "line": "l_bank",
+   "tier": 4,
+   "effect": "Cash cap 2,000,000",
+   "cash": 200000,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_ballistic_flight_logs",
+     "q": 5
+    },
+    {
+     "i": "i_regional_combat_notes",
+     "q": 5
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "u_bank_v",
+   "name": "Bank V",
+   "line": "l_bank",
+   "tier": 5,
+   "effect": "Cash cap 5,000,000",
+   "cash": 500000,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_degraded_execution_footage",
+     "q": 10
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "u_bank_vi",
+   "name": "Bank VI",
+   "line": "l_bank",
+   "tier": 6,
+   "effect": "Cash cap 10,000,000",
+   "cash": 500000,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_nuclear_program_files",
+     "q": 10
+    },
+    {
+     "i": "i_encrypted_archive",
+     "q": 10
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "u_bank_vii",
+   "name": "Bank VII",
+   "line": "l_bank",
+   "tier": 7,
+   "effect": "Cash cap 25,000,000",
+   "cash": 500000,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_w_m_d_manifest",
+     "q": 10
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "u_bank_viii",
+   "name": "Bank VIII",
+   "line": "l_bank",
+   "tier": 8,
+   "effect": "Cash cap 50,000,000",
+   "cash": 500000,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_foreign_intelligence_targets",
+     "q": 10
+    },
+    {
+     "i": "i_cipher_code_ledger",
+     "q": 10
+    }
+   ],
+   "note": "One source (GG Ranked); not confirmed elsewhere yet."
+  },
+  {
+   "id": "u_bank_ix",
+   "name": "Bank IX",
+   "line": "l_bank",
+   "tier": 9,
+   "effect": "Cash cap 100,000,000",
+   "cash": 500000,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_sanctioned_assassination_list",
+     "q": 10
+    }
+   ],
+   "note": "One source (GG Ranked); not confirmed elsewhere yet."
+  },
+  {
+   "id": "u_bank_x",
+   "name": "Bank X",
+   "line": "l_bank",
+   "tier": 10,
+   "effect": "Cash cap 250,000,000",
+   "cash": 500000,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_gold_bar",
+     "q": 10
+    }
+   ],
+   "note": "One source (GG Ranked); not confirmed elsewhere yet."
+  },
+  {
+   "id": "u_bank_xi",
+   "name": "Bank XI",
+   "line": "l_bank",
+   "tier": 11,
+   "effect": "Cash cap 500,000,000",
+   "cash": 500000,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_gold_skull",
+     "q": 10
+    }
+   ],
+   "note": "One source (GG Ranked); not confirmed elsewhere yet."
+  },
+  {
+   "id": "u_bank_xii",
+   "name": "Bank XII",
+   "line": "l_bank",
+   "tier": 12,
+   "effect": "Cash cap 1,000,000,000",
+   "cash": 0,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_gold_bar",
+     "q": 20
+    },
+    {
+     "i": "i_gold_skull",
+     "q": 20
+    },
+    {
+     "i": "i_irradiated_container",
+     "q": 3
+    },
+    {
+     "i": "i_fulton_drop_marker",
+     "q": 3
+    }
+   ],
+   "note": "One source (GG Ranked); not confirmed elsewhere yet."
+  },
+  {
+   "id": "u_bank_xiii",
+   "name": "Bank XIII",
+   "line": "l_bank",
+   "tier": 13,
+   "effect": "Cash cap 2,000,000,000",
+   "cash": 0,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_reactor_drc_locker",
+     "q": 1
+    },
+    {
+     "i": "i_shopping_drc_locker",
+     "q": 1
+    },
+    {
+     "i": "i_air_base_drc_weapons_locker",
+     "q": 1
+    },
+    {
+     "i": "i_door_breacher_charge",
+     "q": 5
+    }
+   ],
+   "note": "One source (GG Ranked); not confirmed elsewhere yet."
+  },
+  {
+   "id": "u_stash_item_i",
+   "name": "Stash Item I",
+   "line": "l_stash_item",
+   "tier": 1,
+   "effect": "+18 item slots",
+   "cash": 10000,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_rigid_synthetics",
+     "q": 10
+    },
+    {
+     "i": "i_electronic_sensors",
+     "q": 10
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "u_stash_item_ii",
+   "name": "Stash Item II",
+   "line": "l_stash_item",
+   "tier": 2,
+   "effect": "+18 item slots",
+   "cash": 50000,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_detonators",
+     "q": 20
+    },
+    {
+     "i": "i_nylon_cloth",
+     "q": 10
+    },
+    {
+     "i": "i_power_regulator",
+     "q": 5
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "u_stash_item_iii",
+   "name": "Stash Item III",
+   "line": "l_stash_item",
+   "tier": 3,
+   "effect": "+18 item slots",
+   "cash": 100000,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_binding_catalyst",
+     "q": 20
+    },
+    {
+     "i": "i_stock_rod",
+     "q": 20
+    },
+    {
+     "i": "i_alloyed_plating",
+     "q": 10
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "u_stash_item_iv",
+   "name": "Stash Item IV",
+   "line": "l_stash_item",
+   "tier": 4,
+   "effect": "+18 item slots",
+   "cash": 0,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_gold_skull",
+     "q": 5
+    },
+    {
+     "i": "i_alloyed_plating",
+     "q": 30
+    },
+    {
+     "i": "i_experimental_compounds",
+     "q": 10
+    },
+    {
+     "i": "i_turned_components",
+     "q": 30
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "u_stash_weapon_i",
+   "name": "Stash Weapon I",
+   "line": "l_stash_weapon",
+   "tier": 1,
+   "effect": "+6 weapon slots",
+   "cash": 50000,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_reactive_metals",
+     "q": 20
+    },
+    {
+     "i": "i_stock_rod",
+     "q": 10
+    },
+    {
+     "i": "i_comms_module",
+     "q": 5
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "u_stash_weapon_ii",
+   "name": "Stash Weapon II",
+   "line": "l_stash_weapon",
+   "tier": 2,
+   "effect": "+6 weapon slots",
+   "cash": 100000,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_structural_alloy",
+     "q": 20
+    },
+    {
+     "i": "i_high_tenacity_fibers",
+     "q": 20
+    },
+    {
+     "i": "i_turned_components",
+     "q": 10
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "u_stash_weapon_iii",
+   "name": "Stash Weapon III",
+   "line": "l_stash_weapon",
+   "tier": 3,
+   "effect": "+6 weapon slots",
+   "cash": 0,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_gold_bar",
+     "q": 5
+    },
+    {
+     "i": "i_stabilized_reagents",
+     "q": 30
+    },
+    {
+     "i": "i_volatile_explosives",
+     "q": 30
+    },
+    {
+     "i": "i_nano_structured_alloy",
+     "q": 10
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "u_gunsmith_i",
+   "name": "Gunsmith I",
+   "line": "l_gunsmith",
+   "tier": 1,
+   "effect": "5% off Gunsmith",
+   "cash": 50000,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_reactive_metals",
+     "q": 20
+    },
+    {
+     "i": "i_cpu",
+     "q": 10
+    },
+    {
+     "i": "i_power_regulator",
+     "q": 5
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "u_gunsmith_ii",
+   "name": "Gunsmith II",
+   "line": "l_gunsmith",
+   "tier": 2,
+   "effect": "5% off Gunsmith",
+   "cash": 100000,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_nitro_compounds",
+     "q": 20
+    },
+    {
+     "i": "i_comms_module",
+     "q": 10
+    },
+    {
+     "i": "i_military_composites",
+     "q": 10
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "u_mia_recovery_i",
+   "name": "MIA Recovery I",
+   "line": "l_mia_recovery",
+   "tier": 1,
+   "effect": "5% off MIA rescues",
+   "cash": 0,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_regional_combat_notes",
+     "q": 5
+    },
+    {
+     "i": "i_control_units",
+     "q": 10
+    },
+    {
+     "i": "i_rigid_synthetics",
+     "q": 10
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "u_mia_recovery_ii",
+   "name": "MIA Recovery II",
+   "line": "l_mia_recovery",
+   "tier": 2,
+   "effect": "5% off MIA rescues",
+   "cash": 0,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_nuclear_program_files",
+     "q": 5
+    },
+    {
+     "i": "i_degraded_execution_footage",
+     "q": 5
+    },
+    {
+     "i": "i_binding_catalyst",
+     "q": 10
+    },
+    {
+     "i": "i_nitro_compounds",
+     "q": 10
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "u_mia_recovery_iii",
+   "name": "MIA Recovery III",
+   "line": "l_mia_recovery",
+   "tier": 3,
+   "effect": "5% off MIA rescues",
+   "cash": 0,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_w_m_d_manifest",
+     "q": 5
+    },
+    {
+     "i": "i_foreign_intelligence_targets",
+     "q": 5
+    },
+    {
+     "i": "i_power_regulator",
+     "q": 10
+    },
+    {
+     "i": "i_comms_module",
+     "q": 10
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "u_mia_recovery_iv",
+   "name": "MIA Recovery IV",
+   "line": "l_mia_recovery",
+   "tier": 4,
+   "effect": "5% off MIA rescues",
+   "cash": 0,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_sanctioned_assassination_list",
+     "q": 5
+    },
+    {
+     "i": "i_ballistic_fabric",
+     "q": 30
+    },
+    {
+     "i": "i_nylon_laminate",
+     "q": 30
+    },
+    {
+     "i": "i_prototype_rf_module",
+     "q": 10
+    }
+   ],
+   "note": "No cash cost, per one source."
+  },
+  {
+   "id": "u_dog_tag_case_i",
+   "name": "Dog Tag Case I",
+   "line": "l_dog_tag_case",
+   "tier": 1,
+   "effect": "+20 tag slots",
+   "cash": 10000,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_rigid_synthetics",
+     "q": 10
+    },
+    {
+     "i": "i_biomaterials",
+     "q": 10
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "u_dog_tag_case_ii",
+   "name": "Dog Tag Case II",
+   "line": "l_dog_tag_case",
+   "tier": 2,
+   "effect": "+20 tag slots",
+   "cash": 50000,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_detonators",
+     "q": 20
+    },
+    {
+     "i": "i_nylon_cloth",
+     "q": 10
+    },
+    {
+     "i": "i_power_regulator",
+     "q": 5
+    }
+   ],
+   "note": "Every source listing this copies Stash Item II's cost exactly, so it may be a copy error. Check the printer."
+  },
+  {
+   "id": "u_dog_tag_case_iii",
+   "name": "Dog Tag Case III",
+   "line": "l_dog_tag_case",
+   "tier": 3,
+   "effect": "More tag slots",
+   "cash": 100000,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_printed_circuit_board",
+     "q": 10
+    },
+    {
+     "i": "i_structural_alloy",
+     "q": 10
+    },
+    {
+     "i": "i_power_regulator",
+     "q": 5
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "u_dog_tag_case_iv",
+   "name": "Dog Tag Case IV",
+   "line": "l_dog_tag_case",
+   "tier": 4,
+   "effect": "More tag slots",
+   "cash": 200000,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_cpu",
+     "q": 20
+    },
+    {
+     "i": "i_stabilized_reagents",
+     "q": 10
+    },
+    {
+     "i": "i_experimental_compounds",
+     "q": 5
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "u_vendor_items_i",
+   "name": "Vendor Items I",
+   "line": "l_vendor_items",
+   "tier": 1,
+   "effect": "More Vendor stock",
+   "cash": 0,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_electronic_sensors",
+     "q": 20
+    },
+    {
+     "i": "i_cpu",
+     "q": 10
+    },
+    {
+     "i": "i_printed_circuit_board",
+     "q": 10
+    },
+    {
+     "i": "i_prototype_rf_module",
+     "q": 2
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "u_vendor_items_ii",
+   "name": "Vendor Items II",
+   "line": "l_vendor_items",
+   "tier": 2,
+   "effect": "More Vendor stock",
+   "cash": 0,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_control_units",
+     "q": 20
+    },
+    {
+     "i": "i_high_tenacity_fibers",
+     "q": 10
+    },
+    {
+     "i": "i_nylon_cloth",
+     "q": 10
+    },
+    {
+     "i": "i_nano_structured_alloy",
+     "q": 2
+    }
+   ],
+   "note": "No cash cost, per one source."
+  },
+  {
+   "id": "u_uncommon_ingredient_printing",
+   "name": "Uncommon Ingredient Printing",
+   "line": "l_uncommon_ingredient_printing",
+   "tier": 1,
+   "effect": "Print Uncommon ingredients",
+   "cash": 50000,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_biomaterials",
+     "q": 20
+    },
+    {
+     "i": "i_high_tenacity_fibers",
+     "q": 10
+    },
+    {
+     "i": "i_comms_module",
+     "q": 5
+    }
+   ],
+   "note": null
+  },
+  {
+   "id": "u_epic_ingredient_printing",
+   "name": "Epic Ingredient Printing",
+   "line": "l_epic_ingredient_printing",
+   "tier": 1,
+   "effect": "Print Epic ingredients",
+   "cash": 100000,
+   "cashKnown": true,
+   "mats": [
+    {
+     "i": "i_binding_catalyst",
+     "q": 10
+    },
+    {
+     "i": "i_printed_circuit_board",
+     "q": 10
+    },
+    {
+     "i": "i_military_composites",
+     "q": 5
+    }
+   ],
+   "note": null
+  }
+ ],
+ "lines": [
+  {
+   "id": "l_bank",
+   "name": "Bank",
+   "tiers": [
+    "u_bank_i",
+    "u_bank_ii",
+    "u_bank_iii",
+    "u_bank_iv",
+    "u_bank_v",
+    "u_bank_vi",
+    "u_bank_vii",
+    "u_bank_viii",
+    "u_bank_ix",
+    "u_bank_x",
+    "u_bank_xi",
+    "u_bank_xii",
+    "u_bank_xiii"
+   ]
+  },
+  {
+   "id": "l_stash_item",
+   "name": "Stash Item",
+   "tiers": [
+    "u_stash_item_i",
+    "u_stash_item_ii",
+    "u_stash_item_iii",
+    "u_stash_item_iv"
+   ]
+  },
+  {
+   "id": "l_stash_weapon",
+   "name": "Stash Weapon",
+   "tiers": [
+    "u_stash_weapon_i",
+    "u_stash_weapon_ii",
+    "u_stash_weapon_iii"
+   ]
+  },
+  {
+   "id": "l_gunsmith",
+   "name": "Gunsmith",
+   "tiers": [
+    "u_gunsmith_i",
+    "u_gunsmith_ii"
+   ]
+  },
+  {
+   "id": "l_mia_recovery",
+   "name": "MIA Recovery",
+   "tiers": [
+    "u_mia_recovery_i",
+    "u_mia_recovery_ii",
+    "u_mia_recovery_iii",
+    "u_mia_recovery_iv"
+   ]
+  },
+  {
+   "id": "l_dog_tag_case",
+   "name": "Dog Tag Case",
+   "tiers": [
+    "u_dog_tag_case_i",
+    "u_dog_tag_case_ii",
+    "u_dog_tag_case_iii",
+    "u_dog_tag_case_iv"
+   ]
+  },
+  {
+   "id": "l_vendor_items",
+   "name": "Vendor Items",
+   "tiers": [
+    "u_vendor_items_i",
+    "u_vendor_items_ii"
+   ]
+  },
+  {
+   "id": "l_uncommon_ingredient_printing",
+   "name": "Uncommon Ingredient Printing",
+   "tiers": [
+    "u_uncommon_ingredient_printing"
+   ]
+  },
+  {
+   "id": "l_epic_ingredient_printing",
+   "name": "Epic Ingredient Printing",
+   "tiers": [
+    "u_epic_ingredient_printing"
+   ]
+  }
+ ],
+ "recipes": [
+  {
+   "id": "r_medkit",
+   "name": "Medkit",
+   "cat": "healing",
+   "tag": "Lvl 2",
+   "unlock": "level",
+   "lvl": 2,
+   "mats": [
+    {
+     "i": "i_chemicals",
+     "q": 30
+    },
+    {
+     "i": "i_binding_catalyst",
+     "q": 1
+    },
+    {
+     "i": "i_biomaterials",
+     "q": 5
+    }
+   ],
+   "reserve": 3,
+   "why": "Only heal that fixes a wound and resets the Tourniquet"
+  },
+  {
+   "id": "r_bandage",
+   "name": "Bandage",
+   "cat": "healing",
+   "tag": "Lvl 2",
+   "unlock": "level",
+   "lvl": 2,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 15
+    },
+    {
+     "i": "i_chemicals",
+     "q": 15
+    }
+   ],
+   "reserve": 2,
+   "why": "Cheap top-up heal"
+  },
+  {
+   "id": "r_stim",
+   "name": "Stim",
+   "cat": "healing",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 15
+    },
+    {
+     "i": "i_chemicals",
+     "q": 15
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_pain_killers",
+   "name": "Pain Killers",
+   "cat": "healing",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_electronics",
+     "q": 15
+    },
+    {
+     "i": "i_chemicals",
+     "q": 15
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_energy_drink",
+   "name": "Energy Drink",
+   "cat": "healing",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_chemicals",
+     "q": 10
+    },
+    {
+     "i": "i_metals",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_sedative_inhaler",
+   "name": "Sedative Inhaler",
+   "cat": "healing",
+   "tag": "Lvl 3",
+   "unlock": "level",
+   "lvl": 3,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 15
+    },
+    {
+     "i": "i_chemicals",
+     "q": 15
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_smelling_salts",
+   "name": "Smelling Salts",
+   "cat": "healing",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_chemicals",
+     "q": 30
+    },
+    {
+     "i": "i_detonators",
+     "q": 3
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_radiation_blockers",
+   "name": "Radiation Blockers",
+   "cat": "healing",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_chemicals",
+     "q": 30
+    },
+    {
+     "i": "i_biomaterials",
+     "q": 3
+    }
+   ],
+   "reserve": 0,
+   "why": "Needed with Radiation Gear for the reactor"
+  },
+  {
+   "id": "r_self_revive_kit",
+   "name": "Self-Revive Kit",
+   "cat": "healing",
+   "tag": "Lvl 48",
+   "unlock": "level",
+   "lvl": 48,
+   "mats": [
+    {
+     "i": "i_stabilized_reagents",
+     "q": 1
+    },
+    {
+     "i": "i_biomaterials",
+     "q": 5
+    },
+    {
+     "i": "i_binding_catalyst",
+     "q": 3
+    }
+   ],
+   "reserve": 1,
+   "why": "Second life; recipe at DMZ Level 48"
+  },
+  {
+   "id": "r_defibrillator",
+   "name": "Defibrillator",
+   "cat": "healing",
+   "tag": "Critical Extraction",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_electronics",
+     "q": 30
+    },
+    {
+     "i": "i_control_units",
+     "q": 3
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_rebreather",
+   "name": "Rebreather",
+   "cat": "healing",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 15
+    },
+    {
+     "i": "i_chemicals",
+     "q": 15
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_door_breacher_charge",
+   "name": "Door Breacher Charge",
+   "cat": "healing",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_experimental_compounds",
+     "q": 1
+    },
+    {
+     "i": "i_stock_rod",
+     "q": 5
+    },
+    {
+     "i": "i_volatile_explosives",
+     "q": 3
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_1_plate_vest",
+   "name": "1-Plate Vest",
+   "cat": "armor",
+   "tag": "Lvl 2",
+   "unlock": "level",
+   "lvl": 2,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 25
+    },
+    {
+     "i": "i_metals",
+     "q": 25
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_2_plate_vest",
+   "name": "2-Plate Vest",
+   "cat": "armor",
+   "tag": "Lvl 2",
+   "unlock": "level",
+   "lvl": 2,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 50
+    },
+    {
+     "i": "i_reactive_metals",
+     "q": 5
+    }
+   ],
+   "reserve": 2,
+   "why": "Replacement armor after a death"
+  },
+  {
+   "id": "r_2_plate_ballistic_gel_vest",
+   "name": "2-Plate Ballistic Gel Vest",
+   "cat": "armor",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 50
+    },
+    {
+     "i": "i_binding_catalyst",
+     "q": 3
+    },
+    {
+     "i": "i_reactive_metals",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_2_plate_helmet_vest",
+   "name": "2-Plate Helmet Vest",
+   "cat": "armor",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 50
+    },
+    {
+     "i": "i_structural_alloy",
+     "q": 3
+    },
+    {
+     "i": "i_reactive_metals",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_3_plate_vest",
+   "name": "3-Plate Vest",
+   "cat": "armor",
+   "tag": "Orders",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_ballistic_fabric",
+     "q": 2
+    },
+    {
+     "i": "i_nylon_cloth",
+     "q": 5
+    },
+    {
+     "i": "i_reactive_metals",
+     "q": 10
+    }
+   ],
+   "reserve": 1,
+   "why": "Recipe from an Orders page"
+  },
+  {
+   "id": "r_3_plate_ballistic_gel_vest",
+   "name": "3-Plate Ballistic Gel Vest",
+   "cat": "armor",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_experimental_compounds",
+     "q": 2
+    },
+    {
+     "i": "i_stabilized_reagents",
+     "q": 4
+    },
+    {
+     "i": "i_biomaterials",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_3_plate_helmet_vest",
+   "name": "3-Plate Helmet Vest",
+   "cat": "armor",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_nano_structured_alloy",
+     "q": 2
+    },
+    {
+     "i": "i_alloyed_plating",
+     "q": 4
+    },
+    {
+     "i": "i_reactive_metals",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_tempered_vest",
+   "name": "Tempered Vest",
+   "cat": "armor",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_military_composites",
+     "q": 2
+    },
+    {
+     "i": "i_ballistic_fabric",
+     "q": 4
+    },
+    {
+     "i": "i_rigid_synthetics",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_small_backpack",
+   "name": "Small Backpack",
+   "cat": "packs",
+   "tag": "Lvl 2",
+   "unlock": "level",
+   "lvl": 2,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 25
+    },
+    {
+     "i": "i_metals",
+     "q": 25
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_medium_backpack",
+   "name": "Medium Backpack",
+   "cat": "packs",
+   "tag": "Lvl 2",
+   "unlock": "level",
+   "lvl": 2,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 50
+    },
+    {
+     "i": "i_rigid_synthetics",
+     "q": 5
+    }
+   ],
+   "reserve": 2,
+   "why": "First pack with a Secure Slot"
+  },
+  {
+   "id": "r_small_secure_backpack",
+   "name": "Small Secure Backpack",
+   "cat": "packs",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_metals",
+     "q": 50
+    },
+    {
+     "i": "i_structural_alloy",
+     "q": 3
+    },
+    {
+     "i": "i_rigid_synthetics",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": "3 Secure Slots"
+  },
+  {
+   "id": "r_medium_scavenger_backpack",
+   "name": "Medium Scavenger Backpack",
+   "cat": "packs",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_metals",
+     "q": 50
+    },
+    {
+     "i": "i_nylon_cloth",
+     "q": 3
+    },
+    {
+     "i": "i_rigid_synthetics",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_medium_weapon_backpack",
+   "name": "Medium Weapon Backpack",
+   "cat": "packs",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 50
+    },
+    {
+     "i": "i_high_tenacity_fibers",
+     "q": 3
+    },
+    {
+     "i": "i_rigid_synthetics",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_medium_secure_backpack",
+   "name": "Medium Secure Backpack",
+   "cat": "packs",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_alloyed_plating",
+     "q": 2
+    },
+    {
+     "i": "i_nylon_cloth",
+     "q": 5
+    },
+    {
+     "i": "i_reactive_metals",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": "4 Secure Slots (one source)"
+  },
+  {
+   "id": "r_large_backpack",
+   "name": "Large Backpack",
+   "cat": "packs",
+   "tag": "Orders",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_nylon_laminate",
+     "q": 2
+    },
+    {
+     "i": "i_structural_alloy",
+     "q": 5
+    },
+    {
+     "i": "i_rigid_synthetics",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_large_scavenger_backpack",
+   "name": "Large Scavenger Backpack",
+   "cat": "packs",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_nylon_laminate",
+     "q": 2
+    },
+    {
+     "i": "i_high_tenacity_fibers",
+     "q": 5
+    },
+    {
+     "i": "i_rigid_synthetics",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_large_secure_backpack",
+   "name": "Large Secure Backpack",
+   "cat": "packs",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_prototype_rf_module",
+     "q": 2
+    },
+    {
+     "i": "i_alloyed_plating",
+     "q": 4
+    },
+    {
+     "i": "i_rigid_synthetics",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": "4 Secure Slots"
+  },
+  {
+   "id": "r_secure_scavenger_backpack",
+   "name": "Secure Scavenger Backpack",
+   "cat": "packs",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_military_composites",
+     "q": 2
+    },
+    {
+     "i": "i_nylon_laminate",
+     "q": 4
+    },
+    {
+     "i": "i_reactive_metals",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_gas_mask",
+   "name": "Gas Mask",
+   "cat": "gear",
+   "tag": "Lvl 26",
+   "unlock": "level",
+   "lvl": 26,
+   "mats": [
+    {
+     "i": "i_chemicals",
+     "q": 30
+    },
+    {
+     "i": "i_rigid_synthetics",
+     "q": 3
+    }
+   ],
+   "reserve": 1,
+   "why": "Reactor and radiation runs"
+  },
+  {
+   "id": "r_durable_gas_mask",
+   "name": "Durable Gas Mask",
+   "cat": "gear",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_chemicals",
+     "q": 30
+    },
+    {
+     "i": "i_high_tenacity_fibers",
+     "q": 1
+    },
+    {
+     "i": "i_biomaterials",
+     "q": 5
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_weak_night_vision_goggles",
+   "name": "Weak Night Vision Goggles",
+   "cat": "gear",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_metals",
+     "q": 25
+    },
+    {
+     "i": "i_control_units",
+     "q": 5
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_nvgs",
+   "name": "NVGs",
+   "cat": "gear",
+   "tag": "Orders",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_metals",
+     "q": 50
+    },
+    {
+     "i": "i_printed_circuit_board",
+     "q": 3
+    },
+    {
+     "i": "i_control_units",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_elite_night_vision_goggles",
+   "name": "Elite Night Vision Goggles",
+   "cat": "gear",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_power_regulator",
+     "q": 2
+    },
+    {
+     "i": "i_cpu",
+     "q": 3
+    },
+    {
+     "i": "i_electronic_sensors",
+     "q": 5
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_disposable_parachute",
+   "name": "Disposable Parachute",
+   "cat": "gear",
+   "tag": "Lvl 55",
+   "unlock": "level",
+   "lvl": 55,
+   "mats": [
+    {
+     "i": "i_chemicals",
+     "q": 30
+    },
+    {
+     "i": "i_rigid_synthetics",
+     "q": 3
+    }
+   ],
+   "reserve": 0,
+   "why": "3 uses each since Oct 23; recipe at DMZ Level 55"
+  },
+  {
+   "id": "r_parachute_reusable",
+   "name": "Parachute (reusable)",
+   "cat": "gear",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_turned_components",
+     "q": 2
+    },
+    {
+     "i": "i_nylon_cloth",
+     "q": 5
+    },
+    {
+     "i": "i_rigid_synthetics",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_fulton_drop_marker",
+   "name": "Fulton Drop Marker",
+   "cat": "gear",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_prototype_rf_module",
+     "q": 1
+    },
+    {
+     "i": "i_comms_module",
+     "q": 3
+    },
+    {
+     "i": "i_control_units",
+     "q": 5
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_smoke_grenade",
+   "name": "Smoke Grenade",
+   "cat": "tactical",
+   "tag": "Lvl 4",
+   "unlock": "level",
+   "lvl": 4,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 10
+    },
+    {
+     "i": "i_chemicals",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_stun_grenade",
+   "name": "Concussion Grenade",
+   "cat": "tactical",
+   "tag": "Lvl 4",
+   "unlock": "level",
+   "lvl": 4,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 10
+    },
+    {
+     "i": "i_chemicals",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_flash",
+   "name": "Flash",
+   "cat": "tactical",
+   "tag": "Orders",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 10
+    },
+    {
+     "i": "i_chemicals",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_snapshot_grenade",
+   "name": "Snapshot Grenade",
+   "cat": "tactical",
+   "tag": "Lvl 9",
+   "unlock": "level",
+   "lvl": 9,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 10
+    },
+    {
+     "i": "i_chemicals",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_decoy_grenade",
+   "name": "Decoy Grenade",
+   "cat": "tactical",
+   "tag": "Orders",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 10
+    },
+    {
+     "i": "i_chemicals",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_shock_stick",
+   "name": "Shock Stick",
+   "cat": "tactical",
+   "tag": "Lvl 17",
+   "unlock": "level",
+   "lvl": 17,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 10
+    },
+    {
+     "i": "i_chemicals",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_heartbeat_sensor",
+   "name": "Heartbeat Sensor",
+   "cat": "tactical",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 25
+    },
+    {
+     "i": "i_chemicals",
+     "q": 25
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_frag_grenade",
+   "name": "Frag Grenade",
+   "cat": "lethal",
+   "tag": "Lvl 7",
+   "unlock": "level",
+   "lvl": 7,
+   "mats": [
+    {
+     "i": "i_chemicals",
+     "q": 10
+    },
+    {
+     "i": "i_metals",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_throwing_knife",
+   "name": "Throwing Knife",
+   "cat": "lethal",
+   "tag": "Lvl 7",
+   "unlock": "level",
+   "lvl": 7,
+   "mats": [
+    {
+     "i": "i_chemicals",
+     "q": 25
+    },
+    {
+     "i": "i_metals",
+     "q": 25
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_semtex",
+   "name": "Sticky Grenade",
+   "cat": "lethal",
+   "tag": "Lvl 23",
+   "unlock": "level",
+   "lvl": 23,
+   "mats": [
+    {
+     "i": "i_chemicals",
+     "q": 10
+    },
+    {
+     "i": "i_metals",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_molotov_cocktail",
+   "name": "Molotov Cocktail",
+   "cat": "lethal",
+   "tag": "Lvl 36",
+   "unlock": "level",
+   "lvl": 36,
+   "mats": [
+    {
+     "i": "i_chemicals",
+     "q": 10
+    },
+    {
+     "i": "i_metals",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_thermite",
+   "name": "Thermite",
+   "cat": "lethal",
+   "tag": "Lvl 41",
+   "unlock": "level",
+   "lvl": 41,
+   "mats": [
+    {
+     "i": "i_chemicals",
+     "q": 10
+    },
+    {
+     "i": "i_metals",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_c4",
+   "name": "C4",
+   "cat": "lethal",
+   "tag": "Orders",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_chemicals",
+     "q": 10
+    },
+    {
+     "i": "i_metals",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_claymore",
+   "name": "Claymore",
+   "cat": "lethal",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_chemicals",
+     "q": 10
+    },
+    {
+     "i": "i_metals",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_proximity_mine",
+   "name": "Proximity Mine",
+   "cat": "lethal",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_chemicals",
+     "q": 10
+    },
+    {
+     "i": "i_metals",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_screamer_mine",
+   "name": "Screamer Mine",
+   "cat": "lethal",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 10
+    },
+    {
+     "i": "i_chemicals",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_drill_charge",
+   "name": "Drill Charge",
+   "cat": "lethal",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_chemicals",
+     "q": 15
+    },
+    {
+     "i": "i_metals",
+     "q": 15
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_trip_wire",
+   "name": "Trip Wire",
+   "cat": "lethal",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_chemicals",
+     "q": 15
+    },
+    {
+     "i": "i_metals",
+     "q": 15
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_razor_wire_trap",
+   "name": "Razor Wire Trap",
+   "cat": "lethal",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_electronics",
+     "q": 15
+    },
+    {
+     "i": "i_metals",
+     "q": 15
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_ammo_box",
+   "name": "Ammo Box",
+   "cat": "field",
+   "tag": "Lvl 12",
+   "unlock": "level",
+   "lvl": 12,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 15
+    },
+    {
+     "i": "i_metals",
+     "q": 15
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_armor_box",
+   "name": "Armor Box",
+   "cat": "field",
+   "tag": "Lvl 14",
+   "unlock": "level",
+   "lvl": 14,
+   "mats": [
+    {
+     "i": "i_metals",
+     "q": 30
+    },
+    {
+     "i": "i_reactive_metals",
+     "q": 3
+    }
+   ],
+   "reserve": 1,
+   "why": "Squad replate"
+  },
+  {
+   "id": "r_spotter_scope",
+   "name": "Spotter Scope",
+   "cat": "field",
+   "tag": "Lvl 12",
+   "unlock": "level",
+   "lvl": 12,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 50
+    },
+    {
+     "i": "i_electronic_sensors",
+     "q": 5
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_recon_drone",
+   "name": "Recon Drone",
+   "cat": "field",
+   "tag": "Orders",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_metals",
+     "q": 30
+    },
+    {
+     "i": "i_electronic_sensors",
+     "q": 3
+    }
+   ],
+   "reserve": 0,
+   "why": "Counterfeit Orders"
+  },
+  {
+   "id": "r_ddos",
+   "name": "DDOS",
+   "cat": "field",
+   "tag": "Orders",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_electronics",
+     "q": 30
+    },
+    {
+     "i": "i_detonators",
+     "q": 3
+    }
+   ],
+   "reserve": 0,
+   "why": "Underground Orders; also for the Tank"
+  },
+  {
+   "id": "r_inflatable_decoy",
+   "name": "Inflatable Decoy",
+   "cat": "field",
+   "tag": "Lvl 52",
+   "unlock": "level",
+   "lvl": 52,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 15
+    },
+    {
+     "i": "i_electronics",
+     "q": 15
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_portable_radar",
+   "name": "Portable Radar",
+   "cat": "field",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 15
+    },
+    {
+     "i": "i_electronics",
+     "q": 15
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_seeker_drone",
+   "name": "Seeker Drone",
+   "cat": "field",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 15
+    },
+    {
+     "i": "i_electronics",
+     "q": 15
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_smoke_wall",
+   "name": "Smoke Wall",
+   "cat": "field",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_electronics",
+     "q": 15
+    },
+    {
+     "i": "i_chemicals",
+     "q": 15
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_riot_shield",
+   "name": "Riot Shield",
+   "cat": "field",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 15
+    },
+    {
+     "i": "i_metals",
+     "q": 15
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_trophy_system",
+   "name": "Trophy System",
+   "cat": "field",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_electronics",
+     "q": 15
+    },
+    {
+     "i": "i_control_units",
+     "q": 3
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_sam_airburst_turret",
+   "name": "SAM Airburst Turret",
+   "cat": "field",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_metals",
+     "q": 30
+    },
+    {
+     "i": "i_detonators",
+     "q": 3
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_revive_pistol",
+   "name": "Revive Pistol",
+   "cat": "field",
+   "tag": "Lvl 64",
+   "unlock": "level",
+   "lvl": 64,
+   "mats": [
+    {
+     "i": "i_power_regulator",
+     "q": 2
+    },
+    {
+     "i": "i_binding_catalyst",
+     "q": 3
+    },
+    {
+     "i": "i_detonators",
+     "q": 5
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_zip_gun",
+   "name": "Zip Gun",
+   "cat": "field",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_chemicals",
+     "q": 10
+    },
+    {
+     "i": "i_metals",
+     "q": 10
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_uav",
+   "name": "UAV",
+   "cat": "fire",
+   "tag": "Lvl 31",
+   "unlock": "level",
+   "lvl": 31,
+   "mats": [
+    {
+     "i": "i_electronics",
+     "q": 30
+    },
+    {
+     "i": "i_structural_alloy",
+     "q": 2
+    },
+    {
+     "i": "i_electronic_sensors",
+     "q": 5
+    }
+   ],
+   "reserve": 0,
+   "why": "Recipe at DMZ Level 31"
+  },
+  {
+   "id": "r_advanced_uav",
+   "name": "Advanced UAV",
+   "cat": "fire",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_comms_module",
+     "q": 2
+    },
+    {
+     "i": "i_nitro_compounds",
+     "q": 3
+    },
+    {
+     "i": "i_electronic_sensors",
+     "q": 5
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_care_package",
+   "name": "Care Package",
+   "cat": "fire",
+   "tag": "Lvl 28",
+   "unlock": "level",
+   "lvl": 28,
+   "mats": [
+    {
+     "i": "i_electronics",
+     "q": 20
+    },
+    {
+     "i": "i_control_units",
+     "q": 2
+    },
+    {
+     "i": "i_rigid_synthetics",
+     "q": 2
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_combat_drone",
+   "name": "Combat Drone",
+   "cat": "fire",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_electronics",
+     "q": 30
+    },
+    {
+     "i": "i_cpu",
+     "q": 2
+    },
+    {
+     "i": "i_control_units",
+     "q": 5
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_crossfire",
+   "name": "Crossfire",
+   "cat": "fire",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_prototype_rf_module",
+     "q": 2
+    },
+    {
+     "i": "i_volatile_explosives",
+     "q": 3
+    },
+    {
+     "i": "i_electronic_sensors",
+     "q": 5
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_bomb_glider",
+   "name": "Bomb Glider",
+   "cat": "fire",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_chemicals",
+     "q": 30
+    },
+    {
+     "i": "i_stock_rod",
+     "q": 2
+    },
+    {
+     "i": "i_control_units",
+     "q": 5
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_bombing_run",
+   "name": "Bombing Run",
+   "cat": "fire",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_chemicals",
+     "q": 30
+    },
+    {
+     "i": "i_nitro_compounds",
+     "q": 2
+    },
+    {
+     "i": "i_control_units",
+     "q": 5
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_artillery_beacon",
+   "name": "Artillery Beacon",
+   "cat": "fire",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_volatile_explosives",
+     "q": 2
+    },
+    {
+     "i": "i_nitro_compounds",
+     "q": 3
+    },
+    {
+     "i": "i_detonators",
+     "q": 5
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_railgun_sentry",
+   "name": "Railgun Sentry",
+   "cat": "fire",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_power_regulator",
+     "q": 2
+    },
+    {
+     "i": "i_nitro_compounds",
+     "q": 3
+    },
+    {
+     "i": "i_control_units",
+     "q": 5
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_impact_warhead",
+   "name": "Impact Warhead",
+   "cat": "fire",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_turned_components",
+     "q": 2
+    },
+    {
+     "i": "i_nitro_compounds",
+     "q": 3
+    },
+    {
+     "i": "i_detonators",
+     "q": 5
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_reactive_metals",
+   "name": "Reactive Metals",
+   "cat": "ingr",
+   "tag": "Uncommon Printing",
+   "unlock": "u_uncommon_ingredient_printing",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_chemicals",
+     "q": 20
+    },
+    {
+     "i": "i_metals",
+     "q": 20
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_rigid_synthetics",
+   "name": "Rigid Synthetics",
+   "cat": "ingr",
+   "tag": "Uncommon Printing",
+   "unlock": "u_uncommon_ingredient_printing",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 20
+    },
+    {
+     "i": "i_metals",
+     "q": 20
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_biomaterials",
+   "name": "Biomaterials",
+   "cat": "ingr",
+   "tag": "Uncommon Printing",
+   "unlock": "u_uncommon_ingredient_printing",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 20
+    },
+    {
+     "i": "i_chemicals",
+     "q": 20
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_control_units",
+   "name": "Control Units",
+   "cat": "ingr",
+   "tag": "Uncommon Printing",
+   "unlock": "u_uncommon_ingredient_printing",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_electronics",
+     "q": 20
+    },
+    {
+     "i": "i_metals",
+     "q": 20
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_electronic_sensors",
+   "name": "Electronic Sensors",
+   "cat": "ingr",
+   "tag": "Uncommon Printing",
+   "unlock": "u_uncommon_ingredient_printing",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 20
+    },
+    {
+     "i": "i_electronics",
+     "q": 20
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_detonators",
+   "name": "Detonators",
+   "cat": "ingr",
+   "tag": "Uncommon Printing",
+   "unlock": "u_uncommon_ingredient_printing",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_electronics",
+     "q": 20
+    },
+    {
+     "i": "i_chemicals",
+     "q": 20
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_alloyed_plating",
+   "name": "Alloyed Plating",
+   "cat": "ingr",
+   "tag": "Epic Printing",
+   "unlock": "u_epic_ingredient_printing",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_metals",
+     "q": 100
+    },
+    {
+     "i": "i_structural_alloy",
+     "q": 3
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_ballistic_fabric",
+   "name": "Ballistic Fabric",
+   "cat": "ingr",
+   "tag": "Epic Printing",
+   "unlock": "u_epic_ingredient_printing",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 100
+    },
+    {
+     "i": "i_high_tenacity_fibers",
+     "q": 3
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_comms_module",
+   "name": "Comms Module",
+   "cat": "ingr",
+   "tag": "Epic Printing",
+   "unlock": "u_epic_ingredient_printing",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_electronics",
+     "q": 100
+    },
+    {
+     "i": "i_cpu",
+     "q": 3
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_nylon_laminate",
+   "name": "Nylon Laminate",
+   "cat": "ingr",
+   "tag": "Epic Printing",
+   "unlock": "u_epic_ingredient_printing",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 100
+    },
+    {
+     "i": "i_nylon_cloth",
+     "q": 3
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_power_regulator",
+   "name": "Power Regulator",
+   "cat": "ingr",
+   "tag": "Epic Printing",
+   "unlock": "u_epic_ingredient_printing",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_electronics",
+     "q": 100
+    },
+    {
+     "i": "i_printed_circuit_board",
+     "q": 3
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_stabilized_reagents",
+   "name": "Stabilized Reagents",
+   "cat": "ingr",
+   "tag": "Epic Printing",
+   "unlock": "u_epic_ingredient_printing",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_chemicals",
+     "q": 100
+    },
+    {
+     "i": "i_binding_catalyst",
+     "q": 3
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_turned_components",
+   "name": "Turned Components",
+   "cat": "ingr",
+   "tag": "Epic Printing",
+   "unlock": "u_epic_ingredient_printing",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_metals",
+     "q": 100
+    },
+    {
+     "i": "i_stock_rod",
+     "q": 3
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  },
+  {
+   "id": "r_volatile_explosives",
+   "name": "Volatile Explosives",
+   "cat": "ingr",
+   "tag": "Epic Printing",
+   "unlock": "u_epic_ingredient_printing",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_chemicals",
+     "q": 100
+    },
+    {
+     "i": "i_nitro_compounds",
+     "q": 3
+    }
+   ],
+   "reserve": 0,
+   "why": null
+  }
+ ],
+ "cats": [
+  {
+   "id": "healing",
+   "name": "Healing"
+  },
+  {
+   "id": "armor",
+   "name": "Armor"
+  },
+  {
+   "id": "packs",
+   "name": "Backpacks"
+  },
+  {
+   "id": "gear",
+   "name": "Gear"
+  },
+  {
+   "id": "tactical",
+   "name": "Tacticals"
+  },
+  {
+   "id": "lethal",
+   "name": "Lethals"
+  },
+  {
+   "id": "field",
+   "name": "Field Upgrades"
+  },
+  {
+   "id": "fire",
+   "name": "Fire Support"
+  },
+  {
+   "id": "ingr",
+   "name": "Ingredient Printing"
+  }
+ ],
+ "intel": [
+  {
+   "id": "manuals",
+   "title": "Where Weapon Manuals drop",
+   "subtitle": "Reported spots, no M4 yet",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "In loot they show up named **MANUAL:** plus the gun (for example MANUAL: PPSH-41). They're random drops from military containers (green metal crates), weapons lockers, duffels in military areas, safes, locked key rooms and Irradiated Containers. Houses, gas stations and clinics won't have them."
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Spot",
+      "Threat",
+      "What's been found"
+     ],
+     "rows": [
+      [
+       "Chang-san Air Base barracks. Launch Operation Iron Citadel, then leave without finishing it",
+       "Critical / Extreme",
+       "PPSh-41 Manual in a duffel about 4 minutes in; Type 73 Manual in a blue duffel. Most-reported farm, but one player went 7 runs with nothing"
+      ],
+      [
+       "The moving train through Cheongun Outskirts (board from Imjin Farmland)",
+       "Not rated",
+       "Sang 9mm Manual in a blue duffel on a passenger seat"
+      ],
+      [
+       "Reactor 02, Haneul Reactor: decontaminate an Irradiated Container",
+       "High",
+       "Kastov 762 and KG-7 Vulcan Manuals (one report each)"
+      ],
+      [
+       "Reactor 02 underwater DRC Locker (key from Operation Fallen Ember)",
+       "High",
+       "MAR-9 Manual (one source)"
+      ],
+      [
+       "Cheonwang Peak Array, upstairs safe in the L-shaped building",
+       "Medium",
+       "PPSh-41 Manual"
+      ],
+      [
+       "Vault Armory under Heavenly Luck Casino (needs the Vault Armory key)",
+       "High",
+       "PPSh-41 Manual in the weapons locker"
+      ],
+      [
+       "Shopping DRC Locker under NuriGO Mall (needs its key)",
+       "Not rated",
+       "APOC-338 Manual, once"
+      ],
+      [
+       "Police Station armories (D2, C4, F4, H5, G7) and military Compounds",
+       "Low to Medium",
+       "Named as good odds, nothing specific"
+      ],
+      [
+       "Apartment B rooftop safe (key in Apartment A), Supreme Leader's Bunker at Chang-san (Iron Citadel access card), Casino Counting Room vault",
+       "Varies",
+       "Named as Manual spots by one source"
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "No M4 Manual location has been reported anywhere yet. Put a Manual in a Secure Slot the moment you pick it up. The unlock only goes to the player who extracts it, and a Manual can be handed to a squadmate during the match, so pass it to whoever needs that gun before exfil."
+    },
+    {
+     "type": "links",
+     "links": [
+      {
+       "title": "DMZ Codex, Weapon Manuals",
+       "url": "https://dmzcodex.com/guides/dmz-weapon-manuals-guide/"
+      },
+      {
+       "title": "AllThingsHow",
+       "url": "https://allthings.how/?p=297369"
+      },
+      {
+       "title": "GamingProMax",
+       "url": "https://gamingpromax.com/mw4-dmz-how-to-get-weapon-manuals/"
+      },
+      {
+       "title": "Skycoach",
+       "url": "https://skycoach.gg/blog/call-of-duty/articles/dmz-manuals-guide"
+      },
+      {
+       "title": "GamerFuzion, Reactor 02",
+       "url": "https://www.gamerfuzion.com/modern-warfare-4-dmz-reactor-02-decontaminate-irradiated-container-legendary-gear/"
+      },
+      {
+       "title": "PlayHub",
+       "url": "https://playhub.com/blog/call-of-duty/where-to-farm-manuals-in-modern-warfare-4-dmz-503148"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "route",
+   "title": "Cheonwang Peak Array safe run",
+   "subtitle": "Medium threat, 3 safes",
+   "blocks": [
+    {
+     "type": "steps",
+     "items": [
+      "**Safe 1.** Small office in the low grey building with the green door.",
+      "**Safe 2.** 4th floor of the server building (blue-and-white stairs). Search each server blade separately for CPUs, Comms Modules and Power Regulators.",
+      "**Safe 3.** Upstairs in the L-shaped building. This is the safe that has given a PPSh-41 Manual."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "One recorded run pulled a Shopping DRC Locker key and a PPSh-41 Manual and exfilled with 47,700 in gear plus 8,250 banked."
+    },
+    {
+     "type": "links",
+     "links": [
+      {
+       "title": "DMZ Codex, Cheonwang loot route",
+       "url": "https://dmzcodex.com/guides/dmz-cheonwang-peak-array-loot-route/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ingredients",
+   "title": "Ingredient search leads",
+   "subtitle": "Where to look, not guaranteed",
+   "blocks": [
+    {
+     "type": "table",
+     "headers": [
+      "Item",
+      "Where to look"
+     ],
+     "rows": [
+      [
+       "Air Base DRC Weapons Locker",
+       "Locker is deep in the Chang-san bunker"
+      ],
+      [
+       "Binding Catalyst",
+       "Mirae General Hospital, medical tents; 2 at DMZ Level 49"
+      ],
+      [
+       "Biomaterials",
+       "Hospitals, chemical lockers"
+      ],
+      [
+       "CPU",
+       "Server rooms at Nenshin Tech and Cheonwang Peak Array; crashed large-drone Side Op panel"
+      ],
+      [
+       "Comms Module",
+       "Server rooms at Nenshin Tech and Cheonwang Peak Array; crashed large-drone Side Op panel"
+      ],
+      [
+       "Control Units",
+       "Computers, tech bags"
+      ],
+      [
+       "Electronic Sensors",
+       "Tech bags, shops; grey IT bag in the Cheongun Village holding-cell building"
+      ],
+      [
+       "Gold Bar",
+       "Silent Ledger reward; sells for 25,000"
+      ],
+      [
+       "High-Tenacity Fibers",
+       "Colossus drops; blue duffel in a Hajin City barber shop"
+      ],
+      [
+       "Infantry Invasion Plans",
+       "Compound Charlie and Delta safes, Signal Breaker"
+      ],
+      [
+       "Irradiated Container",
+       "Decontaminate one at Reactor 02 to open it"
+      ],
+      [
+       "Military Composites",
+       "Colossus (unconfirmed)"
+      ],
+      [
+       "Nano-Structured Alloy",
+       "Tank (unconfirmed)"
+      ],
+      [
+       "Nylon Cloth",
+       "Citadel wings, Deadtown underground holding, Mujin Nightclub"
+      ],
+      [
+       "Power Regulator",
+       "Server blades in the Cheonwang Peak Array server building (4th floor)"
+      ],
+      [
+       "Prototype RF Module",
+       "Seen from Deathstalker"
+      ],
+      [
+       "Reactive Metals",
+       "Industrial areas, toolboxes; 2 at DMZ Level 11"
+      ],
+      [
+       "Reactor DRC Locker",
+       "Key comes from Operation Fallen Ember"
+      ],
+      [
+       "Regional Combat Notes",
+       "Care packages, Compound Bravo safe, Special Delivery crate"
+      ],
+      [
+       "Rigid Synthetics",
+       "2 at DMZ Level 6"
+      ],
+      [
+       "Shopping DRC Locker",
+       "Key turned up once in a Cheonwang Peak Array safe"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "After Uncommon Ingredient Printing, Reactive Metals, Rigid Synthetics, Biomaterials, Control Units, Electronic Sensors and Detonators each print from 20 + 20 basic resources. Pin a recipe at the printer and its ingredients get a pin icon when you loot them."
+    },
+    {
+     "type": "links",
+     "links": [
+      {
+       "title": "Crafting material locations",
+       "url": "https://dmzcodex.com/guides/dmz-crafting-material-locations-guide/"
+      },
+      {
+       "title": "Loot guide",
+       "url": "https://dmzcodex.com/guides/dmz-loot-keep-sell-craft-guide/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "money",
+   "title": "Making money",
+   "subtitle": "What pays, and the Bank caps",
+   "blocks": [
+    {
+     "type": "table",
+     "headers": [
+      "Source",
+      "Pays"
+     ],
+     "rows": [
+      [
+       "Dynamic Operation",
+       "10,000–20,000 at launch, raised Oct 29 (new amounts not published). Paid straight to the Bank, so you keep it even if you die later"
+      ],
+      [
+       "DMZ Order page",
+       "20,000 on most pages, plus items like recipes, Rescue Beacons, Insurance Contracts"
+      ],
+      [
+       "Story Mission",
+       "25,000 listed in the menu (early reports showed 5,000); replay payouts raised Oct 29"
+      ],
+      [
+       "Side Ops",
+       "Small; raised Oct 29"
+      ],
+      [
+       "Lieutenant",
+       "10,000 for your first kill of each; community reports add 25,000 per extracted tag"
+      ],
+      [
+       "Commander (Deathstalker, Tank)",
+       "50,000 first kill each (community-reported)"
+      ],
+      [
+       "Weapon Manual or Recipe",
+       "5,000 each on extract, plus the permanent unlock"
+      ],
+      [
+       "Gold Bar",
+       "25,000 to sell, but Stash Weapon III and Bank X and XII need them"
+      ],
+      [
+       "Player bounty",
+       "Their bounty, only if you extract their Dog Tag"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "**Bank caps.** Cash over the cap is thrown away. Start 100,000 · I 250,000 · II 500,000 · III 1M · IV 2M · V 5M · VI 10M · VII 25M · VIII 50M · IX 100M · X 250M · XI 500M · XII 1B · XIII 2B (VIII–XIII from one source)."
+    },
+    {
+     "type": "links",
+     "links": [
+      {
+       "title": "Cash guide",
+       "url": "https://dmzcodex.com/guides/dmz-cash-money-guide/"
+      },
+      {
+       "title": "Launch patch notes",
+       "url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gunsmith",
+   "title": "Gunsmith costs",
+   "subtitle": "Slots, attachments, Apex, discounts",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "You pay per copy: base gun, each slot, then each attachment. Lose the gun and all of it goes with it, so most guns should come out of Hajin for free."
+    },
+    {
+     "type": "kv",
+     "rows": [
+      [
+       "1",
+       "Slot 1 · 1,000"
+      ],
+      [
+       "2",
+       "Slot 2 · 5,000"
+      ],
+      [
+       "3",
+       "Slot 3 · about 10,000"
+      ],
+      [
+       "4",
+       "Slot 4 · 25,000"
+      ],
+      [
+       "5",
+       "Slot 5 · about 50,000"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Suppressors and drum mags run about 9,500 to 15,000 each; the MEIKO 30CAL-SP at 9,500 is the cheapest suppressor. Discounts: 5% at DMZ Level 25 and 5% from Gunsmith I (stacking unconfirmed). Slots 3 to 5 come from guides other than DMZ Codex."
+    },
+    {
+     "type": "p",
+     "text": "**Apex** is the attachment a gun unlocks at max weapon level. It changes how the gun works, doesn't use one of the five slots, and goes on free in DMZ. Weapon levels are shared with Multiplayer and Warzone."
+    },
+    {
+     "type": "links",
+     "links": [
+      {
+       "title": "DMZ Codex, Gunsmith guide",
+       "url": "https://dmzcodex.com/guides/dmz-gunsmith-weapons-guide/"
+      },
+      {
+       "title": "Official weapons guide",
+       "url": "https://www.callofduty.com/guides/mw4/open-beta-weapons"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "levels",
+   "title": "DMZ level milestones",
+   "subtitle": "The ones that change how you play",
+   "blocks": [
+    {
+     "type": "kv",
+     "rows": [
+      [
+       "2",
+       "3D Printer"
+      ],
+      [
+       "5",
+       "Vendor"
+      ],
+      [
+       "10",
+       "Gunsmith"
+      ],
+      [
+       "13",
+       "One-off UAV item (the UAV recipe is at 31)"
+      ],
+      [
+       "15",
+       "Third Operator slot"
+      ],
+      [
+       "20",
+       "Dog Tag Case"
+      ],
+      [
+       "22",
+       "+18 item stash slots"
+      ],
+      [
+       "25",
+       "5% Gunsmith discount"
+      ],
+      [
+       "26",
+       "Gas Mask recipe"
+      ],
+      [
+       "28",
+       "Fire Support tab, Care Package recipe"
+      ],
+      [
+       "34",
+       "Large Backpack (one-time)"
+      ],
+      [
+       "35",
+       "+6 weapon stash slots"
+      ],
+      [
+       "37",
+       "3-Plate vest (one-time; still missing for some players past 37)"
+      ],
+      [
+       "45",
+       "+18 item stash slots"
+      ],
+      [
+       "48",
+       "Self-Revive Kit recipe"
+      ],
+      [
+       "55",
+       "Disposable Parachute recipe"
+      ],
+      [
+       "60",
+       "+6 weapon stash slots"
+      ],
+      [
+       "61",
+       "Medium Weapon Backpack"
+      ],
+      [
+       "69",
+       "Reusable Parachute"
+      ],
+      [
+       "70",
+       "+18 slots, Advanced SERE Kit (Rescue Beacons, Insurance Contracts)"
+      ]
+     ]
+    },
+    {
+     "type": "links",
+     "links": [
+      {
+       "title": "Official progression blog",
+       "url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-ready-for-launch-progression-prestige"
+      },
+      {
+       "title": "CODMunity level table",
+       "url": "https://codmunity.gg/dmz/progression"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "prestige",
+   "title": "Operator Prestige",
+   "subtitle": "What it costs and what it doesn't touch",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Needs 18 Trait Points earned, the Operator on Active Duty and not MIA. Each Prestige resets that Operator's traits and gives one random permanent trait (max 3; from Prestige 4 you can swap one)."
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Prestige",
+      "Bank cash",
+      "Gear it consumes"
+     ],
+     "rows": [
+      [
+       "1st",
+       "200,000",
+       "2 guns with 3 attachment slots, Rare+ vest and backpack, 4 Rare+ ingredients"
+      ],
+      [
+       "2nd",
+       "300,000",
+       "2 guns with 4 slots, Epic vest and backpack, 4 Epic ingredients"
+      ],
+      [
+       "3rd+",
+       "500,000",
+       "2 guns with 4 slots, Legendary vest and backpack, 4 Legendary ingredients"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Everything else in that Operator's loadout and backpack is lost too, and one report says Secure Slots don't protect anything, so stash keepers first. It's separate from your 1–70 DMZ level; FOB upgrades, recipes and Manuals stay unlocked. There's no DMZ-level prestige after 70."
+    },
+    {
+     "type": "links",
+     "links": [
+      {
+       "title": "Official DMZ deep dive, part 2",
+       "url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-dmz-how-to-play-forward-operating-base-guide"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "map",
+   "title": "Threat by area and map key",
+   "subtitle": "Low to Extreme",
+   "blocks": [
+    {
+     "type": "table",
+     "headers": [
+      "Threat",
+      "Areas"
+     ],
+     "rows": [
+      [
+       "Low",
+       "Cheongun Village (incl. Russian Border Crossing), Mirae General Hospital, Songdo Wharf, Imjin Farmland exterior, Deadtown outskirts"
+      ],
+      [
+       "Medium",
+       "Cheonwang Peak Array, Wolves Stadium, Hajin River Heights, Imjin Rice Mill, Deadtown Re-Education Center, NuriGO East"
+      ],
+      [
+       "High",
+       "Haneul Nuclear Reactor, NuriGO West, Heavenly Luck Casino, 14th Political Prison"
+      ],
+      [
+       "Critical",
+       "The Grid (DBN HQ, Hanex Bank, Minsok Art School, Construction Zone), Prison Citadel, Chang-san exterior"
+      ],
+      [
+       "Extreme",
+       "Chang-san Bunker, Nenshin Tech Complex"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "**Grid squares** run letters west to east, numbers north to south. Police Stations: D2, C4, F4, H5, G7. Compounds: Foxtrot B4, Charlie D4, Alpha E7, Bravo F8, Echo G7, Delta H4."
+    },
+    {
+     "type": "links",
+     "links": [
+      {
+       "title": "Hajin map guide",
+       "url": "https://dmzcodex.com/guides/hajin-map-guide/"
+      },
+      {
+       "title": "Interactive map",
+       "url": "https://dmzcodex.com/map/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sources",
+   "title": "Where the numbers come from",
+   "subtitle": "Re-checked Oct 30, 2026",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Upgrade costs, recipes and gun prices come from fan sites and community reports, re-checked Oct 30, 2026. Bank VIII–XIII come from one source. When the printer or Gunsmith disagrees with this app, trust the game. Season 1 starts Nov 6 and mentions 3D Printer updates, so costs may change then."
+    },
+    {
+     "type": "links",
+     "links": [
+      {
+       "title": "DMZ Codex FOB tracker",
+       "url": "https://dmzcodex.com/fob-upgrade-tracker/"
+      },
+      {
+       "title": "DMZ Codex recipes",
+       "url": "https://dmzcodex.com/recipes/"
+      },
+      {
+       "title": "GG Ranked upgrades",
+       "url": "https://ggranked.com/games/call-of-duty-modern-warfare-4/modes/dmz/database/recipes?category=upgrades"
+      },
+      {
+       "title": "DMZTracker FOB upgrades",
+       "url": "https://dmztracker.gg/guides/fob-upgrades/"
+      },
+      {
+       "title": "Detonated, FOB upgrades",
+       "url": "https://detonated.com/which-items-should-you-keep-in-dmz-all-fob-upgrades-list/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
