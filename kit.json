@@ -1,9 +1,9 @@
 {
  "schema": 1,
- "rev": 2026103002,
+ "rev": 2026103003,
  "asOf": "Oct 30, 2026",
- "notice": null,
- "mapURL": "https://dmzcodex.com/map/",
+ "notice": "The map button is off for now: the map site started showing fake virus alerts. If you saw one, close it and don't tap anything in it.",
+ "mapURL": "https://github.com/Jb631/exfil-ledger-data/blob/main/MAP.md",
  "weapons": [
   {
    "id": "w_han_86",
@@ -3636,10 +3636,6 @@
      "type": "links",
      "links": [
       {
-       "title": "DMZ Codex, Weapon Manuals",
-       "url": "https://dmzcodex.com/guides/dmz-weapon-manuals-guide/"
-      },
-      {
        "title": "AllThingsHow",
        "url": "https://allthings.how/?p=297369"
       },
@@ -3679,15 +3675,6 @@
     {
      "type": "p",
      "text": "One recorded run pulled a Shopping DRC Locker key and a PPSh-41 Manual and exfilled with 47,700 in gear plus 8,250 banked."
-    },
-    {
-     "type": "links",
-     "links": [
-      {
-       "title": "DMZ Codex, Cheonwang loot route",
-       "url": "https://dmzcodex.com/guides/dmz-cheonwang-peak-array-loot-route/"
-      }
-     ]
     }
    ]
   },
@@ -3792,19 +3779,6 @@
     {
      "type": "p",
      "text": "After Uncommon Ingredient Printing, Reactive Metals, Rigid Synthetics, Biomaterials, Control Units, Electronic Sensors and Detonators each print from 20 + 20 basic resources. Pin a recipe at the printer and its ingredients get a pin icon when you loot them."
-    },
-    {
-     "type": "links",
-     "links": [
-      {
-       "title": "Crafting material locations",
-       "url": "https://dmzcodex.com/guides/dmz-crafting-material-locations-guide/"
-      },
-      {
-       "title": "Loot guide",
-       "url": "https://dmzcodex.com/guides/dmz-loot-keep-sell-craft-guide/"
-      }
-     ]
     }
    ]
   },
@@ -3866,10 +3840,6 @@
      "type": "links",
      "links": [
       {
-       "title": "Cash guide",
-       "url": "https://dmzcodex.com/guides/dmz-cash-money-guide/"
-      },
-      {
        "title": "Launch patch notes",
        "url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes"
       }
@@ -3922,10 +3892,6 @@
     {
      "type": "links",
      "links": [
-      {
-       "title": "DMZ Codex, Gunsmith guide",
-       "url": "https://dmzcodex.com/guides/dmz-gunsmith-weapons-guide/"
-      },
       {
        "title": "Official weapons guide",
        "url": "https://www.callofduty.com/guides/mw4/open-beta-weapons"
@@ -4125,19 +4091,6 @@
     {
      "type": "p",
      "text": "**Grid squares** run letters west to east, numbers north to south. Police Stations: D2, C4, F4, H5, G7. Compounds: Foxtrot B4, Charlie D4, Alpha E7, Bravo F8, Echo G7, Delta H4."
-    },
-    {
-     "type": "links",
-     "links": [
-      {
-       "title": "Hajin map guide",
-       "url": "https://dmzcodex.com/guides/hajin-map-guide/"
-      },
-      {
-       "title": "Interactive map",
-       "url": "https://dmzcodex.com/map/"
-      }
-     ]
     }
    ]
   },
@@ -4151,16 +4104,12 @@
      "text": "Upgrade costs, recipes and gun prices come from fan sites and community reports, re-checked Oct 30, 2026. Bank VIII–XIII come from one source. When the printer or Gunsmith disagrees with this app, trust the game. Season 1 starts Nov 6 and mentions 3D Printer updates, so costs may change then."
     },
     {
+     "type": "p",
+     "text": "DMZ Codex was one of these sources. On Oct 30 its site started sending visitors to scam pages, so the app no longer links to it."
+    },
+    {
      "type": "links",
      "links": [
-      {
-       "title": "DMZ Codex FOB tracker",
-       "url": "https://dmzcodex.com/fob-upgrade-tracker/"
-      },
-      {
-       "title": "DMZ Codex recipes",
-       "url": "https://dmzcodex.com/recipes/"
-      },
       {
        "title": "GG Ranked upgrades",
        "url": "https://ggranked.com/games/call-of-duty-modern-warfare-4/modes/dmz/database/recipes?category=upgrades"
