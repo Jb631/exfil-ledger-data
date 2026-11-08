@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "rev": 2026103004,
- "asOf": "Oct 30, 2026",
- "notice": null,
+ "rev": 2026110701,
+ "asOf": "Nov 7, 2026",
+ "notice": "Season 1: the game says printer recipes and upgrade costs changed but hasn't said which. If something here doesn't match your printer, tell James.",
  "mapURL": "https://github.com/Jb631/exfil-ledger-data/blob/main/MAP.md",
  "safeMap": {
   "url": "https://codmunity.gg/dmz/map",
@@ -644,6 +644,20 @@
    "name": "Electronics",
    "kind": "resource",
    "find": "Homes and gas stations",
+   "print": null
+  },
+  {
+   "id": "i_specter_fabric_sample",
+   "name": "Specter Fabric Sample",
+   "kind": "other",
+   "find": "X01 only (Season 1)",
+   "print": null
+  },
+  {
+   "id": "i_sr_16_bio_agent_sample",
+   "name": "SR-16 Bio Agent Sample",
+   "kind": "other",
+   "find": "X01 only (Season 1)",
    "print": null
   }
  ],
@@ -3529,6 +3543,122 @@
    ],
    "reserve": 0,
    "why": null
+  },
+  {
+   "id": "r_3_5_plate_armor_vest",
+   "name": "3.5-Plate Armor Vest",
+   "cat": "x01",
+   "tag": "X01 Printer",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_specter_fabric_sample",
+     "q": 1
+    },
+    {
+     "i": "i_power_regulator",
+     "q": 2
+    },
+    {
+     "i": "i_structural_alloy",
+     "q": 5
+    }
+   ],
+   "reserve": 0,
+   "why": "X01 printer only; costs from one source"
+  },
+  {
+   "id": "r_survivor_box",
+   "name": "Survivor Box",
+   "cat": "x01",
+   "tag": "X01 Printer",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_sr_16_bio_agent_sample",
+     "q": 1
+    },
+    {
+     "i": "i_ballistic_fabric",
+     "q": 2
+    },
+    {
+     "i": "i_high_tenacity_fibers",
+     "q": 3
+    }
+   ],
+   "reserve": 0,
+   "why": "X01 printer only; costs from one source"
+  },
+  {
+   "id": "r_argonaut_armor",
+   "name": "Argonaut Armor",
+   "cat": "x01",
+   "tag": "X01 Printer",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_specter_fabric_sample",
+     "q": 1
+    },
+    {
+     "i": "i_alloyed_plating",
+     "q": 2
+    },
+    {
+     "i": "i_high_tenacity_fibers",
+     "q": 5
+    }
+   ],
+   "reserve": 0,
+   "why": "X01 printer only; costs from one source"
+  },
+  {
+   "id": "r_encodable_blank_keycard",
+   "name": "Encodable Blank Keycard",
+   "cat": "x01",
+   "tag": "X01 Printer",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_printed_circuit_board",
+     "q": 6
+    },
+    {
+     "i": "i_control_units",
+     "q": 8
+    }
+   ],
+   "reserve": 0,
+   "why": "X01 printer only; costs from one source"
+  },
+  {
+   "id": "r_staff_emergency_exfil_keycard",
+   "name": "Staff Emergency Exfil Keycard",
+   "cat": "x01",
+   "tag": "X01 Printer",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_cpu",
+     "q": 2
+    },
+    {
+     "i": "i_printed_circuit_board",
+     "q": 4
+    },
+    {
+     "i": "i_control_units",
+     "q": 8
+    }
+   ],
+   "reserve": 0,
+   "why": "X01 printer only; costs from one source"
   }
  ],
  "cats": [
@@ -3567,6 +3697,10 @@
   {
    "id": "ingr",
    "name": "Ingredients"
+  },
+  {
+   "id": "x01",
+   "name": "X01 Printer"
   }
  ],
  "intel": [
@@ -3777,8 +3911,16 @@
        "2 at DMZ Level 6"
       ],
       [
+       "SR-16 Bio Agent Sample",
+       "X01 only (Season 1)"
+      ],
+      [
        "Shopping DRC Locker",
        "Key turned up once in a Cheonwang Peak Array safe"
+      ],
+      [
+       "Specter Fabric Sample",
+       "X01 only (Season 1)"
       ]
      ]
     },
@@ -3802,7 +3944,7 @@
      "rows": [
       [
        "Dynamic Operation",
-       "10,000–20,000 at launch, raised Oct 29 (new amounts not published). Paid straight to the Bank, so you keep it even if you die later"
+       "10,000–20,000 since Oct 30 (5,000–10,000 at launch). Paid straight to the Bank, so you keep it even if you die later"
       ],
       [
        "DMZ Order page",
@@ -3810,11 +3952,11 @@
       ],
       [
        "Story Mission",
-       "25,000 listed in the menu (early reports showed 5,000); replay payouts raised Oct 29"
+       "25,000 listed in the menu (early reports showed 5,000). Mission steps pay 500 each since Oct 30 (was 300)"
       ],
       [
        "Side Ops",
-       "Small; raised Oct 29"
+       "2,000 since Oct 30 (was 500)"
       ],
       [
        "Lieutenant",
@@ -3840,7 +3982,7 @@
     },
     {
      "type": "p",
-     "text": "**Bank caps.** Cash over the cap is thrown away. Start 100,000 · I 250,000 · II 500,000 · III 1M · IV 2M · V 5M · VI 10M · VII 25M · VIII 50M · IX 100M · X 250M · XI 500M · XII 1B · XIII 2B (VIII–XIII from one source)."
+     "text": "**Bank caps.** Cash over the cap is thrown away. Start 100,000 · I 250,000 · II 500,000 · III 1M · IV 2M · V 5M · VI 10M · VII 25M · VIII 50M · IX 100M · X 250M · XI 500M · XII 1B · XIII 2B."
     },
     {
      "type": "links",
@@ -4097,17 +4239,38 @@
     {
      "type": "p",
      "text": "**Grid squares** run letters west to east, numbers north to south. Police Stations: D2, C4, F4, H5, G7. Compounds: Foxtrot B4, Charlie D4, Alpha E7, Bravo F8, Echo G7, Delta H4."
+    },
+    {
+     "type": "p",
+     "text": "**X01 (Season 1).** An underground GRANIT Arms black site under northwest Hajin, near the northern border. Hit the gate switch at the facility, then take the elevator with your whole squad inside it. No key or level needed. Exfils close as the match goes on, so you have to finish its steps inside to get out. Ghost is your Watcher inside, and it has its own Orders pages and its own 3D Printer. The X01 printer recipes are on the Crafting tab under X01 Printer (from one source). It also prints Experimental Compounds (2 Volatile Explosives + 5 Binding Catalyst) and Nano-Structured Alloy (2 Turned Components + 5 Structural Alloy)."
+    },
+    {
+     "type": "p",
+     "text": "**Season 1 Threat Briefings:** The Captain, a new Commander in X01; take pieces of his helmet, and more pieces mean better rewards, but only if you exfil with them. In Hajin, take parts off a North Korean battle tank, one per deployment; rewards grow with more parts across deployments."
+    },
+    {
+     "type": "p",
+     "text": "**Also new in Season 1:** Resupply Run trades items from points of interest for Self-Revive Kits and 3-Plate Carriers (rates not published yet), and the FOB Vendor sells more weapons and gear for DMZ Cash, with extra stock for Season 1 BlackCell owners."
+    },
+    {
+     "type": "links",
+     "links": [
+      {
+       "title": "Season 1 patch notes",
+       "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes"
+      }
+     ]
     }
    ]
   },
   {
    "id": "sources",
    "title": "Where the numbers come from",
-   "subtitle": "Re-checked Oct 30, 2026",
+   "subtitle": "Re-checked Nov 7, 2026",
    "blocks": [
     {
      "type": "p",
-     "text": "Upgrade costs, recipes and gun prices come from fan sites and community reports, re-checked Oct 30, 2026. Bank VIII–XIII come from one source. When the printer or Gunsmith disagrees with this app, trust the game. Season 1 starts Nov 6 and mentions 3D Printer updates, so costs may change then."
+     "text": "Upgrade costs, recipes and gun prices come from fan sites and community reports, re-checked Nov 7, 2026. Bank VIII–XIII match across two sources. Season 1 (Nov 5 patch notes) says FOB vendors, recipes and assembly requirements were updated but doesn't list the changes, so recipe and upgrade costs here are from before Season 1. When the printer or Gunsmith disagrees with this app, trust the game."
     },
     {
      "type": "p",
@@ -4127,6 +4290,14 @@
       {
        "title": "Detonated, FOB upgrades",
        "url": "https://detonated.com/which-items-should-you-keep-in-dmz-all-fob-upgrades-list/"
+      },
+      {
+       "title": "DMZ Radar upgrades",
+       "url": "https://dmzradar.com/upgrades.html"
+      },
+      {
+       "title": "Season 1 patch notes",
+       "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes"
       }
      ]
     }
