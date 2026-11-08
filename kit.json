@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "rev": 2026110701,
+ "rev": 2026110702,
  "asOf": "Nov 7, 2026",
  "notice": "Season 1: the game says printer recipes and upgrade costs changed but hasn't said which. If something here doesn't match your printer, tell James.",
  "mapURL": "https://github.com/Jb631/exfil-ledger-data/blob/main/MAP.md",
@@ -84,6 +84,15 @@
    "approx": false
   },
   {
+   "id": "w_cronen_osprey",
+   "name": "Cronen Osprey",
+   "cls": "Assault Rifles",
+   "price": null,
+   "tag": "seen",
+   "note": "Season 1: Battle Pass tier 16 (free) gives its Manual",
+   "approx": false
+  },
+  {
    "id": "w_iso_nightshade",
    "name": "ISO Nightshade",
    "cls": "SMGs",
@@ -129,6 +138,15 @@
    "approx": true
   },
   {
+   "id": "w_csg_35",
+   "name": "CSG-35",
+   "cls": "SMGs",
+   "price": null,
+   "tag": "seen",
+   "note": "Season 1: Battle Pass tier 36 (free) gives its Manual",
+   "approx": false
+  },
+  {
    "id": "w_rezi_12",
    "name": "Rezi 12",
    "cls": "Shotguns",
@@ -144,6 +162,15 @@
    "price": 3500,
    "tag": null,
    "note": null,
+   "approx": false
+  },
+  {
+   "id": "w_jak_12",
+   "name": "JAK 12",
+   "cls": "Shotguns",
+   "price": null,
+   "tag": null,
+   "note": "Season 1 event reward (event not named yet)",
    "approx": false
   },
   {
@@ -306,6 +333,15 @@
    "price": null,
    "tag": null,
    "note": null,
+   "approx": false
+  },
+  {
+   "id": "w_zlr_talonhawk",
+   "name": "ZLR Talonhawk",
+   "cls": "Melee",
+   "price": null,
+   "tag": null,
+   "note": "Season 1 event reward (event not named yet)",
    "approx": false
   }
  ],
@@ -3767,6 +3803,14 @@
        "Named as Manual spots by one source"
       ]
      ]
+    },
+    {
+     "type": "p",
+     "text": "**Season 1 guns.** Unlocking a gun on the Battle Pass gives you its Manual, so you can buy it at the Gunsmith: Cronen Osprey (assault rifle) at tier 16 and CSG-35 (SMG) at tier 36, both on the free track. The JAK 12 shotgun and ZLR Talonhawk axe come from a Season 1 event that hasn't been named yet. Buying a store bundle with a gun's blueprint also gives you that gun's Manual. A blueprint works in DMZ until you die with it, then you can rebuy it at a discount."
+    },
+    {
+     "type": "p",
+     "text": "**BlackCell in DMZ:** each BlackCell blueprint unlocks its base gun at the Gunsmith; the FOB Vendor stocks an extra weapon and up to four pieces of Equipment; a daily reward at the DMZ Bunker (printer ingredients and the like) that doesn't stack, so claim it every 24 hours or lose it; and an Advanced Triage Kit survival kit when you buy it."
     },
     {
      "type": "note",
