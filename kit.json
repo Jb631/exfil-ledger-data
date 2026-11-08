@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "rev": 2026110702,
+ "rev": 2026110703,
  "asOf": "Nov 7, 2026",
  "notice": "Season 1: the game says printer recipes and upgrade costs changed but hasn't said which. If something here doesn't match your printer, tell James.",
  "mapURL": "https://github.com/Jb631/exfil-ledger-data/blob/main/MAP.md",
@@ -25,8 +25,8 @@
    "name": "M4",
    "cls": "Assault Rifles",
    "price": 6250,
-   "tag": null,
-   "note": "Other guides: 4,750 to 5,000",
+   "tag": "seen",
+   "note": "No Manual drop reported; owning an M4 blueprint unlocks it (BlackCell, incl. Vault Edition: Perimeter Lance; Valkyrie bundle: Skyfall)",
    "approx": false
   },
   {
@@ -3814,7 +3814,7 @@
     },
     {
      "type": "note",
-     "text": "No M4 Manual location has been reported anywhere yet. Put a Manual in a Secure Slot the moment you pick it up. The unlock only goes to the player who extracts it, and a Manual can be handed to a squadmate during the match, so pass it to whoever needs that gun before exfil."
+     "text": "No M4 Manual location has been reported anywhere yet, but owning an M4 blueprint now unlocks it at the Gunsmith: BlackCell gives the Perimeter Lance M4 the moment you buy it (the Vault Edition includes BlackCell), and the Valkyrie Mastercraft Bundle has the Skyfall M4. Put a Manual in a Secure Slot the moment you pick it up. The unlock only goes to the player who extracts it, and a Manual can be handed to a squadmate during the match, so pass it to whoever needs that gun before exfil."
     },
     {
      "type": "links",
