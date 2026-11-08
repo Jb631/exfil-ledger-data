@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "rev": 2026110704,
- "asOf": "Nov 7, 2026",
- "notice": "Season 1: the game says printer recipes and upgrade costs changed but hasn't said which. If something here doesn't match your printer, tell James.",
+ "rev": 2026110801,
+ "asOf": "Nov 8, 2026",
+ "notice": "Intel is now hot loot spots: the newest reported Manual, recipe and key finds, plus X01. Found something good? Tell James.",
  "mapURL": "https://github.com/Jb631/exfil-ledger-data/blob/main/MAP.md",
  "safeMap": {
   "url": "https://codmunity.gg/dmz/map",
@@ -44,7 +44,7 @@
    "cls": "Assault Rifles",
    "price": 5500,
    "tag": "seen",
-   "note": "Manual seen in a Reactor 02 container",
+   "note": "Manual: Irradiated Container (Reactor 02)",
    "approx": false
   },
   {
@@ -52,8 +52,8 @@
    "name": "Patriot XMR",
    "cls": "Assault Rifles",
    "price": 6500,
-   "tag": null,
-   "note": null,
+   "tag": "seen",
+   "note": "Manual: Shopping DRC Locker (1 report)",
    "approx": false
   },
   {
@@ -79,8 +79,8 @@
    "name": "Cronen Squall",
    "cls": "Assault Rifles",
    "price": null,
-   "tag": null,
-   "note": null,
+   "tag": "seen",
+   "note": "Manual: Air Base DRC Weapons Locker (1 report)",
    "approx": false
   },
   {
@@ -97,8 +97,8 @@
    "name": "ISO Nightshade",
    "cls": "SMGs",
    "price": 3000,
-   "tag": null,
-   "note": null,
+   "tag": "seen",
+   "note": "Manual: Netshin Security Office (1 report)",
    "approx": true
   },
   {
@@ -107,7 +107,7 @@
    "cls": "SMGs",
    "price": 3000,
    "tag": "seen",
-   "note": "Manual seen dropping · some list it as a starter",
+   "note": "Manual: Chang-san barracks during Iron Citadel",
    "approx": true
   },
   {
@@ -115,8 +115,8 @@
    "name": "VEL 46",
    "cls": "SMGs",
    "price": 3000,
-   "tag": null,
-   "note": null,
+   "tag": "seen",
+   "note": "Manual: Deadtown Re-Education Center locker (1 report)",
    "approx": true
   },
   {
@@ -151,8 +151,8 @@
    "name": "Rezi 12",
    "cls": "Shotguns",
    "price": 4000,
-   "tag": null,
-   "note": null,
+   "tag": "seen",
+   "note": "Manual: Netshin IT Room, Shopping DRC Locker",
    "approx": false
   },
   {
@@ -160,8 +160,8 @@
    "name": "Warlord",
    "cls": "Shotguns",
    "price": 3500,
-   "tag": null,
-   "note": null,
+   "tag": "seen",
+   "note": "Manual: Reactor DRC Locker (1 report)",
    "approx": false
   },
   {
@@ -178,8 +178,8 @@
    "name": "FiNN LMG",
    "cls": "LMGs",
    "price": 8000,
-   "tag": null,
-   "note": null,
+   "tag": "seen",
+   "note": "Manual: Rail Depot Storage, Cheongun (1 report)",
    "approx": false
   },
   {
@@ -188,7 +188,7 @@
    "cls": "LMGs",
    "price": 7500,
    "tag": "seen",
-   "note": "Manual seen dropping",
+   "note": "Manual: Chang-san barracks, Cheonwang Peak Array",
    "approx": false
   },
   {
@@ -197,7 +197,7 @@
    "cls": "LMGs",
    "price": 7750,
    "tag": "seen",
-   "note": "Manual seen once",
+   "note": "Manual: Shopping DRC Locker",
    "approx": false
   },
   {
@@ -205,8 +205,8 @@
    "name": "MAR-9",
    "cls": "Marksman Rifles",
    "price": 6500,
-   "tag": "seen",
-   "note": "Manual seen dropping",
+   "tag": null,
+   "note": null,
    "approx": false
   },
   {
@@ -242,7 +242,7 @@
    "cls": "Sniper Rifles",
    "price": 16000,
    "tag": "seen",
-   "note": "Manual seen dropping",
+   "note": "Manual: X01 Audit Room safe (1 report)",
    "approx": false
   },
   {
@@ -277,8 +277,8 @@
    "name": ".50 GS",
    "cls": "Pistols",
    "price": null,
-   "tag": null,
-   "note": null,
+   "tag": "seen",
+   "note": "Manual: Coin Mining Den (1 report)",
    "approx": false
   },
   {
@@ -296,7 +296,7 @@
    "cls": "Launchers",
    "price": null,
    "tag": "seen",
-   "note": "Manual seen (one source)",
+   "note": "Manual: Iron Citadel armory (1 report)",
    "approx": false
   },
   {
@@ -304,8 +304,8 @@
    "name": "JOKR",
    "cls": "Launchers",
    "price": null,
-   "tag": null,
-   "note": null,
+   "tag": "seen",
+   "note": "Manual: Irradiated Container",
    "approx": false
   },
   {
@@ -3741,13 +3741,13 @@
  ],
  "intel": [
   {
-   "id": "manuals",
-   "title": "Where Weapon Manuals drop",
-   "subtitle": "Reported spots, now one M4",
+   "id": "route",
+   "title": "Hot loot spots",
+   "subtitle": "Newest reported finds · Nov 8, 2026",
    "blocks": [
     {
      "type": "p",
-     "text": "In loot they show up named **MANUAL:** plus the gun (for example MANUAL: PPSH-41). They're random drops from military containers (green metal crates), weapons lockers, duffels in military areas, safes, locked key rooms and Irradiated Containers. Houses, gas stations and clinics won't have them."
+     "text": "The best recent finds players have reported. Loot is random every match and most of these are from one run, so treat them as places worth checking, not guarantees."
     },
     {
      "type": "table",
@@ -3758,231 +3758,681 @@
      ],
      "rows": [
       [
-       "Chang-san Air Base barracks. Launch Operation Iron Citadel, then leave without finishing it",
-       "Critical / Extreme",
-       "PPSh-41 Manual in a duffel about 4 minutes in; Type 73 Manual in a blue duffel. Most-reported farm, but one player went 7 runs with nothing"
+       "X01 Audit Room safe (Main Warehouse top floor). Keycard from a jacket or Industrial Locker in the Supply Depot",
+       "X01",
+       "KG-7 Vulcan Manual, Gilded Medal of Absolute Loyalty (15,000), Gilded Maritime Relic (7,000) · Nov 7"
       ],
       [
-       "Prison Citadel yard at Chang-san: Tool Chest",
+       "X01 Deep Vault Room 406. Keycard was on the X01 Executive Room desk 3 runs out of 3",
        "Critical",
-       "M4 Manual (one report, COD Central)"
+       "SR-16 Bio Agent Sample loose on the lab table; 4 safes worth about 29,000 (R-4 Bio-Compounds, Animal Trial Records, Encrypted Archive) · Nov 7"
       ],
       [
-       "The moving train through Cheongun Outskirts (board from Imjin Farmland)",
-       "Not rated",
-       "Sang 9mm Manual in a blue duffel on a passenger seat"
+       "X01 Small Test Chamber safe (Tech Lab)",
+       "X01",
+       "Gold Bar, 2 Gilded Maritime Relics; Encrypted Archive loose · Nov 7"
       ],
       [
-       "Reactor 02, Haneul Reactor: decontaminate an Irradiated Container",
+       "Shopping DRC Locker under NuriGO Mall (key is random loot)",
+       "Medium–High",
+       "Patriot XMR and Rezi 12 Manuals in one opening, plus a Large Secure Backpack (15,000) · Nov 5"
+      ],
+      [
+       "Netshin Tech Complex floor 14, IT Room (key)",
+       "Extreme",
+       "Rezi 12 Manual, Power Regulator, Volatile Explosives, 5 intel items · Nov 5"
+      ],
+      [
+       "Netshin Tech Complex upper floor, Security Office rifle case (key)",
+       "Extreme",
+       "ISO Nightshade Manual · Nov 5"
+      ],
+      [
+       "Reactor DRC Locker, underwater in the Reactor 02 pool (key from Operation Fallen Ember)",
        "High",
-       "Kastov 762 and KG-7 Vulcan Manuals (one report each)"
+       "Warlord Manual, 3-Plate Ballistic Gel Vest, Large Secure Backpack · Nov 5"
       ],
       [
-       "Reactor 02 underwater DRC Locker (key from Operation Fallen Ember)",
-       "High",
-       "MAR-9 Manual (one source)"
+       "Air Base DRC Weapons Locker, Chang-san bunker armory (key is random loot)",
+       "Extreme",
+       "A Cronen Squall Manual (reported as \"Cronin\"), 3-Plate Helmet Armor Vest · Nov 5"
       ],
       [
-       "Cheonwang Peak Array, upstairs safe in the L-shaped building",
-       "Medium",
-       "PPSh-41 Manual"
+       "Prison Citadel yard, Tool Chest",
+       "Critical",
+       "M4 Manual, the only one reported · Nov 3–6"
       ],
       [
-       "Vault Armory under Heavenly Luck Casino (needs the Vault Armory key)",
-       "High",
-       "PPSh-41 Manual in the weapons locker"
-      ],
-      [
-       "Shopping DRC Locker under NuriGO Mall (needs its key)",
-       "Not rated",
-       "APOC-338 Manual, once"
-      ],
-      [
-       "Police Station armories (D2, C4, F4, H5, G7) and military Compounds",
-       "Low to Medium",
-       "Named as good odds, nothing specific"
-      ],
-      [
-       "Apartment B rooftop safe (key in Apartment A), Supreme Leader's Bunker at Chang-san (Iron Citadel access card), Casino Counting Room vault",
+       "Battle Tank (Imjin Farmland south of the silos, road south of the Casino, Songdo Wharf, north and east Grid)",
        "Varies",
-       "Named as Manual spots by one source"
+       "The only source of Nano-Structured Alloy. Loot the front and back of the hull and the top of the turret · Nov 7"
       ]
      ]
     },
     {
      "type": "p",
-     "text": "**Season 1 guns.** Unlocking a gun on the Battle Pass gives you its Manual, so you can buy it at the Gunsmith: Cronen Osprey (assault rifle) at tier 16 and CSG-35 (SMG) at tier 36, both on the free track. The JAK 12 shotgun and ZLR Talonhawk axe come from a Season 1 event that hasn't been named yet. Buying a store bundle with a gun's blueprint also gives you that gun's Manual. A blueprint works in DMZ until you die with it, then you can rebuy it at a discount."
-    },
-    {
-     "type": "p",
-     "text": "**BlackCell in DMZ:** each BlackCell blueprint unlocks its base gun at the Gunsmith; the FOB Vendor stocks an extra weapon and up to four pieces of Equipment; a daily reward at the DMZ Bunker (printer ingredients and the like) that doesn't stack, so claim it every 24 hours or lose it; and an Advanced Triage Kit survival kit when you buy it."
+     "text": "**Best containers for Manuals** (one guide's counts): Irradiated Container 16 out of 16, Elite Weapons Locker 3 out of 5, ordinary Weapons Locker about 1 in 22, Safe about 1 in 57, Filing Cabinet about 1 in 64."
     },
     {
      "type": "note",
-     "text": "Only one M4 Manual find has been reported: a Tool Chest in the Prison Citadel yard. Owning an M4 blueprint also unlocks it at the Gunsmith: BlackCell gives the Perimeter Lance M4 the moment you buy it (the Vault Edition includes BlackCell), and the Valkyrie Mastercraft Bundle has the Skyfall M4. Put a Manual in a Secure Slot the moment you pick it up. The unlock only goes to the player who extracts it, and a Manual can be handed to a squadmate during the match, so pass it to whoever needs that gun before exfil."
+     "text": "Found something good? Tell James where and what, and it goes in here for the whole squad."
     },
     {
      "type": "links",
      "links": [
       {
-       "title": "AllThingsHow",
-       "url": "https://allthings.how/?p=297369"
+       "title": "COD Central loot counts",
+       "url": "https://codcentral.net/blog/mw4-dmz-loot-data/"
       },
       {
-       "title": "GamingProMax",
-       "url": "https://gamingpromax.com/mw4-dmz-how-to-get-weapon-manuals/"
-      },
-      {
-       "title": "Skycoach",
-       "url": "https://skycoach.gg/blog/call-of-duty/articles/dmz-manuals-guide"
-      },
-      {
-       "title": "GamerFuzion, Reactor 02",
-       "url": "https://www.gamerfuzion.com/modern-warfare-4-dmz-reactor-02-decontaminate-irradiated-container-legendary-gear/"
-      },
-      {
-       "title": "PlayHub",
-       "url": "https://playhub.com/blog/call-of-duty/where-to-farm-manuals-in-modern-warfare-4-dmz-503148"
+       "title": "DMZ Map best loot",
+       "url": "https://dmzmap.com/guides/best-loot"
       }
      ]
     }
    ]
   },
   {
-   "id": "route",
-   "title": "Cheonwang Peak Array safe run",
-   "subtitle": "Medium threat, 3 safes",
+   "id": "manuals",
+   "title": "Weapon Manual spots",
+   "subtitle": "By gun · Nov 8, 2026",
    "blocks": [
-    {
-     "type": "steps",
-     "items": [
-      "**Safe 1.** Small office in the low grey building with the green door.",
-      "**Safe 2.** 4th floor of the server building (blue-and-white stairs). Search each server blade separately for CPUs, Comms Modules and Power Regulators.",
-      "**Safe 3.** Upstairs in the L-shaped building. This is the safe that has given a PPSh-41 Manual."
-     ]
-    },
     {
      "type": "p",
-     "text": "One recorded run pulled a Shopping DRC Locker key and a PPSh-41 Manual and exfilled with 47,700 in gear plus 8,250 banked."
-    }
-   ]
-  },
-  {
-   "id": "ingredients",
-   "title": "Ingredient search leads",
-   "subtitle": "Where to look, not guaranteed",
-   "blocks": [
+     "text": "In loot they show up named **MANUAL:** plus the gun. Only the player who extracts it gets the unlock, but you can hand one to a squadmate before exfil. Put it in a Secure Slot the moment you grab it."
+    },
     {
      "type": "table",
      "headers": [
-      "Item",
-      "Where to look"
+      "Gun",
+      "Where it's been found",
+      "Threat"
      ],
      "rows": [
       [
-       "Air Base DRC Weapons Locker",
-       "Locker is deep in the Chang-san bunker"
+       "M4",
+       "Tool Chest in the Prison Citadel yard (1 report)",
+       "Critical"
       ],
       [
-       "Binding Catalyst",
-       "Mirae General Hospital, medical tents; 2 at DMZ Level 49"
+       "Patriot XMR",
+       "Shopping DRC Locker under NuriGO Mall (1 report)",
+       "Medium–High"
       ],
       [
-       "Biomaterials",
-       "Hospitals, chemical lockers"
+       "Rezi 12",
+       "Netshin floor 14 IT Room weapons locker; Shopping DRC Locker",
+       "Extreme / Medium–High"
       ],
       [
-       "CPU",
-       "Server rooms at Nenshin Tech and Cheonwang Peak Array; crashed large-drone Side Op panel"
+       "ISO Nightshade",
+       "Netshin Security Office rifle case (1 report)",
+       "Extreme"
       ],
       [
-       "Comms Module",
-       "Server rooms at Nenshin Tech and Cheonwang Peak Array; crashed large-drone Side Op panel"
+       "Warlord",
+       "Reactor DRC Locker in the Reactor 02 pool (1 report)",
+       "High"
       ],
       [
-       "Control Units",
-       "Computers, tech bags"
+       "Cronen Squall",
+       "Air Base DRC Weapons Locker, Chang-san bunker (1 report, written as \"Cronin\")",
+       "Extreme"
       ],
       [
-       "Electronic Sensors",
-       "Tech bags, shops; grey IT bag in the Cheongun Village holding-cell building"
+       "KG-7 Vulcan",
+       "X01 Audit Room safe (1 report)",
+       "X01"
       ],
       [
-       "Gold Bar",
-       "Silent Ledger reward; sells for 25,000"
+       ".50 GS",
+       "Footlocker upstairs in the Coin Mining Den, NuriGO West; key from Operation Shopping Hacks (1 report)",
+       "Not rated"
       ],
       [
-       "High-Tenacity Fibers",
-       "Colossus drops; blue duffel in a Hajin City barber shop"
+       "FiNN LMG",
+       "Rail Depot Storage, Cheongun Village station basement (1 report)",
+       "Low"
       ],
       [
-       "Infantry Invasion Plans",
-       "Compound Charlie and Delta safes, Signal Breaker"
+       "VEL 46",
+       "Military Locker, Deadtown Re-Education Center (1 report)",
+       "Not rated"
       ],
       [
+       "Type 73",
+       "Blue duffel in the Chang-san barracks during Iron Citadel; filing cabinet at Cheonwang Peak Array",
+       "Critical / Medium"
+      ],
+      [
+       "PPSh-41",
+       "Duffel in the Chang-san barracks during Iron Citadel; Vault Armory weapons locker under the Casino (one player called it a blueprint)",
+       "Critical / High"
+      ],
+      [
+       "APOC-338",
+       "Shopping DRC Locker under NuriGO Mall",
+       "Medium–High"
+      ],
+      [
+       "Kastov 762",
+       "Irradiated Container (decontaminate it at Reactor 02)",
+       "High"
+      ],
+      [
+       "JOKR",
        "Irradiated Container",
-       "Decontaminate one at Reactor 02 to open it"
+       "High"
       ],
       [
-       "Military Composites",
-       "Colossus (unconfirmed)"
+       "RPG-8",
+       "Weapons Locker in the Iron Citadel armory, Chang-san bunker (1 report)",
+       "Extreme"
       ],
       [
-       "Nano-Structured Alloy",
-       "Tank (unconfirmed)"
-      ],
-      [
-       "Nylon Cloth",
-       "Citadel wings, Deadtown underground holding, Mujin Nightclub"
-      ],
-      [
-       "Power Regulator",
-       "Server blades in the Cheonwang Peak Array server building (4th floor)"
-      ],
-      [
-       "Prototype RF Module",
-       "Seen from Deathstalker"
-      ],
-      [
-       "Reactive Metals",
-       "Industrial areas, toolboxes; 2 at DMZ Level 11"
-      ],
-      [
-       "Reactor DRC Locker",
-       "Key comes from Operation Fallen Ember"
-      ],
-      [
-       "Regional Combat Notes",
-       "Care packages, Compound Bravo safe, Special Delivery crate"
-      ],
-      [
-       "Rigid Synthetics",
-       "2 at DMZ Level 6"
-      ],
-      [
-       "SR-16 Bio Agent Sample",
-       "X01 only (Season 1)"
-      ],
-      [
-       "Shopping DRC Locker",
-       "Key turned up once in a Cheonwang Peak Array safe"
-      ],
-      [
-       "Specter Fabric Sample",
-       "X01 only (Season 1)"
+       "Sang 9mm",
+       "Blue duffel on a seat of the train through Cheongun Outskirts (1 report)",
+       "Not rated"
       ]
      ]
     },
     {
      "type": "p",
-     "text": "After Uncommon Ingredient Printing, Reactive Metals, Rigid Synthetics, Biomaterials, Control Units, Electronic Sensors and Detonators each print from 20 + 20 basic resources. Pin a recipe at the printer and its ingredients get a pin icon when you loot them."
+     "text": "**Best farm so far:** launch Operation Iron Citadel, loot the Chang-san Air Base barracks and the three houses there, then leave without finishing it. One guide got Manuals almost every run."
+    },
+    {
+     "type": "p",
+     "text": "**Season 1 guns:** unlocking one on the Battle Pass gives you its Manual: Cronen Osprey (assault rifle) at tier 16, CSG-35 (SMG) at tier 36, both free. Owning a blueprint from BlackCell, a store bundle or the Vault Edition also unlocks the base gun, which is how the M4 comes with BlackCell (Perimeter Lance)."
+    },
+    {
+     "type": "note",
+     "text": "No spot reported yet for: Han 86, Hyeon Burst, Oden, Axion, X-58 Nyx, Oris 8.6, Mosin-Nagant, Signal .50, Astaroth .57, Krait P68, Mojave .357."
+    },
+    {
+     "type": "links",
+     "links": [
+      {
+       "title": "COD Central, Weapon Manuals",
+       "url": "https://codcentral.net/blog/mw4-dmz-weapon-manuals/"
+      },
+      {
+       "title": "COD Central, Irradiated Container",
+       "url": "https://codcentral.net/blog/mw4-dmz-irradiated-container/"
+      }
+     ]
     }
    ]
   },
   {
-   "id": "money",
-   "title": "Making money",
-   "subtitle": "What pays, and the Bank caps",
+   "id": "recipes",
+   "title": "Recipe drop spots",
+   "subtitle": "Where printer recipes have turned up",
+   "blocks": [
+    {
+     "type": "table",
+     "headers": [
+      "Recipe",
+      "Where it's been found",
+      "Threat"
+     ],
+     "rows": [
+      [
+       "Zip Gun",
+       "Blue duffel in the Chang-san barracks (Iron Citadel); Counting Room Vault weapons locker in the Casino; upstairs cache at the Cheongun Village fire station",
+       "Critical / High / Low"
+      ],
+      [
+       "Combat Drone",
+       "Green footlocker in the Chang-san barracks (Iron Citadel)",
+       "Critical"
+      ],
+      [
+       "Pain Killers, Energy Drink, Drill Charge",
+       "Mirrored medicine cabinets over the sinks in the Chang-san barracks washroom",
+       "Critical"
+      ],
+      [
+       "Screamer Mine",
+       "Lucera Suite 703 bedroom weapons locker (Hotel Lucera); Hanwoori Art Records Room in The Grid",
+       "Critical"
+      ],
+      [
+       "Stim",
+       "Hanwoori Art Records Room in The Grid",
+       "Critical"
+      ],
+      [
+       "Impact Warhead",
+       "Cache in the Hoesik Supply Room by the Rice Mill (key)",
+       "Medium"
+      ],
+      [
+       "Smelling Salts",
+       "Chemical Storage in the Reactor 02 Control Room",
+       "High"
+      ],
+      [
+       "Tempered Armor Vest",
+       "The Doctor's crate in his Command Office, Mirae Hospital floor 7 (key drops from The Doctor)",
+       "Low"
+      ],
+      [
+       "2-Plate Ballistic Gel Vest",
+       "Grey filing cabinet in a small Casino office",
+       "High"
+      ],
+      [
+       "2-Plate Helmet Armor Vest",
+       "Roof crates by the SAM site at Compound Echo",
+       "Medium"
+      ],
+      [
+       "Large Scavenger Backpack",
+       "First aid kit on a pillar in the fire station garage, North Korean Wilderness",
+       "Not rated"
+      ],
+      [
+       "Advanced UAV",
+       "Armory locker in the Iron Citadel bunker",
+       "Extreme"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "**By container** (no spot given): Trophy System in filing cabinets and tool chests; Claymore in tool boxes and safes; Heartbeat Sensor in duffels and tool boxes; Stim in safes, caches and luggage; 2-Plate Helmet Armor Vest came from a safe 6 times out of 7."
+    },
+    {
+     "type": "links",
+     "links": [
+      {
+       "title": "COD Central recipes",
+       "url": "https://codcentral.net/blog/mw4-dmz-3d-printer-recipes/"
+      },
+      {
+       "title": "All Things How, barracks loot",
+       "url": "https://allthings.how/?p=297369"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ingredients",
+   "title": "Rare ingredients and Bank intel",
+   "subtitle": "Farm spots for the hard ones",
+   "blocks": [
+    {
+     "type": "table",
+     "headers": [
+      "Legendary ingredient",
+      "Drops from"
+     ],
+     "rows": [
+      [
+       "Military Composites",
+       "The Colossus (Citadel, North Korean woods, Chang-san bunker)"
+      ],
+      [
+       "Prototype RF Module",
+       "The Deathstalker (over NuriGO Mall and The Grid)"
+      ],
+      [
+       "Nano-Structured Alloy",
+       "Destroyed Battle Tank only"
+      ],
+      [
+       "Experimental Compounds",
+       "Sometimes on Commanders"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "**Or print them in X01.** The X01 3D Printer (north side, past Production Assembly) makes all four: Experimental Compounds 2 Volatile Explosives + 5 Binding Catalyst · Military Composites 2 Nylon Laminate + 5 Nylon Cloth · Nano-Structured Alloy 2 Turned Components + 5 Structural Alloy · Prototype RF Module 2 Power Regulator + 5 CPU."
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Ingredient",
+      "Reported spots"
+     ],
+     "rows": [
+      [
+       "Power Regulator",
+       "Netshin IT Room, Hanex Guard Station (loose), Hanwoori Art Records Room, Cheonwang Peak Array server racks"
+      ],
+      [
+       "Turned Components",
+       "Industrial lockers in the North Korean Wilderness; Police Weapon Depository at Wolves Stadium; hidden cache in the Construction Zone during Special Delivery"
+      ],
+      [
+       "Alloyed Plating",
+       "Bubun Yard tool chest; Commandant Office weapons locker; Vault Armory; X01 Maintenance Room"
+      ],
+      [
+       "Stabilized Reagents",
+       "Vault Armory under the Casino"
+      ],
+      [
+       "Volatile Explosives",
+       "Hidden cache on Oamsik Turtle Island; Netshin IT Room"
+      ],
+      [
+       "Ballistic Fabric",
+       "Shop Records Room; X01 Executive Room; Irradiated Containers"
+      ],
+      [
+       "Nylon Laminate",
+       "Commandant Office military locker; Hoesik Supply Room shelf by the door"
+      ],
+      [
+       "Comms Module",
+       "Police Weapon Depository server blade; Gangbyeon Apartment B; X01 Maintenance Room"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "**Gold Bars and Gold Skulls come from safes.** All 42 in one count did. Best odds: Compound Alpha (7 from 33 safes), Wolves Stadium (about 1 in 8). Safe run: Compounds Echo, Bravo, Alpha, Charlie, Foxtrot. Guaranteed ones: first clear of Operation Silent Ledger gives 1 Gold Bar, Orders page 24 gives 2."
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Bank intel item",
+      "Where to look"
+     ],
+     "rows": [
+      [
+       "Sanctioned Assassination List",
+       "South Block Armory in the Citadel; the western bunkers; Military Lockers"
+      ],
+      [
+       "Foreign Intelligence Targets",
+       "Mirae Hospital Electrical Room (B2) server blade; Gaming Computers (about 1 in 18)"
+      ],
+      [
+       "W.M.D Manifest",
+       "Gangbyeon Apartment B (2 at once); Executive Arms Auction in DBN HQ; the western bunkers; Irradiated Containers"
+      ],
+      [
+       "Nuclear Program Files",
+       "Vault Armory; Utility Maintenance Storage; Reactor 02 Control Room computer; Coin Mining Den; both DRC Lockers"
+      ],
+      [
+       "Encrypted Archive",
+       "X01 Deep Vault 406 and Small Test Chamber; Counting Room Vault; Air Base DRC Locker"
+      ],
+      [
+       "Degraded Execution Footage",
+       "Gangbyeon Apartment B (3), Hoesik Supply Room (2), Mirae Electrical Room (2)"
+      ],
+      [
+       "Regional Combat Notes",
+       "Compound Delta (about 1 in 5); Hanex Bank and Cheonwang Peak Array (about 1 in 8); Hanex Guard Station"
+      ],
+      [
+       "Infantry Invasion Plans, Ballistic Flight Logs",
+       "Almost every key room; Bank Branch Vault gave 2 of each"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "After Uncommon Ingredient Printing, Reactive Metals, Rigid Synthetics, Biomaterials, Control Units, Electronic Sensors and Detonators each print from 20 + 20 basic resources."
+    },
+    {
+     "type": "links",
+     "links": [
+      {
+       "title": "COD Central ingredients",
+       "url": "https://codcentral.net/blog/mw4-dmz-ingredient-locations/"
+      },
+      {
+       "title": "COD Central gold",
+       "url": "https://codcentral.net/blog/mw4-dmz-gold-bar-gold-skull/"
+      },
+      {
+       "title": "Game Rant, X01 legendary printing",
+       "url": "https://gamerant.com/mw4-dmz-legendary-materials-x01-3d-printer-location/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "keys",
+   "title": "Keys, vaults and safes",
+   "subtitle": "Worth running, and what was inside",
+   "blocks": [
+    {
+     "type": "table",
+     "headers": [
+      "Key",
+      "Where the key comes from",
+      "What's been inside",
+      "Threat"
+     ],
+     "rows": [
+      [
+       "Shopping DRC Locker",
+       "Random loot (one came from a Cheonwang Peak Array safe)",
+       "APOC-338, Patriot XMR, Rezi 12 Manuals; Large Secure Backpack",
+       "Medium–High"
+      ],
+      [
+       "Reactor DRC Locker",
+       "Operation Fallen Ember reward",
+       "Warlord Manual, 3-Plate Ballistic Gel Vest, Large Secure Backpack",
+       "High"
+      ],
+      [
+       "Air Base DRC Weapons Locker",
+       "Random loot (one in a duffel at Imjin Farmland)",
+       "Cronen Squall Manual, 3-Plate Helmet Armor Vest",
+       "Extreme"
+      ],
+      [
+       "Netshin IT Room",
+       "Apartment lockers or random loot",
+       "Rezi 12 Manual, Power Regulator, Volatile Explosives, 5 intel items",
+       "Extreme"
+      ],
+      [
+       "Counting Room Vault",
+       "Operation Silent Ledger; industrial locker on the Rice Mill catwalk; Haksan School armory",
+       "Zip Gun recipe, Gold Skull",
+       "High"
+      ],
+      [
+       "Vault Armory",
+       "Casino carpet, Songdo Wharf duffel, Irradiated Container, Prison Encampment Storage",
+       "Cipher Code Ledger, Stabilized Reagents, Alloyed Plating, Nuclear Program Files",
+       "High"
+      ],
+      [
+       "South Block Armory",
+       "Counter in the Citadel Main Control Room (needs its own key)",
+       "Gold Skull, Sanctioned Assassination List, a recipe",
+       "Critical"
+      ],
+      [
+       "Bank Branch Vault Access",
+       "Teller counter at the Wolves branch, or the floor behind the teller windows in Cheongun",
+       "Cipher Code Ledger, 8 intel items, once a Gold Skull",
+       "Medium"
+      ],
+      [
+       "Gangbyeon Apartment B",
+       "Bookshelf or desk in a Compound Echo apartment",
+       "2 W.M.D Manifests, Comms Module, Prison Encampment key",
+       "Medium"
+      ],
+      [
+       "Hanex Guard Station",
+       "Random loot",
+       "Power Regulator, Cipher Code Ledger, a Legendary Warlord",
+       "Extreme"
+      ],
+      [
+       "Coin Mining Den",
+       "Operation Shopping Hacks reward",
+       ".50 GS Manual, 6 CPUs, Nuclear Program Files",
+       "Not rated"
+      ],
+      [
+       "The Doctor's Command Office",
+       "The Doctor (not every kill)",
+       "Tempered Armor Vest recipe",
+       "Low"
+      ],
+      [
+       "Gorani's Scout Overlook",
+       "Lieutenant Gorani at Mujin Pass",
+       "Legendary \"Incisor\" rifle, UAV",
+       "Not rated"
+      ],
+      [
+       "Old Barber Shop",
+       "Random loot",
+       "Cipher Code Ledger, Legendary Revive Pistol, Commandant Office key",
+       "Low"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Also: the Mechanic's Shack key has turned up in a green military locker on the train, and the Hazard Storehouse key on an enemy operator at the Cheongun Outskirts gas station."
+    },
+    {
+     "type": "links",
+     "links": [
+      {
+       "title": "DMZ Map keys",
+       "url": "https://dmzmap.com/keys/shopping-drc-locker"
+      },
+      {
+       "title": "COD Central keys",
+       "url": "https://codcentral.net/blog/mw4-dmz-netshin-it-room-key/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "x01",
+   "title": "X01 loot",
+   "subtitle": "Season 1 black site",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "**Getting in and out.** The entrance is a facility on the edge of Hajin near the northern border: hit the gate switch, then take the elevator with your whole squad inside. Exfils close as the match goes on, so finish the steps inside to get out. Ghost is your Watcher in there."
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Room",
+      "Keycard",
+      "What's been inside"
+     ],
+     "rows": [
+      [
+       "Deep Vault 406",
+       "On the Executive Room desk (3 runs out of 3)",
+       "SR-16 Bio Agent Sample loose on the lab table; 4 safes, about 29,000"
+      ],
+      [
+       "Executive Room (Admin Offices, 2nd floor)",
+       "Encode \"Executive Access\" at a Keycard Encoder (Supply Depot or Data Center)",
+       "Weapons Grade Isotope (12,000), R-4 Bio-Compound, Ballistic Fabric, plus the 406 and Maintenance Room cards in a jacket"
+      ],
+      [
+       "Audit Room (Main Warehouse top floor)",
+       "Jacket or Industrial Locker in the Supply Depot, Bio Lab jacket, Admin surveillance room",
+       "KG-7 Vulcan Manual, Gilded Medal (15,000), Gilded Maritime Relic (7,000)"
+      ],
+      [
+       "Small Test Chamber (Tech Lab)",
+       "Not stated",
+       "Gold Bar, 2 Gilded Maritime Relics, Encrypted Archive"
+      ],
+      [
+       "Maintenance Room (top of Production Assembly)",
+       "Encode \"Maintenance Access\" or the Executive Room jacket",
+       "Alloyed Plating, Comms Module, Encrypted Archive"
+      ],
+      [
+       "Deep Vault 106",
+       "Enemy operator in a Data Center stairwell",
+       "Legendary Rezi 12, Wz. 55 Striga, intel"
+      ],
+      [
+       "Deep Vault 301",
+       "Random; The Captain usually drops it",
+       "Animal Trial Records, Han 86, Regional Combat Notes"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Boss",
+      "Where, and what it drops"
+     ],
+     "rows": [
+      [
+       "The Captain",
+       "Main Warehouse and Logistics Tunnel. Deep Vault keycard (usually 301) and helmet pieces for the Threat Briefing, paid on exfil"
+      ],
+      [
+       "Wheelson",
+       "Logistics Tunnel. Remote Module that opens the emergency exfil gate in the Power Generators"
+      ],
+      [
+       "Knuckle",
+       "Dark server room in the Data Center. Rezi 12, Dog Tags, backpack"
+      ],
+      [
+       "The Wrench",
+       "Motor Pool. Type 73 and a backpack that usually has a killstreak and a vest"
+      ],
+      [
+       "Blix",
+       "Deep Vault only, not every match. Rezi 12 and a backpack that usually has a keycard"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "**Samples for the X01 printer recipes:** SR-16 Bio Agent Sample is on the lab table in Deep Vault 406. Nobody has reported where the Specter Fabric Sample spawns yet."
+    },
+    {
+     "type": "p",
+     "text": "**Resupply Run** (Season 1 event): find set items at points of interest and trade them for Self-Revive Kits and 3-Plate Carriers. Which items and where you trade haven't been reported, and it may not be live yet."
+    },
+    {
+     "type": "links",
+     "links": [
+      {
+       "title": "DMZ Map X01",
+       "url": "https://dmzmap.com/x01"
+      },
+      {
+       "title": "COD Central, Deep Vault 406",
+       "url": "https://codcentral.net/blog/mw4-dmz-x01-deep-vault-406-keycard/"
+      },
+      {
+       "title": "Game Rant, Deep Vault",
+       "url": "https://gamerant.com/mw4-dmz-x01-unlock-deep-vault/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "reference",
+   "title": "Quick reference",
+   "subtitle": "Cash, Bank caps, levels",
    "blocks": [
     {
      "type": "table",
@@ -3992,334 +4442,57 @@
      ],
      "rows": [
       [
-       "Dynamic Operation",
-       "10,000–20,000 since Oct 30 (5,000–10,000 at launch). Paid straight to the Bank, so you keep it even if you die later"
+       "Dynamic Op",
+       "10,000–20,000, straight to the Bank"
       ],
       [
-       "DMZ Order page",
-       "20,000 on most pages, plus items like recipes, Rescue Beacons, Insurance Contracts"
+       "Orders page",
+       "20,000 on most pages"
       ],
       [
-       "Story Mission",
-       "25,000 listed in the menu (early reports showed 5,000). Mission steps pay 500 each since Oct 30 (was 300)"
+       "Side Op",
+       "2,000"
       ],
       [
-       "Side Ops",
-       "2,000 since Oct 30 (was 500)"
+       "Mission step",
+       "500"
       ],
       [
        "Lieutenant",
-       "10,000 for your first kill of each; community reports add 25,000 per extracted tag"
+       "10,000 first kill each"
       ],
       [
-       "Commander (Deathstalker, Tank)",
-       "50,000 first kill each (community-reported)"
+       "Commander",
+       "50,000 first kill each"
       ],
       [
-       "Weapon Manual or Recipe",
-       "5,000 each on extract, plus the permanent unlock"
+       "Manual or recipe",
+       "5,000 on extract"
       ],
       [
        "Gold Bar",
-       "25,000 to sell, but Stash Weapon III and Bank X and XII need them"
-      ],
-      [
-       "Player bounty",
-       "Their bounty, only if you extract their Dog Tag"
+       "25,000 to sell (Stash Weapon III and Bank X and XII need them)"
       ]
      ]
     },
     {
      "type": "p",
-     "text": "**Bank caps.** Cash over the cap is thrown away. Start 100,000 · I 250,000 · II 500,000 · III 1M · IV 2M · V 5M · VI 10M · VII 25M · VIII 50M · IX 100M · X 250M · XI 500M · XII 1B · XIII 2B."
-    },
-    {
-     "type": "links",
-     "links": [
-      {
-       "title": "Launch patch notes",
-       "url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "gunsmith",
-   "title": "Gunsmith costs",
-   "subtitle": "Slots, attachments, Apex, discounts",
-   "blocks": [
-    {
-     "type": "p",
-     "text": "You pay per copy: base gun, each slot, then each attachment. Lose the gun and all of it goes with it, so most guns should come out of Hajin for free."
-    },
-    {
-     "type": "kv",
-     "rows": [
-      [
-       "1",
-       "Slot 1 · 1,000"
-      ],
-      [
-       "2",
-       "Slot 2 · 5,000"
-      ],
-      [
-       "3",
-       "Slot 3 · about 10,000"
-      ],
-      [
-       "4",
-       "Slot 4 · 25,000"
-      ],
-      [
-       "5",
-       "Slot 5 · about 50,000"
-      ]
-     ]
+     "text": "**Bank caps:** Start 100,000 · I 250,000 · II 500,000 · III 1M · IV 2M · V 5M · VI 10M · VII 25M · VIII 50M · IX 100M · X 250M · XI 500M · XII 1B · XIII 2B. Cash over the cap is lost."
     },
     {
      "type": "p",
-     "text": "Suppressors and drum mags run about 9,500 to 15,000 each; the MEIKO 30CAL-SP at 9,500 is the cheapest suppressor. Discounts: 5% at DMZ Level 25 and 5% from Gunsmith I (stacking unconfirmed). Slots 3 to 5 come from guides other than DMZ Codex."
-    },
-    {
-     "type": "p",
-     "text": "**Apex** is the attachment a gun unlocks at max weapon level. It changes how the gun works, doesn't use one of the five slots, and goes on free in DMZ. Weapon levels are shared with Multiplayer and Warzone."
-    },
-    {
-     "type": "links",
-     "links": [
-      {
-       "title": "Official weapons guide",
-       "url": "https://www.callofduty.com/guides/mw4/open-beta-weapons"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "levels",
-   "title": "DMZ level milestones",
-   "subtitle": "The ones that change how you play",
-   "blocks": [
-    {
-     "type": "kv",
-     "rows": [
-      [
-       "2",
-       "3D Printer"
-      ],
-      [
-       "5",
-       "Vendor"
-      ],
-      [
-       "10",
-       "Gunsmith"
-      ],
-      [
-       "13",
-       "One-off UAV item (the UAV recipe is at 31)"
-      ],
-      [
-       "15",
-       "Third Operator slot"
-      ],
-      [
-       "20",
-       "Dog Tag Case"
-      ],
-      [
-       "22",
-       "+18 item stash slots"
-      ],
-      [
-       "25",
-       "5% Gunsmith discount"
-      ],
-      [
-       "26",
-       "Gas Mask recipe"
-      ],
-      [
-       "28",
-       "Fire Support tab, Care Package recipe"
-      ],
-      [
-       "34",
-       "Large Backpack (one-time)"
-      ],
-      [
-       "35",
-       "+6 weapon stash slots"
-      ],
-      [
-       "37",
-       "3-Plate vest (one-time; still missing for some players past 37)"
-      ],
-      [
-       "45",
-       "+18 item stash slots"
-      ],
-      [
-       "48",
-       "Self-Revive Kit recipe"
-      ],
-      [
-       "55",
-       "Disposable Parachute recipe"
-      ],
-      [
-       "60",
-       "+6 weapon stash slots"
-      ],
-      [
-       "61",
-       "Medium Weapon Backpack"
-      ],
-      [
-       "69",
-       "Reusable Parachute"
-      ],
-      [
-       "70",
-       "+18 slots, Advanced SERE Kit (Rescue Beacons, Insurance Contracts)"
-      ]
-     ]
-    },
-    {
-     "type": "links",
-     "links": [
-      {
-       "title": "Official progression blog",
-       "url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-ready-for-launch-progression-prestige"
-      },
-      {
-       "title": "CODMunity level table",
-       "url": "https://codmunity.gg/dmz/progression"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "prestige",
-   "title": "Operator Prestige",
-   "subtitle": "What it costs and what it doesn't touch",
-   "blocks": [
-    {
-     "type": "p",
-     "text": "Needs 18 Trait Points earned, the Operator on Active Duty and not MIA. Each Prestige resets that Operator's traits and gives one random permanent trait (max 3; from Prestige 4 you can swap one)."
-    },
-    {
-     "type": "table",
-     "headers": [
-      "Prestige",
-      "Bank cash",
-      "Gear it consumes"
-     ],
-     "rows": [
-      [
-       "1st",
-       "200,000",
-       "2 guns with 3 attachment slots, Rare+ vest and backpack, 4 Rare+ ingredients"
-      ],
-      [
-       "2nd",
-       "300,000",
-       "2 guns with 4 slots, Epic vest and backpack, 4 Epic ingredients"
-      ],
-      [
-       "3rd+",
-       "500,000",
-       "2 guns with 4 slots, Legendary vest and backpack, 4 Legendary ingredients"
-      ]
-     ]
-    },
-    {
-     "type": "p",
-     "text": "Everything else in that Operator's loadout and backpack is lost too, and one report says Secure Slots don't protect anything, so stash keepers first. It's separate from your 1–70 DMZ level; FOB upgrades, recipes and Manuals stay unlocked. There's no DMZ-level prestige after 70."
-    },
-    {
-     "type": "links",
-     "links": [
-      {
-       "title": "Official DMZ deep dive, part 2",
-       "url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-dmz-how-to-play-forward-operating-base-guide"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "map",
-   "title": "Threat by area and map key",
-   "subtitle": "Low to Extreme",
-   "blocks": [
-    {
-     "type": "table",
-     "headers": [
-      "Threat",
-      "Areas"
-     ],
-     "rows": [
-      [
-       "Low",
-       "Cheongun Village (incl. Russian Border Crossing), Mirae General Hospital, Songdo Wharf, Imjin Farmland exterior, Deadtown outskirts"
-      ],
-      [
-       "Medium",
-       "Cheonwang Peak Array, Wolves Stadium, Hajin River Heights, Imjin Rice Mill, Deadtown Re-Education Center, NuriGO East"
-      ],
-      [
-       "High",
-       "Haneul Nuclear Reactor, NuriGO West, Heavenly Luck Casino, 14th Political Prison"
-      ],
-      [
-       "Critical",
-       "The Grid (DBN HQ, Hanex Bank, Minsok Art School, Construction Zone), Prison Citadel, Chang-san exterior"
-      ],
-      [
-       "Extreme",
-       "Chang-san Bunker, Nenshin Tech Complex"
-      ]
-     ]
-    },
-    {
-     "type": "p",
-     "text": "**Grid squares** run letters west to east, numbers north to south. Police Stations: D2, C4, F4, H5, G7. Compounds: Foxtrot B4, Charlie D4, Alpha E7, Bravo F8, Echo G7, Delta H4."
-    },
-    {
-     "type": "p",
-     "text": "**X01 (Season 1).** An underground GRANIT Arms black site under northwest Hajin, near the northern border. Hit the gate switch at the facility, then take the elevator with your whole squad inside it. No key or level needed. Exfils close as the match goes on, so you have to finish its steps inside to get out. Ghost is your Watcher inside, and it has its own Orders pages and its own 3D Printer. The X01 printer recipes are on the Crafting tab under X01 Printer (from one source). It also prints Experimental Compounds (2 Volatile Explosives + 5 Binding Catalyst) and Nano-Structured Alloy (2 Turned Components + 5 Structural Alloy)."
-    },
-    {
-     "type": "p",
-     "text": "**Season 1 Threat Briefings:** The Captain, a new Commander in X01; take pieces of his helmet, and more pieces mean better rewards, but only if you exfil with them. In Hajin, take parts off a North Korean battle tank, one per deployment; rewards grow with more parts across deployments."
-    },
-    {
-     "type": "p",
-     "text": "**Also new in Season 1:** Resupply Run trades items from points of interest for Self-Revive Kits and 3-Plate Carriers (rates not published yet), and the FOB Vendor sells more weapons and gear for DMZ Cash, with extra stock for Season 1 BlackCell owners."
-    },
-    {
-     "type": "links",
-     "links": [
-      {
-       "title": "Season 1 patch notes",
-       "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes"
-      }
-     ]
+     "text": "**Levels that matter:** 10 Gunsmith · 15 third Operator · 25 Gunsmith 5% off · 37 3-Plate vest · 48 Self-Revive Kit recipe · 55 Disposable Parachute · 70 +18 item slots. Police Stations: D2, C4, F4, H5, G7. Compounds: Foxtrot B4, Charlie D4, Alpha E7, Bravo F8, Echo G7, Delta H4."
     }
    ]
   },
   {
    "id": "sources",
-   "title": "Where the numbers come from",
-   "subtitle": "Re-checked Nov 7, 2026",
+   "title": "Where this comes from",
+   "subtitle": "Re-checked Nov 8, 2026",
    "blocks": [
     {
      "type": "p",
-     "text": "Upgrade costs, recipes and gun prices come from fan sites and community reports, re-checked Nov 7, 2026. Bank VIII–XIII match across two sources. Season 1 (Nov 5 patch notes) says FOB vendors, recipes and assembly requirements were updated but doesn't list the changes, so recipe and upgrade costs here are from before Season 1. When the printer or Gunsmith disagrees with this app, trust the game."
+     "text": "Loot spots, costs and prices come from fan sites and player reports, re-checked Nov 8, 2026. Season 1 says recipes and upgrade costs changed but hasn't listed the changes, so printer costs are from before Season 1. When the game disagrees with this app, trust the game and tell James."
     },
     {
      "type": "p",
@@ -4329,16 +4502,16 @@
      "type": "links",
      "links": [
       {
+       "title": "COD Central",
+       "url": "https://codcentral.net/blog/mw4-dmz-weapon-manuals/"
+      },
+      {
+       "title": "DMZ Map",
+       "url": "https://dmzmap.com/x01"
+      },
+      {
        "title": "GG Ranked upgrades",
        "url": "https://ggranked.com/games/call-of-duty-modern-warfare-4/modes/dmz/database/recipes?category=upgrades"
-      },
-      {
-       "title": "DMZTracker FOB upgrades",
-       "url": "https://dmztracker.gg/guides/fob-upgrades/"
-      },
-      {
-       "title": "Detonated, FOB upgrades",
-       "url": "https://detonated.com/which-items-should-you-keep-in-dmz-all-fob-upgrades-list/"
       },
       {
        "title": "DMZ Radar upgrades",
