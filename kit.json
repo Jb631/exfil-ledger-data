@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "rev": 2026110703,
+ "rev": 2026110704,
  "asOf": "Nov 7, 2026",
  "notice": "Season 1: the game says printer recipes and upgrade costs changed but hasn't said which. If something here doesn't match your printer, tell James.",
  "mapURL": "https://github.com/Jb631/exfil-ledger-data/blob/main/MAP.md",
@@ -26,7 +26,7 @@
    "cls": "Assault Rifles",
    "price": 6250,
    "tag": "seen",
-   "note": "No Manual drop reported; owning an M4 blueprint unlocks it (BlackCell, incl. Vault Edition: Perimeter Lance; Valkyrie bundle: Skyfall)",
+   "note": "One Manual report: Tool Chest, Prison Citadel yard. An M4 blueprint also unlocks it (BlackCell/Vault Edition, Valkyrie bundle)",
    "approx": false
   },
   {
@@ -3743,7 +3743,7 @@
   {
    "id": "manuals",
    "title": "Where Weapon Manuals drop",
-   "subtitle": "Reported spots, no M4 yet",
+   "subtitle": "Reported spots, now one M4",
    "blocks": [
     {
      "type": "p",
@@ -3761,6 +3761,11 @@
        "Chang-san Air Base barracks. Launch Operation Iron Citadel, then leave without finishing it",
        "Critical / Extreme",
        "PPSh-41 Manual in a duffel about 4 minutes in; Type 73 Manual in a blue duffel. Most-reported farm, but one player went 7 runs with nothing"
+      ],
+      [
+       "Prison Citadel yard at Chang-san: Tool Chest",
+       "Critical",
+       "M4 Manual (one report, COD Central)"
       ],
       [
        "The moving train through Cheongun Outskirts (board from Imjin Farmland)",
@@ -3814,7 +3819,7 @@
     },
     {
      "type": "note",
-     "text": "No M4 Manual location has been reported anywhere yet, but owning an M4 blueprint now unlocks it at the Gunsmith: BlackCell gives the Perimeter Lance M4 the moment you buy it (the Vault Edition includes BlackCell), and the Valkyrie Mastercraft Bundle has the Skyfall M4. Put a Manual in a Secure Slot the moment you pick it up. The unlock only goes to the player who extracts it, and a Manual can be handed to a squadmate during the match, so pass it to whoever needs that gun before exfil."
+     "text": "Only one M4 Manual find has been reported: a Tool Chest in the Prison Citadel yard. Owning an M4 blueprint also unlocks it at the Gunsmith: BlackCell gives the Perimeter Lance M4 the moment you buy it (the Vault Edition includes BlackCell), and the Valkyrie Mastercraft Bundle has the Skyfall M4. Put a Manual in a Secure Slot the moment you pick it up. The unlock only goes to the player who extracts it, and a Manual can be handed to a squadmate during the match, so pass it to whoever needs that gun before exfil."
     },
     {
      "type": "links",
