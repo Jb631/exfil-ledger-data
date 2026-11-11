@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "rev": 2026110801,
- "asOf": "Nov 8, 2026",
- "notice": "Intel is now hot loot spots: the newest reported Manual, recipe and key finds, plus X01. Found something good? Tell James.",
+ "rev": 2026111001,
+ "asOf": "Nov 10, 2026",
+ "notice": "Nov 10: you now get some cash when you fail to exfil, and UAVs are off inside X01. Intel has five new recipe and loot rooms, and the four legendary ingredients are in Crafting under X01 Printer.",
  "mapURL": "https://github.com/Jb631/exfil-ledger-data/blob/main/MAP.md",
  "safeMap": {
   "url": "https://codmunity.gg/dmz/map",
@@ -533,7 +533,7 @@
    "name": "Experimental Compounds",
    "kind": "ingredient",
    "find": null,
-   "print": null
+   "print": "r_experimental_compounds"
   },
   {
    "id": "i_turned_components",
@@ -589,7 +589,7 @@
    "name": "Nano-Structured Alloy",
    "kind": "ingredient",
    "find": "Tank (unconfirmed)",
-   "print": null
+   "print": "r_nano_structured_alloy"
   },
   {
    "id": "i_cpu",
@@ -610,7 +610,7 @@
    "name": "Military Composites",
    "kind": "ingredient",
    "find": "Colossus (unconfirmed)",
-   "print": null
+   "print": "r_military_composites"
   },
   {
    "id": "i_control_units",
@@ -638,7 +638,7 @@
    "name": "Prototype RF Module",
    "kind": "ingredient",
    "find": "Seen from Deathstalker",
-   "print": null
+   "print": "r_prototype_rf_module"
   },
   {
    "id": "i_biomaterials",
@@ -686,14 +686,14 @@
    "id": "i_specter_fabric_sample",
    "name": "Specter Fabric Sample",
    "kind": "other",
-   "find": "X01 only (Season 1)",
+   "find": "Rare random loot inside X01; no fixed spot reported",
    "print": null
   },
   {
    "id": "i_sr_16_bio_agent_sample",
    "name": "SR-16 Bio Agent Sample",
    "kind": "other",
-   "find": "X01 only (Season 1)",
+   "find": "X01 Deep Vault 406, loose on the lab table",
    "print": null
   }
  ],
@@ -3694,7 +3694,87 @@
     }
    ],
    "reserve": 0,
-   "why": "X01 printer only; costs from one source"
+   "why": "X01 printer only; recipe is the X01 Orders page 4 reward"
+  },
+  {
+   "id": "r_experimental_compounds",
+   "name": "Experimental Compounds",
+   "cat": "x01",
+   "tag": "X01 Printer",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_volatile_explosives",
+     "q": 2
+    },
+    {
+     "i": "i_binding_catalyst",
+     "q": 5
+    }
+   ],
+   "reserve": 0,
+   "why": "X01 printer only; also drops from Commanders"
+  },
+  {
+   "id": "r_military_composites",
+   "name": "Military Composites",
+   "cat": "x01",
+   "tag": "X01 Printer",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_nylon_laminate",
+     "q": 2
+    },
+    {
+     "i": "i_nylon_cloth",
+     "q": 5
+    }
+   ],
+   "reserve": 0,
+   "why": "X01 printer only; also drops from The Colossus"
+  },
+  {
+   "id": "r_nano_structured_alloy",
+   "name": "Nano-Structured Alloy",
+   "cat": "x01",
+   "tag": "X01 Printer",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_turned_components",
+     "q": 2
+    },
+    {
+     "i": "i_structural_alloy",
+     "q": 5
+    }
+   ],
+   "reserve": 0,
+   "why": "X01 printer only; also from destroyed Battle Tanks"
+  },
+  {
+   "id": "r_prototype_rf_module",
+   "name": "Prototype RF Module",
+   "cat": "x01",
+   "tag": "X01 Printer",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_power_regulator",
+     "q": 2
+    },
+    {
+     "i": "i_cpu",
+     "q": 5
+    }
+   ],
+   "reserve": 0,
+   "why": "X01 printer only; also drops from The Deathstalker"
   }
  ],
  "cats": [
@@ -3743,7 +3823,7 @@
   {
    "id": "route",
    "title": "Hot loot spots",
-   "subtitle": "Newest reported finds · Nov 8, 2026",
+   "subtitle": "Newest reported finds · Nov 10, 2026",
    "blocks": [
     {
      "type": "p",
@@ -3757,6 +3837,31 @@
       "What's been found"
      ],
      "rows": [
+      [
+       "X01 Superintendent's Office, upper level of the Main Warehouse (keycard is random loot)",
+       "X01",
+       "About 60,000 in one opening: Weapons Grade Isotope (12,000), 2 Human Trial Records (8,000 each), a Legendary MAR-9, Zip Gun recipe · Nov 9"
+      ],
+      [
+       "X01 Lt. Chol-Min's Stash Room, above his hall in the Motor Pool (key drops from Chol-Min; climb the rope in the cage in his room)",
+       "X01",
+       "Medium Scavenger Backpack recipe, Legendary Swaegolja LMG (8,000), Cipher Code Ledger, Combat Drone; about 29,000 · Nov 9"
+      ],
+      [
+       "Haejeok Radio Station, Imjin Farmland D6, upstairs in the white building under the red mast (key is random loot)",
+       "Not rated",
+       "Best electronics room so far: 2 Comms Modules, Power Regulator, 5 CPUs, 10 Electronic Sensors, 6 Control Units, plus a safe of intel; about 25,000 · Nov 9"
+      ],
+      [
+       "Hospital Chemical Lockers, Mirae Hospital basement lab (lab key on floor 7; locker keys in the morgue and on a lab bench, one per locker)",
+       "Low",
+       "2-Plate Helmet Armor Vest recipe, Binding Catalyst, 7 Detonators · Nov 8"
+      ],
+      [
+       "Weapons Mod Workshop, Chang-san Air Base B5, upstairs in the repair garage (key is random loot)",
+       "Extreme",
+       "Small Secure Backpack recipe, Cipher Code Ledger, 2-Plate Helmet Armor Vest · Nov 10"
+      ],
       [
        "X01 Audit Room safe (Main Warehouse top floor). Keycard from a jacket or Industrial Locker in the Supply Depot",
        "X01",
@@ -3835,7 +3940,7 @@
   {
    "id": "manuals",
    "title": "Weapon Manual spots",
-   "subtitle": "By gun · Nov 8, 2026",
+   "subtitle": "By gun · Nov 10, 2026",
    "blocks": [
     {
      "type": "p",
@@ -3945,6 +4050,10 @@
      "text": "**Season 1 guns:** unlocking one on the Battle Pass gives you its Manual: Cronen Osprey (assault rifle) at tier 16, CSG-35 (SMG) at tier 36, both free. Owning a blueprint from BlackCell, a store bundle or the Vault Edition also unlocks the base gun, which is how the M4 comes with BlackCell (Perimeter Lance)."
     },
     {
+     "type": "p",
+     "text": "Nothing new since Nov 8: the eleven key rooms written up Nov 8 to 10 had recipes and valuables but no Manuals."
+    },
+    {
      "type": "note",
      "text": "No spot reported yet for: Han 86, Hyeon Burst, Oden, Axion, X-58 Nyx, Oris 8.6, Mosin-Nagant, Signal .50, Astaroth .57, Krait P68, Mojave .357."
     },
@@ -3978,8 +4087,18 @@
      "rows": [
       [
        "Zip Gun",
-       "Blue duffel in the Chang-san barracks (Iron Citadel); Counting Room Vault weapons locker in the Casino; upstairs cache at the Cheongun Village fire station",
-       "Critical / High / Low"
+       "Blue duffel in the Chang-san barracks (Iron Citadel); Counting Room Vault weapons locker in the Casino; upstairs cache at the Cheongun Village fire station; X01 Superintendent's Office weapons locker",
+       "Critical / High / Low / X01"
+      ],
+      [
+       "Medium Scavenger Backpack",
+       "LT Crate in Lt. Chol-Min's Stash Room, X01 Motor Pool (1 report)",
+       "X01"
+      ],
+      [
+       "Small Secure Backpack",
+       "Weapons Mod Workshop, Chang-san Air Base repair garage (1 report)",
+       "Extreme"
       ],
       [
        "Combat Drone",
@@ -4023,8 +4142,8 @@
       ],
       [
        "2-Plate Helmet Armor Vest",
-       "Roof crates by the SAM site at Compound Echo",
-       "Medium"
+       "Roof crates by the SAM site at Compound Echo; Hospital Chemical Lockers in the Mirae Hospital basement",
+       "Medium / Low"
       ],
       [
        "Large Scavenger Backpack",
@@ -4089,7 +4208,7 @@
     },
     {
      "type": "p",
-     "text": "**Or print them in X01.** The X01 3D Printer (north side, past Production Assembly) makes all four: Experimental Compounds 2 Volatile Explosives + 5 Binding Catalyst · Military Composites 2 Nylon Laminate + 5 Nylon Cloth · Nano-Structured Alloy 2 Turned Components + 5 Structural Alloy · Prototype RF Module 2 Power Regulator + 5 CPU."
+     "text": "**Or print them in X01.** The X01 3D Printer (Production Assembly, grid E5; one guide puts it in the small office off the west mezzanine) makes all four, and they are now in Crafting under X01 Printer: Experimental Compounds 2 Volatile Explosives + 5 Binding Catalyst · Military Composites 2 Nylon Laminate + 5 Nylon Cloth · Nano-Structured Alloy 2 Turned Components + 5 Structural Alloy · Prototype RF Module 2 Power Regulator + 5 CPU."
     },
     {
      "type": "table",
@@ -4100,11 +4219,11 @@
      "rows": [
       [
        "Power Regulator",
-       "Netshin IT Room, Hanex Guard Station (loose), Hanwoori Art Records Room, Cheonwang Peak Array server racks"
+       "Netshin IT Room, Hanex Guard Station (loose), Hanwoori Art Records Room, Cheonwang Peak Array server racks, Haejeok Radio Station"
       ],
       [
        "Turned Components",
-       "Industrial lockers in the North Korean Wilderness; Police Weapon Depository at Wolves Stadium; hidden cache in the Construction Zone during Special Delivery"
+       "Industrial lockers in the North Korean Wilderness; Police Weapon Depository at Wolves Stadium; hidden cache in the Construction Zone during Special Delivery; Gas Station Electrical Room under the Korin Oil station (H7)"
       ],
       [
        "Alloyed Plating",
@@ -4120,7 +4239,15 @@
       ],
       [
        "Ballistic Fabric",
-       "Shop Records Room; X01 Executive Room; Irradiated Containers"
+       "Shop Records Room; X01 Executive Room; Irradiated Containers; Cheongun Village police armory"
+      ],
+      [
+       "Binding Catalyst",
+       "Hazard Storehouse at the Haneul Reactor (2); unlocked cache by the Mirae Hospital Chemical Lab door"
+      ],
+      [
+       "High-Tenacity Fibers",
+       "X01 Superintendent's Office (2); Chang-san Air Base Armory and Barracks"
       ],
       [
        "Nylon Laminate",
@@ -4128,7 +4255,7 @@
       ],
       [
        "Comms Module",
-       "Police Weapon Depository server blade; Gangbyeon Apartment B; X01 Maintenance Room"
+       "Haejeok Radio Station (2); Police Weapon Depository server blade; Gangbyeon Apartment B; X01 Maintenance Room"
       ]
      ]
     },
@@ -4297,12 +4424,60 @@
        "Random loot",
        "Cipher Code Ledger, Legendary Revive Pistol, Commandant Office key",
        "Low"
+      ],
+      [
+       "X01 Superintendent's Office",
+       "Random loot",
+       "Weapons Grade Isotope, 2 Human Trial Records, Legendary MAR-9, Zip Gun recipe; about 60,000",
+       "X01"
+      ],
+      [
+       "X01 Lt. Chol-Min's Stash Room",
+       "Lt. Chol-Min",
+       "Medium Scavenger Backpack recipe, Legendary Swaegolja, Cipher Code Ledger, Haksan School Armory key",
+       "X01"
+      ],
+      [
+       "Haejeok Radio Station",
+       "Random loot",
+       "2 Comms Modules, Power Regulator, 5 CPUs, safe with 7 intel items; about 25,000",
+       "Not rated"
+      ],
+      [
+       "Hospital Chemical Lab and Lockers",
+       "Lab key: floor 7 office desk or shelves. Locker keys: morgue table, lab bench",
+       "2-Plate Helmet Armor Vest recipe, Binding Catalyst, 2 Medkits",
+       "Low"
+      ],
+      [
+       "Weapons Mod Workshop",
+       "Random loot",
+       "Small Secure Backpack recipe, Cipher Code Ledger; about 17,000",
+       "Extreme"
+      ],
+      [
+       "Police Station Armory",
+       "Inside each police station, usually on an office desk or table",
+       "Ballistic Fabric, CPUs, a KG-7 Vulcan; 2,600 to 5,100 a station",
+       "Low–Medium"
+      ],
+      [
+       "Field Depot",
+       "Random loot (one from a Wilderness bunk duffel)",
+       "Legendary Parachute, Hazard Storehouse key; about 8,500",
+       "Extreme"
+      ],
+      [
+       "Skip unless you're passing",
+       "Haksan School Armory, Imjin Mill Foreman's Office, Gas Station Electrical Room, Hazard Storehouse, Mechanic's Shack",
+       "7,000 to 10,000 each, no recipes or Manuals",
+       "Low–High"
       ]
      ]
     },
     {
      "type": "p",
-     "text": "Also: the Mechanic's Shack key has turned up in a green military locker on the train, and the Hazard Storehouse key on an enemy operator at the Cheongun Outskirts gas station."
+     "text": "Also: the Mechanic's Shack key has turned up in a green military locker on the train, and the Hazard Storehouse key on an enemy operator at the Cheongun Outskirts gas station and in a Field Depot military locker."
     },
     {
      "type": "links",
@@ -4362,6 +4537,16 @@
        "Alloyed Plating, Comms Module, Encrypted Archive"
       ],
       [
+       "Superintendent's Office (upper level, west of the Main Warehouse icon)",
+       "Random loot",
+       "Weapons Grade Isotope, 2 Human Trial Records (8,000 each), Legendary MAR-9, Zip Gun recipe; about 60,000"
+      ],
+      [
+       "Lt. Chol-Min's Stash Room (Motor Pool, E7)",
+       "Drops from Lt. Chol-Min",
+       "Medium Scavenger Backpack recipe, Legendary Swaegolja, Cipher Code Ledger"
+      ],
+      [
        "Deep Vault 106",
        "Enemy operator in a Data Center stairwell",
        "Legendary Rezi 12, Wz. 55 Striga, intel"
@@ -4404,11 +4589,19 @@
     },
     {
      "type": "p",
-     "text": "**Samples for the X01 printer recipes:** SR-16 Bio Agent Sample is on the lab table in Deep Vault 406. Nobody has reported where the Specter Fabric Sample spawns yet."
+     "text": "**Samples for the X01 printer recipes:** SR-16 Bio Agent Sample is on the lab table in Deep Vault 406. Specter Fabric Sample is rare random loot inside X01; nobody has reported a fixed spot."
     },
     {
      "type": "p",
-     "text": "**Resupply Run** (Season 1 event): find set items at points of interest and trade them for Self-Revive Kits and 3-Plate Carriers. Which items and where you trade haven't been reported, and it may not be live yet."
+     "text": "**Argonaut Armor without the Specter Fabric:** kill The Captain for a Deep Vault Access Card, hack the Core Room in the Deep Vault (northwest corner, lower levels) and take the suit from its display case. That's repeatable. X01 Orders page 5 also gives one, once. The Staff Emergency Exfil Keycard recipe is the X01 Orders page 4 reward."
+    },
+    {
+     "type": "p",
+     "text": "**Nov 10 patch:** UAVs and Advanced UAVs can no longer be used inside X01. Killing players in there raises your Bounty Level more slowly (Nov 7)."
+    },
+    {
+     "type": "p",
+     "text": "**Resupply Run** (Season 1 event): find set items at points of interest and trade them for Self-Revive Kits and 3-Plate Carriers. Still not live or dated as of Nov 10; which items and where you trade haven't been reported."
     },
     {
      "type": "links",
@@ -4416,6 +4609,14 @@
       {
        "title": "DMZ Map X01",
        "url": "https://dmzmap.com/x01"
+      },
+      {
+       "title": "Game Rant, Argonaut Armor",
+       "url": "https://gamerant.com/mw4-dmz-argonaut-armor-locations-blueprint/"
+      },
+      {
+       "title": "COD Central, Superintendent's Office",
+       "url": "https://codcentral.net/blog/mw4-dmz-x01-superintendents-office-keycard/"
       },
       {
        "title": "COD Central, Deep Vault 406",
@@ -4477,6 +4678,14 @@
     },
     {
      "type": "p",
+     "text": "**Scavenger Bonus (Nov 10):** if you die or miss exfil you now get some cash anyway, based on the value of what you had looted and how long you were deployed. Story Missions don't count. No amounts published."
+    },
+    {
+     "type": "p",
+     "text": "**Hiding from UAVs (Nov 6):** Thermal Padding, Thermal Padding Pro and the Sedative Inhaler now hide you from UAVs and upgraded UAV Towers. An Advanced UAV still finds you. Mini Tracker's radius was cut slightly on Nov 10."
+    },
+    {
+     "type": "p",
      "text": "**Bank caps:** Start 100,000 · I 250,000 · II 500,000 · III 1M · IV 2M · V 5M · VI 10M · VII 25M · VIII 50M · IX 100M · X 250M · XI 500M · XII 1B · XIII 2B. Cash over the cap is lost."
     },
     {
@@ -4488,11 +4697,11 @@
   {
    "id": "sources",
    "title": "Where this comes from",
-   "subtitle": "Re-checked Nov 8, 2026",
+   "subtitle": "Re-checked Nov 10, 2026",
    "blocks": [
     {
      "type": "p",
-     "text": "Loot spots, costs and prices come from fan sites and player reports, re-checked Nov 8, 2026. Season 1 says recipes and upgrade costs changed but hasn't listed the changes, so printer costs are from before Season 1. When the game disagrees with this app, trust the game and tell James."
+     "text": "Loot spots, costs and prices come from fan sites and player reports, re-checked Nov 10, 2026. Season 1 says recipes and upgrade costs changed but hasn't listed the changes, so printer costs are from before Season 1. When the game disagrees with this app, trust the game and tell James."
     },
     {
      "type": "p",
