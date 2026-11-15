@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "rev": 2026111001,
- "asOf": "Nov 10, 2026",
- "notice": "Nov 10: you now get some cash when you fail to exfil, and UAVs are off inside X01. Intel has five new recipe and loot rooms, and the four legendary ingredients are in Crafting under X01 Printer.",
+ "rev": 2026111501,
+ "asOf": "Nov 15, 2026",
+ "notice": "Resupply Run is live and reported to end before Nov 19: trade items at the FOB for six rewards. Intel has boss drop counts and new key rooms, and four new Box recipes are in Crafting.",
  "mapURL": "https://github.com/Jb631/exfil-ledger-data/blob/main/MAP.md",
  "safeMap": {
   "url": "https://codmunity.gg/dmz/map",
@@ -532,7 +532,7 @@
    "id": "i_experimental_compounds",
    "name": "Experimental Compounds",
    "kind": "ingredient",
-   "find": null,
+   "find": "Sometimes from The Colossus, Deathstalker wrecks (2 of 6) and Battle Tanks (1 of 3)",
    "print": "r_experimental_compounds"
   },
   {
@@ -588,7 +588,7 @@
    "id": "i_nano_structured_alloy",
    "name": "Nano-Structured Alloy",
    "kind": "ingredient",
-   "find": "Tank (unconfirmed)",
+   "find": "Destroyed Battle Tank only: Vehicle Hatch, Engine and Turret containers",
    "print": "r_nano_structured_alloy"
   },
   {
@@ -609,7 +609,7 @@
    "id": "i_military_composites",
    "name": "Military Composites",
    "kind": "ingredient",
-   "find": "Colossus (unconfirmed)",
+   "find": "The Colossus only, and not every kill. Reliable spot: behind the armory door in the Chang-san bunker (Operation Iron Citadel)",
    "print": "r_military_composites"
   },
   {
@@ -637,7 +637,7 @@
    "id": "i_prototype_rf_module",
    "name": "Prototype RF Module",
    "kind": "ingredient",
-   "find": "Seen from Deathstalker",
+   "find": "Deathstalker wreck, 6 of 6 in one count. Mostly over The Grid; one RPG-8 hit downs it",
    "print": "r_prototype_rf_module"
   },
   {
@@ -2905,6 +2905,102 @@
    "why": null
   },
   {
+   "id": "r_consumable_box",
+   "name": "Consumable Box",
+   "cat": "field",
+   "tag": "X01 Orders",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 120
+    },
+    {
+     "i": "i_high_tenacity_fibers",
+     "q": 2
+    },
+    {
+     "i": "i_biomaterials",
+     "q": 4
+    }
+   ],
+   "reserve": 0,
+   "why": "Season 1. Recipe is the X01 Orders page 2 reward (one source)"
+  },
+  {
+   "id": "r_medical_box",
+   "name": "Medical Box",
+   "cat": "field",
+   "tag": "X01 Orders",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_metals",
+     "q": 100
+    },
+    {
+     "i": "i_stabilized_reagents",
+     "q": 1
+    },
+    {
+     "i": "i_binding_catalyst",
+     "q": 4
+    }
+   ],
+   "reserve": 0,
+   "why": "Season 1. Recipe is the X01 Orders page 2 reward (one source)"
+  },
+  {
+   "id": "r_hazmat_box",
+   "name": "Hazmat Box",
+   "cat": "field",
+   "tag": "X01 Orders",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_synthetics",
+     "q": 120
+    },
+    {
+     "i": "i_alloyed_plating",
+     "q": 1
+    },
+    {
+     "i": "i_nylon_cloth",
+     "q": 4
+    }
+   ],
+   "reserve": 0,
+   "why": "Season 1. Recipe is the X01 Orders page 3 reward (one source)"
+  },
+  {
+   "id": "r_utility_box",
+   "name": "Utility Box",
+   "cat": "field",
+   "tag": "Found",
+   "unlock": "toggle",
+   "lvl": null,
+   "mats": [
+    {
+     "i": "i_nano_structured_alloy",
+     "q": 1
+    },
+    {
+     "i": "i_comms_module",
+     "q": 2
+    },
+    {
+     "i": "i_printed_circuit_board",
+     "q": 6
+    }
+   ],
+   "reserve": 0,
+   "why": "Season 1. A found recipe; needs a Nano-Structured Alloy (one source)"
+  },
+  {
    "id": "r_uav",
    "name": "UAV",
    "cat": "fire",
@@ -3626,7 +3722,7 @@
     }
    ],
    "reserve": 0,
-   "why": "X01 printer only; costs from one source"
+   "why": "X01 printer only. Sources disagree on the cost: another lists 1 SR-16 Bio Agent Sample, 3 Stabilized Reagents, 6 Nitro Compounds"
   },
   {
    "id": "r_argonaut_armor",
@@ -3694,7 +3790,7 @@
     }
    ],
    "reserve": 0,
-   "why": "X01 printer only; recipe is the X01 Orders page 4 reward"
+   "why": "Recipe is the X01 Orders page 4 reward. Sources disagree on the cost: another lists 80 Electronics, 6 Printed Circuit Board, 10 Control Units"
   },
   {
    "id": "r_experimental_compounds",
@@ -3714,7 +3810,7 @@
     }
    ],
    "reserve": 0,
-   "why": "X01 printer only; also drops from Commanders"
+   "why": "X01 printer only; also drops sometimes from The Colossus, Deathstalker wrecks and Battle Tanks"
   },
   {
    "id": "r_military_composites",
@@ -3823,11 +3919,15 @@
   {
    "id": "route",
    "title": "Hot loot spots",
-   "subtitle": "Newest reported finds · Nov 10, 2026",
+   "subtitle": "Newest reported finds · Nov 15, 2026",
    "blocks": [
     {
      "type": "p",
      "text": "The best recent finds players have reported. Loot is random every match and most of these are from one run, so treat them as places worth checking, not guarantees."
+    },
+    {
+     "type": "note",
+     "text": "**Resupply Run is live, and players report it ends before Nov 19.** Collect the listed items and trade them at the FOB for six rewards; finishing all six earns a SERE Kit. One trade, from a player's post: a 3-Plate Armor Vest for 10 C4, 10 Frag Grenades and 10 Semtex. The other five are on the event screen in the FOB."
     },
     {
      "type": "table",
@@ -3837,6 +3937,26 @@
       "What's been found"
      ],
      "rows": [
+      [
+       "Deathstalker wreck. It flies mostly over The Grid (G6), and a new one arrives 7 to 8 minutes after a kill",
+       "Varies",
+       "Prototype RF Module in 6 of 6 wrecks, Experimental Compounds in 2 of 6. One RPG-8 hit brings it down; its three containers can scatter when it falls · Nov 15"
+      ],
+      [
+       "Militia Arms Depot, Compound Echo apartment block B (G7), one flight up inside the Gangbyeon Apartment B door (both keys are random loot)",
+       "Medium",
+       "Binding Catalyst, Nuclear Program Files, 2 Degraded Execution Footage, 5 more intel items; about 14,000 · Nov 14"
+      ],
+      [
+       "The Chemist's Secure Armory, Haneul Reactor I4, a bunker on the northeast side just inside the radiation (key drops from The Chemist, not every kill)",
+       "Not rated",
+       "About 32,000: W.M.D Manifest (5,000), Legendary Chemical Reaction (5,900), Ballistic Fabric, Nuclear Program Files, 2 Durable Gas Masks · Nov 11"
+      ],
+      [
+       "The Doctor's Command Office, Mirae Hospital floor 7, rooms 704 and 705 (key drops from The Doctor, not every kill)",
+       "Low",
+       "About 28,000 on a second run: Legendary Doctor's Salve rifle (6,900), Volatile Explosives, High-Tenacity Fibers, Encrypted Archive. No recipe that time · Nov 11"
+      ],
       [
        "X01 Superintendent's Office, upper level of the Main Warehouse (keycard is random loot)",
        "X01",
@@ -3908,9 +4028,9 @@
        "M4 Manual, the only one reported · Nov 3–6"
       ],
       [
-       "Battle Tank (Imjin Farmland south of the silos, road south of the Casino, Songdo Wharf, north and east Grid)",
+       "Battle Tank. It drives loops: north and south of NuriGO Mall, Construction Zone, between City Hall and DBN Headquarters, NuriGO West, Rice Mill, Songdo Wharf, Heavenly Luck Casino",
        "Varies",
-       "The only source of Nano-Structured Alloy. Loot the front and back of the hull and the top of the turret · Nov 7"
+       "The only source of Nano-Structured Alloy. Check all three containers on the wreck: Vehicle Hatch, Engine and Turret. One Impact Warhead destroys it; a JOKR takes 6 to 9 hits · Nov 12"
       ]
      ]
     },
@@ -3940,7 +4060,7 @@
   {
    "id": "manuals",
    "title": "Weapon Manual spots",
-   "subtitle": "By gun · Nov 10, 2026",
+   "subtitle": "By gun · Nov 15, 2026",
    "blocks": [
     {
      "type": "p",
@@ -4051,7 +4171,7 @@
     },
     {
      "type": "p",
-     "text": "Nothing new since Nov 8: the eleven key rooms written up Nov 8 to 10 had recipes and valuables but no Manuals."
+     "text": "Nothing new since Nov 10: the boss and key-room write-ups from Nov 10 to 15 list guns as loot but no Manuals."
     },
     {
      "type": "note",
@@ -4132,7 +4252,7 @@
       ],
       [
        "Tempered Armor Vest",
-       "The Doctor's crate in his Command Office, Mirae Hospital floor 7 (key drops from The Doctor)",
+       "The Doctor's crate in his Command Office, Mirae Hospital floor 7 (key drops from The Doctor). A second run on Nov 11 had no recipe",
        "Low"
       ],
       [
@@ -4156,6 +4276,10 @@
        "Extreme"
       ]
      ]
+    },
+    {
+     "type": "p",
+     "text": "**New in the printer list (Season 1):** Consumable Box and Medical Box recipes are the X01 Orders page 2 reward, Hazmat Box is page 3, and Utility Box is a found recipe. All four are in Crafting under Field Upgrades. One source."
     },
     {
      "type": "p",
@@ -4190,21 +4314,25 @@
      "rows": [
       [
        "Military Composites",
-       "The Colossus (Citadel, North Korean woods, Chang-san bunker)"
+       "The Colossus only, and not every kill. He roams, but he's reliably behind the armory door in the Chang-san bunker during Operation Iron Citadel"
       ],
       [
        "Prototype RF Module",
-       "The Deathstalker (over NuriGO Mall and The Grid)"
+       "Deathstalker wreck: 6 of 6 in one count. Mostly over The Grid; one RPG-8 hit downs it"
       ],
       [
        "Nano-Structured Alloy",
-       "Destroyed Battle Tank only"
+       "Destroyed Battle Tank only: Vehicle Hatch, Engine and Turret containers"
       ],
       [
        "Experimental Compounds",
-       "Sometimes on Commanders"
+       "Sometimes from The Colossus, Deathstalker wrecks (2 of 6) and Battle Tanks (1 of 3)"
       ]
      ]
+    },
+    {
+     "type": "p",
+     "text": "Each legendary ingredient sells for 3,500. A bug that paid materials instead of cash was fixed Nov 13."
     },
     {
      "type": "p",
@@ -4219,7 +4347,7 @@
      "rows": [
       [
        "Power Regulator",
-       "Netshin IT Room, Hanex Guard Station (loose), Hanwoori Art Records Room, Cheonwang Peak Array server racks, Haejeok Radio Station"
+       "Netshin IT Room, Hanex Guard Station (loose), Hanwoori Art Records Room, Cheonwang Peak Array server racks, Haejeok Radio Station, Battle Tank wrecks"
       ],
       [
        "Turned Components",
@@ -4235,23 +4363,27 @@
       ],
       [
        "Volatile Explosives",
-       "Hidden cache on Oamsik Turtle Island; Netshin IT Room"
+       "Hidden cache on Oamsik Turtle Island; Netshin IT Room; The Doctor's Command Office"
       ],
       [
        "Ballistic Fabric",
-       "Shop Records Room; X01 Executive Room; Irradiated Containers; Cheongun Village police armory"
+       "Shop Records Room; X01 Executive Room; Irradiated Containers; Cheongun Village police armory; The Chemist's Secure Armory"
       ],
       [
        "Binding Catalyst",
-       "Hazard Storehouse at the Haneul Reactor (2); unlocked cache by the Mirae Hospital Chemical Lab door"
+       "Hazard Storehouse at the Haneul Reactor (2); unlocked cache by the Mirae Hospital Chemical Lab door; Militia Arms Depot"
       ],
       [
        "High-Tenacity Fibers",
-       "X01 Superintendent's Office (2); Chang-san Air Base Armory and Barracks"
+       "X01 Superintendent's Office (2); Chang-san Air Base Armory and Barracks; The Doctor's Command Office"
+      ],
+      [
+       "Structural Alloy",
+       "Haksan School Armory; Bale's backpack (Deadtown Re-Education Center top floor, or the Chang-san bunker)"
       ],
       [
        "Nylon Laminate",
-       "Commandant Office military locker; Hoesik Supply Room shelf by the door"
+       "Commandant Office military locker; Hoesik Supply Room shelf by the door; Battle Tank wrecks"
       ],
       [
        "Comms Module",
@@ -4272,7 +4404,7 @@
      "rows": [
       [
        "Sanctioned Assassination List",
-       "South Block Armory in the Citadel; the western bunkers; Military Lockers"
+       "South Block Armory in the Citadel; the western bunkers; Military Lockers; Roze's backpack (DBN Headquarters roof)"
       ],
       [
        "Foreign Intelligence Targets",
@@ -4280,11 +4412,11 @@
       ],
       [
        "W.M.D Manifest",
-       "Gangbyeon Apartment B (2 at once); Executive Arms Auction in DBN HQ; the western bunkers; Irradiated Containers"
+       "Gangbyeon Apartment B (2 at once); Executive Arms Auction in DBN HQ; the western bunkers; Irradiated Containers; The Chemist's Secure Armory"
       ],
       [
        "Nuclear Program Files",
-       "Vault Armory; Utility Maintenance Storage; Reactor 02 Control Room computer; Coin Mining Den; both DRC Lockers"
+       "Vault Armory; Utility Maintenance Storage; Reactor 02 Control Room computer; Coin Mining Den; both DRC Lockers; Militia Arms Depot; The Chemist's Secure Armory"
       ],
       [
        "Encrypted Archive",
@@ -4410,8 +4542,38 @@
       [
        "The Doctor's Command Office",
        "The Doctor (not every kill)",
-       "Tempered Armor Vest recipe",
+       "Tempered Armor Vest recipe on one run; about 28,000 and no recipe on another (Volatile Explosives, High-Tenacity Fibers, a Legendary rifle)",
        "Low"
+      ],
+      [
+       "The Chemist's Secure Armory",
+       "The Chemist, in the Haneul Reactor radiation zone (not every kill); one turned up in The Scavenger's backpack",
+       "W.M.D Manifest, Ballistic Fabric, Nuclear Program Files, 2 Durable Gas Masks; about 32,000",
+       "Not rated"
+      ],
+      [
+       "Militia Arms Depot",
+       "Random loot. The front door also needs the Gangbyeon Apartment B key",
+       "Binding Catalyst, Nuclear Program Files, 2 Degraded Execution Footage; about 14,000",
+       "Medium"
+      ],
+      [
+       "Roze's Highrise Armory",
+       "Roze, on the DBN Headquarters roof (not every kill); also the Operation Grid Assault reward",
+       "Netshin floor 14: a Lieutenant crate and two weapon lockers. One visit had the Legendary Kraken sniper",
+       "Extreme"
+      ],
+      [
+       "Supreme Leader's Bunker Access Card",
+       "Bale (not every kill); also the Operation Iron Citadel reward",
+       "A bunker deep under Chang-san Air Base. Contents not reported",
+       "Extreme"
+      ],
+      [
+       "Kang's Arms Incinerator",
+       "The Warden (Kang) at the prison. It hasn't dropped in one guide's kills",
+       "A room in the prison's central block. Contents not reported",
+       "Critical"
       ],
       [
        "Gorani's Scout Overlook",
@@ -4469,15 +4631,19 @@
       ],
       [
        "Skip unless you're passing",
-       "Haksan School Armory, Imjin Mill Foreman's Office, Gas Station Electrical Room, Hazard Storehouse, Mechanic's Shack",
-       "7,000 to 10,000 each, no recipes or Manuals",
-       "Low–High"
+       "Haksan School Armory, Imjin Mill Foreman's Office, Gas Station Electrical Room, Hazard Storehouse, Mechanic's Shack, Downtown Branch Lobby Main",
+       "3,000 to 10,000 each, no recipes or Manuals. The Downtown Branch Lobby did hold a Vault Armory key",
+       "Low–Critical"
       ]
      ]
     },
     {
      "type": "p",
      "text": "Also: the Mechanic's Shack key has turned up in a green military locker on the train, and the Hazard Storehouse key on an enemy operator at the Cheongun Outskirts gas station and in a Field Depot military locker."
+    },
+    {
+     "type": "p",
+     "text": "**The Scavenger** drives an LTV loop with his men (River Heights G7 to G8, Expressway No. 1 H5, Tong-il Village D3, Deadtown B7). His backpack can hold other Lieutenants' keys."
     },
     {
      "type": "links",
@@ -4489,6 +4655,14 @@
       {
        "title": "COD Central keys",
        "url": "https://codcentral.net/blog/mw4-dmz-netshin-it-room-key/"
+      },
+      {
+       "title": "COD Central, The Chemist's Secure Armory",
+       "url": "https://codcentral.net/blog/mw4-dmz-the-chemists-secure-armory-key/"
+      },
+      {
+       "title": "COD Central, Militia Arms Depot",
+       "url": "https://codcentral.net/blog/mw4-dmz-militia-arms-depot-key/"
       }
      ]
     }
@@ -4597,11 +4771,7 @@
     },
     {
      "type": "p",
-     "text": "**Nov 10 patch:** UAVs and Advanced UAVs can no longer be used inside X01. Killing players in there raises your Bounty Level more slowly (Nov 7)."
-    },
-    {
-     "type": "p",
-     "text": "**Resupply Run** (Season 1 event): find set items at points of interest and trade them for Self-Revive Kits and 3-Plate Carriers. Still not live or dated as of Nov 10; which items and where you trade haven't been reported."
+     "text": "**Patches:** UAVs and Advanced UAVs (Nov 10) and the Bombing Run (Nov 11) can't be used inside X01. Insurance now works if you die in X01 after deploying from Hajin (Nov 12), and Manuals, recipes and Dog Tags brought in from Hajin convert properly (Nov 13). Killing players in there raises your Bounty Level more slowly (Nov 7)."
     },
     {
      "type": "links",
@@ -4673,6 +4843,10 @@
       [
        "Gold Bar",
        "25,000 to sell (Stash Weapon III and Bank X and XII need them)"
+      ],
+      [
+       "Legendary ingredient",
+       "3,500 to sell"
       ]
      ]
     },
@@ -4682,7 +4856,11 @@
     },
     {
      "type": "p",
-     "text": "**Hiding from UAVs (Nov 6):** Thermal Padding, Thermal Padding Pro and the Sedative Inhaler now hide you from UAVs and upgraded UAV Towers. An Advanced UAV still finds you. Mini Tracker's radius was cut slightly on Nov 10."
+     "text": "**Hiding from UAVs (Nov 6):** Thermal Padding, Thermal Padding Pro and the Sedative Inhaler now hide you from UAVs and upgraded UAV Towers. An Advanced UAV still finds you. A bug that let Operators with the UAV Upgrade trait see you anyway was fixed Nov 12. Mini Tracker's radius was cut slightly on Nov 10."
+    },
+    {
+     "type": "p",
+     "text": "**Nov 11 to 13 patches:** solos and duos build Bounty a little faster, Wager Match trophies drop more often, and a finished 3D Printer recipe can be untracked again. Activision says changes to DMZ time-to-kill are in testing."
     },
     {
      "type": "p",
@@ -4697,11 +4875,11 @@
   {
    "id": "sources",
    "title": "Where this comes from",
-   "subtitle": "Re-checked Nov 10, 2026",
+   "subtitle": "Re-checked Nov 15, 2026",
    "blocks": [
     {
      "type": "p",
-     "text": "Loot spots, costs and prices come from fan sites and player reports, re-checked Nov 10, 2026. Season 1 says recipes and upgrade costs changed but hasn't listed the changes, so printer costs are from before Season 1. When the game disagrees with this app, trust the game and tell James."
+     "text": "Loot spots, costs and prices come from fan sites and player reports, re-checked Nov 15, 2026. Printer recipes and upgrade costs were compared on Nov 15 with COD Central's list (updated Nov 14) and match, except Survivor Box and Staff Emergency Exfil Keycard, where sources disagree. When the game disagrees with this app, trust the game and tell James."
     },
     {
      "type": "p",
@@ -4733,6 +4911,2051 @@
      ]
     }
    ]
+  }
+ ],
+ "spots": [
+  {
+   "for": [
+    "w_apoc_338"
+   ],
+   "place": "Shopping DRC Locker",
+   "where": "Under NuriGO Mall",
+   "threat": "Medium–High",
+   "key": "Key is random loot (one came from a Cheonwang Peak Array safe)",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "w_patriot_xmr"
+   ],
+   "place": "Shopping DRC Locker",
+   "where": "Under NuriGO Mall",
+   "threat": "Medium–High",
+   "key": "Key is random loot (one came from a Cheonwang Peak Array safe)",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "w_rezi_12"
+   ],
+   "place": "Shopping DRC Locker",
+   "where": "Under NuriGO Mall",
+   "threat": "Medium–High",
+   "key": "Key is random loot (one came from a Cheonwang Peak Array safe)",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_nuclear_program_files"
+   ],
+   "place": "Shopping DRC Locker",
+   "where": "Under NuriGO Mall",
+   "threat": "Medium–High",
+   "key": "Key is random loot (one came from a Cheonwang Peak Array safe)",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "w_warlord"
+   ],
+   "place": "Reactor DRC Locker",
+   "where": "Underwater in the Reactor 02 pool",
+   "threat": "High",
+   "key": "Key is the Operation Fallen Ember reward",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_nuclear_program_files"
+   ],
+   "place": "Reactor DRC Locker",
+   "where": "Underwater in the Reactor 02 pool",
+   "threat": "High",
+   "key": "Key is the Operation Fallen Ember reward",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "w_cronen_squall"
+   ],
+   "place": "Air Base DRC Weapons Locker",
+   "where": "Chang-san bunker armory",
+   "threat": "Extreme",
+   "key": "Key is random loot (one in a duffel at Imjin Farmland)",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_encrypted_archive"
+   ],
+   "place": "Air Base DRC Weapons Locker",
+   "where": "Chang-san bunker armory",
+   "threat": "Extreme",
+   "key": "Key is random loot (one in a duffel at Imjin Farmland)",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "w_rezi_12"
+   ],
+   "place": "Netshin IT Room",
+   "where": "Netshin Tech Complex, floor 14",
+   "threat": "Extreme",
+   "key": "Key from apartment lockers or random loot",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_power_regulator"
+   ],
+   "place": "Netshin IT Room",
+   "where": "Netshin Tech Complex, floor 14",
+   "threat": "Extreme",
+   "key": "Key from apartment lockers or random loot",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_volatile_explosives"
+   ],
+   "place": "Netshin IT Room",
+   "where": "Netshin Tech Complex, floor 14",
+   "threat": "Extreme",
+   "key": "Key from apartment lockers or random loot",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "w_iso_nightshade"
+   ],
+   "place": "Netshin Security Office",
+   "where": "Netshin Tech Complex upper floor, rifle case",
+   "threat": "Extreme",
+   "key": "Key",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "r_zip_gun"
+   ],
+   "place": "Counting Room Vault",
+   "where": "Casino",
+   "threat": "High",
+   "key": "Operation Silent Ledger; industrial locker on the Rice Mill catwalk; Haksan School armory",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_gold_skull"
+   ],
+   "place": "Counting Room Vault",
+   "where": "Casino",
+   "threat": "High",
+   "key": "Operation Silent Ledger; industrial locker on the Rice Mill catwalk; Haksan School armory",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_encrypted_archive"
+   ],
+   "place": "Counting Room Vault",
+   "where": "Casino",
+   "threat": "High",
+   "key": "Operation Silent Ledger; industrial locker on the Rice Mill catwalk; Haksan School armory",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_cipher_code_ledger"
+   ],
+   "place": "Vault Armory",
+   "where": "Under the Casino",
+   "threat": "High",
+   "key": "Casino carpet, Songdo Wharf duffel, Irradiated Container, Prison Encampment Storage",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_stabilized_reagents"
+   ],
+   "place": "Vault Armory",
+   "where": "Under the Casino",
+   "threat": "High",
+   "key": "Casino carpet, Songdo Wharf duffel, Irradiated Container, Prison Encampment Storage",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_alloyed_plating"
+   ],
+   "place": "Vault Armory",
+   "where": "Under the Casino",
+   "threat": "High",
+   "key": "Casino carpet, Songdo Wharf duffel, Irradiated Container, Prison Encampment Storage",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_nuclear_program_files"
+   ],
+   "place": "Vault Armory",
+   "where": "Under the Casino",
+   "threat": "High",
+   "key": "Casino carpet, Songdo Wharf duffel, Irradiated Container, Prison Encampment Storage",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "w_ppsh_41"
+   ],
+   "place": "Vault Armory",
+   "where": "Under the Casino",
+   "threat": "High",
+   "key": "Casino carpet, Songdo Wharf duffel, Irradiated Container, Prison Encampment Storage",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_gold_skull"
+   ],
+   "place": "South Block Armory",
+   "where": "Prison Citadel",
+   "threat": "Critical",
+   "key": "Counter in the Citadel Main Control Room (needs its own key)",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_sanctioned_assassination_list"
+   ],
+   "place": "South Block Armory",
+   "where": "Prison Citadel",
+   "threat": "Critical",
+   "key": "Counter in the Citadel Main Control Room (needs its own key)",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_cipher_code_ledger"
+   ],
+   "place": "Bank Branch Vault",
+   "where": "Wolves branch or Cheongun branch",
+   "threat": "Medium",
+   "key": "Teller counter at Wolves, or the floor behind the teller windows in Cheongun",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_infantry_invasion_plans"
+   ],
+   "place": "Bank Branch Vault",
+   "where": "Wolves branch or Cheongun branch",
+   "threat": "Medium",
+   "key": "Teller counter at Wolves, or the floor behind the teller windows in Cheongun",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_ballistic_flight_logs"
+   ],
+   "place": "Bank Branch Vault",
+   "where": "Wolves branch or Cheongun branch",
+   "threat": "Medium",
+   "key": "Teller counter at Wolves, or the floor behind the teller windows in Cheongun",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_w_m_d_manifest"
+   ],
+   "place": "Gangbyeon Apartment B",
+   "where": "Compound Echo apartments",
+   "threat": "Medium",
+   "key": "Bookshelf or desk in a Compound Echo apartment",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_comms_module"
+   ],
+   "place": "Gangbyeon Apartment B",
+   "where": "Compound Echo apartments",
+   "threat": "Medium",
+   "key": "Bookshelf or desk in a Compound Echo apartment",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_degraded_execution_footage"
+   ],
+   "place": "Gangbyeon Apartment B",
+   "where": "Compound Echo apartments",
+   "threat": "Medium",
+   "key": "Bookshelf or desk in a Compound Echo apartment",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_power_regulator"
+   ],
+   "place": "Hanex Guard Station",
+   "where": "Hanex Bank",
+   "threat": "Extreme",
+   "key": "Key is random loot",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_cipher_code_ledger"
+   ],
+   "place": "Hanex Guard Station",
+   "where": "Hanex Bank",
+   "threat": "Extreme",
+   "key": "Key is random loot",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_regional_combat_notes"
+   ],
+   "place": "Hanex Guard Station",
+   "where": "Hanex Bank",
+   "threat": "Extreme",
+   "key": "Key is random loot",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "w_50_gs"
+   ],
+   "place": "Coin Mining Den",
+   "where": "NuriGO West, upstairs",
+   "threat": null,
+   "key": "Key is the Operation Shopping Hacks reward",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_cpu"
+   ],
+   "place": "Coin Mining Den",
+   "where": "NuriGO West, upstairs",
+   "threat": null,
+   "key": "Key is the Operation Shopping Hacks reward",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_nuclear_program_files"
+   ],
+   "place": "Coin Mining Den",
+   "where": "NuriGO West, upstairs",
+   "threat": null,
+   "key": "Key is the Operation Shopping Hacks reward",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "r_tempered_vest"
+   ],
+   "place": "The Doctor's Command Office",
+   "where": "Mirae General Hospital, floor 7, rooms 704 and 705",
+   "threat": "Low",
+   "key": "Drops from The Doctor (not every kill)",
+   "n": 1,
+   "date": "2026-11-11"
+  },
+  {
+   "for": [
+    "i_volatile_explosives"
+   ],
+   "place": "The Doctor's Command Office",
+   "where": "Mirae General Hospital, floor 7, rooms 704 and 705",
+   "threat": "Low",
+   "key": "Drops from The Doctor (not every kill)",
+   "n": 1,
+   "date": "2026-11-11"
+  },
+  {
+   "for": [
+    "i_high_tenacity_fibers"
+   ],
+   "place": "The Doctor's Command Office",
+   "where": "Mirae General Hospital, floor 7, rooms 704 and 705",
+   "threat": "Low",
+   "key": "Drops from The Doctor (not every kill)",
+   "n": 1,
+   "date": "2026-11-11"
+  },
+  {
+   "for": [
+    "i_encrypted_archive"
+   ],
+   "place": "The Doctor's Command Office",
+   "where": "Mirae General Hospital, floor 7, rooms 704 and 705",
+   "threat": "Low",
+   "key": "Drops from The Doctor (not every kill)",
+   "n": 1,
+   "date": "2026-11-11"
+  },
+  {
+   "for": [
+    "i_w_m_d_manifest"
+   ],
+   "place": "The Chemist's Secure Armory",
+   "where": "Haneul Nuclear Reactor I4, a bunker on the northeast side just inside the radiation zone",
+   "threat": null,
+   "key": "Drops from The Chemist (not every kill); one was in The Scavenger's backpack",
+   "n": 1,
+   "date": "2026-11-11"
+  },
+  {
+   "for": [
+    "i_ballistic_fabric"
+   ],
+   "place": "The Chemist's Secure Armory",
+   "where": "Haneul Nuclear Reactor I4, a bunker on the northeast side just inside the radiation zone",
+   "threat": null,
+   "key": "Drops from The Chemist (not every kill); one was in The Scavenger's backpack",
+   "n": 1,
+   "date": "2026-11-11"
+  },
+  {
+   "for": [
+    "i_nuclear_program_files"
+   ],
+   "place": "The Chemist's Secure Armory",
+   "where": "Haneul Nuclear Reactor I4, a bunker on the northeast side just inside the radiation zone",
+   "threat": null,
+   "key": "Drops from The Chemist (not every kill); one was in The Scavenger's backpack",
+   "n": 1,
+   "date": "2026-11-11"
+  },
+  {
+   "for": [
+    "i_regional_combat_notes"
+   ],
+   "place": "The Chemist's Secure Armory",
+   "where": "Haneul Nuclear Reactor I4, a bunker on the northeast side just inside the radiation zone",
+   "threat": null,
+   "key": "Drops from The Chemist (not every kill); one was in The Scavenger's backpack",
+   "n": 1,
+   "date": "2026-11-11"
+  },
+  {
+   "for": [
+    "i_binding_catalyst"
+   ],
+   "place": "Militia Arms Depot",
+   "where": "Compound Echo apartment block B (G7), one flight up inside the Gangbyeon Apartment B front door",
+   "threat": "Medium",
+   "key": "Key is random loot; the front door also needs the Gangbyeon Apartment B key",
+   "n": 1,
+   "date": "2026-11-14"
+  },
+  {
+   "for": [
+    "i_nuclear_program_files"
+   ],
+   "place": "Militia Arms Depot",
+   "where": "Compound Echo apartment block B (G7), one flight up inside the Gangbyeon Apartment B front door",
+   "threat": "Medium",
+   "key": "Key is random loot; the front door also needs the Gangbyeon Apartment B key",
+   "n": 1,
+   "date": "2026-11-14"
+  },
+  {
+   "for": [
+    "i_degraded_execution_footage"
+   ],
+   "place": "Militia Arms Depot",
+   "where": "Compound Echo apartment block B (G7), one flight up inside the Gangbyeon Apartment B front door",
+   "threat": "Medium",
+   "key": "Key is random loot; the front door also needs the Gangbyeon Apartment B key",
+   "n": 1,
+   "date": "2026-11-14"
+  },
+  {
+   "for": [
+    "i_infantry_invasion_plans"
+   ],
+   "place": "Militia Arms Depot",
+   "where": "Compound Echo apartment block B (G7), one flight up inside the Gangbyeon Apartment B front door",
+   "threat": "Medium",
+   "key": "Key is random loot; the front door also needs the Gangbyeon Apartment B key",
+   "n": 1,
+   "date": "2026-11-14"
+  },
+  {
+   "for": [
+    "i_ballistic_flight_logs"
+   ],
+   "place": "Militia Arms Depot",
+   "where": "Compound Echo apartment block B (G7), one flight up inside the Gangbyeon Apartment B front door",
+   "threat": "Medium",
+   "key": "Key is random loot; the front door also needs the Gangbyeon Apartment B key",
+   "n": 1,
+   "date": "2026-11-14"
+  },
+  {
+   "for": [
+    "i_encrypted_archive"
+   ],
+   "place": "Downtown Branch Lobby Main",
+   "where": "Hanex Bank downtown branch lobby, north edge of The Grid (G6)",
+   "threat": "Critical",
+   "key": "Key is random loot",
+   "n": 1,
+   "date": "2026-11-10"
+  },
+  {
+   "for": [
+    "i_cipher_code_ledger"
+   ],
+   "place": "Old Barber Shop",
+   "where": "Barber shop",
+   "threat": "Low",
+   "key": "Key is random loot",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "r_screamer_mine"
+   ],
+   "place": "Hanwoori Art Records Room",
+   "where": "The Grid",
+   "threat": "Critical",
+   "key": "Key",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "r_stim"
+   ],
+   "place": "Hanwoori Art Records Room",
+   "where": "The Grid",
+   "threat": "Critical",
+   "key": "Key",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_power_regulator"
+   ],
+   "place": "Hanwoori Art Records Room",
+   "where": "The Grid",
+   "threat": "Critical",
+   "key": "Key",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "r_impact_warhead"
+   ],
+   "place": "Hoesik Supply Room",
+   "where": "By the Rice Mill",
+   "threat": "Medium",
+   "key": "Key",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_nylon_laminate"
+   ],
+   "place": "Hoesik Supply Room",
+   "where": "By the Rice Mill",
+   "threat": "Medium",
+   "key": "Key",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_degraded_execution_footage"
+   ],
+   "place": "Hoesik Supply Room",
+   "where": "By the Rice Mill",
+   "threat": "Medium",
+   "key": "Key",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_comms_module"
+   ],
+   "place": "Haejeok Radio Station",
+   "where": "Imjin Farmland D6, upstairs in the white building under the red mast",
+   "threat": null,
+   "key": "Key is random loot",
+   "n": 1,
+   "date": "2026-11-09"
+  },
+  {
+   "for": [
+    "i_power_regulator"
+   ],
+   "place": "Haejeok Radio Station",
+   "where": "Imjin Farmland D6, upstairs in the white building under the red mast",
+   "threat": null,
+   "key": "Key is random loot",
+   "n": 1,
+   "date": "2026-11-09"
+  },
+  {
+   "for": [
+    "i_cpu"
+   ],
+   "place": "Haejeok Radio Station",
+   "where": "Imjin Farmland D6, upstairs in the white building under the red mast",
+   "threat": null,
+   "key": "Key is random loot",
+   "n": 1,
+   "date": "2026-11-09"
+  },
+  {
+   "for": [
+    "i_electronic_sensors"
+   ],
+   "place": "Haejeok Radio Station",
+   "where": "Imjin Farmland D6, upstairs in the white building under the red mast",
+   "threat": null,
+   "key": "Key is random loot",
+   "n": 1,
+   "date": "2026-11-09"
+  },
+  {
+   "for": [
+    "i_control_units"
+   ],
+   "place": "Haejeok Radio Station",
+   "where": "Imjin Farmland D6, upstairs in the white building under the red mast",
+   "threat": null,
+   "key": "Key is random loot",
+   "n": 1,
+   "date": "2026-11-09"
+  },
+  {
+   "for": [
+    "i_printed_circuit_board"
+   ],
+   "place": "Haejeok Radio Station",
+   "where": "Imjin Farmland D6, upstairs in the white building under the red mast",
+   "threat": null,
+   "key": "Key is random loot",
+   "n": 1,
+   "date": "2026-11-09"
+  },
+  {
+   "for": [
+    "i_nuclear_program_files"
+   ],
+   "place": "Haejeok Radio Station",
+   "where": "Imjin Farmland D6, upstairs in the white building under the red mast",
+   "threat": null,
+   "key": "Key is random loot",
+   "n": 1,
+   "date": "2026-11-09"
+  },
+  {
+   "for": [
+    "i_degraded_execution_footage"
+   ],
+   "place": "Haejeok Radio Station",
+   "where": "Imjin Farmland D6, upstairs in the white building under the red mast",
+   "threat": null,
+   "key": "Key is random loot",
+   "n": 1,
+   "date": "2026-11-09"
+  },
+  {
+   "for": [
+    "i_encrypted_archive"
+   ],
+   "place": "Haejeok Radio Station",
+   "where": "Imjin Farmland D6, upstairs in the white building under the red mast",
+   "threat": null,
+   "key": "Key is random loot",
+   "n": 1,
+   "date": "2026-11-09"
+  },
+  {
+   "for": [
+    "r_2_plate_helmet_vest"
+   ],
+   "place": "Hospital Chemical Lab and Lockers",
+   "where": "Mirae Hospital basement (F5)",
+   "threat": "Low",
+   "key": "Lab key: floor 7 office desk or shelves. Locker keys: morgue table or lab bench, one per locker",
+   "n": 1,
+   "date": "2026-11-08"
+  },
+  {
+   "for": [
+    "i_binding_catalyst"
+   ],
+   "place": "Hospital Chemical Lab and Lockers",
+   "where": "Mirae Hospital basement (F5)",
+   "threat": "Low",
+   "key": "Lab key: floor 7 office desk or shelves. Locker keys: morgue table or lab bench, one per locker",
+   "n": 1,
+   "date": "2026-11-08"
+  },
+  {
+   "for": [
+    "i_detonators"
+   ],
+   "place": "Hospital Chemical Lab and Lockers",
+   "where": "Mirae Hospital basement (F5)",
+   "threat": "Low",
+   "key": "Lab key: floor 7 office desk or shelves. Locker keys: morgue table or lab bench, one per locker",
+   "n": 1,
+   "date": "2026-11-08"
+  },
+  {
+   "for": [
+    "i_biomaterials"
+   ],
+   "place": "Hospital Chemical Lab and Lockers",
+   "where": "Mirae Hospital basement (F5)",
+   "threat": "Low",
+   "key": "Lab key: floor 7 office desk or shelves. Locker keys: morgue table or lab bench, one per locker",
+   "n": 1,
+   "date": "2026-11-08"
+  },
+  {
+   "for": [
+    "r_small_secure_backpack"
+   ],
+   "place": "Weapons Mod Workshop",
+   "where": "Chang-san Air Base B5, upstairs in the repair garage",
+   "threat": "Extreme",
+   "key": "Key is random loot",
+   "n": 1,
+   "date": "2026-11-10"
+  },
+  {
+   "for": [
+    "i_cipher_code_ledger"
+   ],
+   "place": "Weapons Mod Workshop",
+   "where": "Chang-san Air Base B5, upstairs in the repair garage",
+   "threat": "Extreme",
+   "key": "Key is random loot",
+   "n": 1,
+   "date": "2026-11-10"
+  },
+  {
+   "for": [
+    "i_ballistic_fabric"
+   ],
+   "place": "Police Station Armory",
+   "where": "Basement of each police station (D2, C4, F4, H5, G7)",
+   "threat": "Low–Medium",
+   "key": "Inside each station, usually on an office desk or table",
+   "n": 1,
+   "date": "2026-11-09"
+  },
+  {
+   "for": [
+    "i_cpu"
+   ],
+   "place": "Police Station Armory",
+   "where": "Basement of each police station (D2, C4, F4, H5, G7)",
+   "threat": "Low–Medium",
+   "key": "Inside each station, usually on an office desk or table",
+   "n": 1,
+   "date": "2026-11-09"
+  },
+  {
+   "for": [
+    "i_structural_alloy"
+   ],
+   "place": "Haksan School Armory",
+   "where": "Deadtown B7, second-floor classroom",
+   "threat": null,
+   "key": "Key is random loot (one in Chol-Min's Stash Room)",
+   "n": 1,
+   "date": "2026-11-09"
+  },
+  {
+   "for": [
+    "i_turned_components"
+   ],
+   "place": "Gas Station Electrical Room",
+   "where": "Under the Korin Oil station, Construction Zone H7",
+   "threat": null,
+   "key": "Key is random loot",
+   "n": 1,
+   "date": "2026-11-09"
+  },
+  {
+   "for": [
+    "i_cpu"
+   ],
+   "place": "Gas Station Electrical Room",
+   "where": "Under the Korin Oil station, Construction Zone H7",
+   "threat": null,
+   "key": "Key is random loot",
+   "n": 1,
+   "date": "2026-11-09"
+  },
+  {
+   "for": [
+    "i_printed_circuit_board"
+   ],
+   "place": "Gas Station Electrical Room",
+   "where": "Under the Korin Oil station, Construction Zone H7",
+   "threat": null,
+   "key": "Key is random loot",
+   "n": 1,
+   "date": "2026-11-09"
+  },
+  {
+   "for": [
+    "i_binding_catalyst"
+   ],
+   "place": "Hazard Storehouse",
+   "where": "Haneul Reactor I5, south of the cooling towers (radiation zone)",
+   "threat": "High",
+   "key": "Key is random loot (Field Depot locker; enemy operator at the Cheongun Outskirts gas station)",
+   "n": 1,
+   "date": "2026-11-08"
+  },
+  {
+   "for": [
+    "r_zip_gun"
+   ],
+   "place": "X01 Superintendent's Office",
+   "where": "Upper level, west of the Main Warehouse icon",
+   "threat": "X01",
+   "key": "Keycard is random loot",
+   "n": 1,
+   "date": "2026-11-09"
+  },
+  {
+   "for": [
+    "i_high_tenacity_fibers"
+   ],
+   "place": "X01 Superintendent's Office",
+   "where": "Upper level, west of the Main Warehouse icon",
+   "threat": "X01",
+   "key": "Keycard is random loot",
+   "n": 1,
+   "date": "2026-11-09"
+  },
+  {
+   "for": [
+    "i_nylon_cloth"
+   ],
+   "place": "X01 Superintendent's Office",
+   "where": "Upper level, west of the Main Warehouse icon",
+   "threat": "X01",
+   "key": "Keycard is random loot",
+   "n": 1,
+   "date": "2026-11-09"
+  },
+  {
+   "for": [
+    "i_nitro_compounds"
+   ],
+   "place": "X01 Superintendent's Office",
+   "where": "Upper level, west of the Main Warehouse icon",
+   "threat": "X01",
+   "key": "Keycard is random loot",
+   "n": 1,
+   "date": "2026-11-09"
+  },
+  {
+   "for": [
+    "r_medium_scavenger_backpack"
+   ],
+   "place": "X01 Lt. Chol-Min's Stash Room",
+   "where": "Motor Pool E7, above his hall; climb the rope in the cage in his room",
+   "threat": "X01",
+   "key": "Drops from Lt. Chol-Min",
+   "n": 1,
+   "date": "2026-11-09"
+  },
+  {
+   "for": [
+    "i_cipher_code_ledger"
+   ],
+   "place": "X01 Lt. Chol-Min's Stash Room",
+   "where": "Motor Pool E7, above his hall; climb the rope in the cage in his room",
+   "threat": "X01",
+   "key": "Drops from Lt. Chol-Min",
+   "n": 1,
+   "date": "2026-11-09"
+  },
+  {
+   "for": [
+    "i_sr_16_bio_agent_sample"
+   ],
+   "place": "X01 Deep Vault 406",
+   "where": "Deep Vault",
+   "threat": "X01",
+   "key": "Keycard on the Executive Room desk (3 runs out of 3)",
+   "n": 1,
+   "date": "2026-11-07"
+  },
+  {
+   "for": [
+    "i_encrypted_archive"
+   ],
+   "place": "X01 Deep Vault 406",
+   "where": "Deep Vault",
+   "threat": "X01",
+   "key": "Keycard on the Executive Room desk (3 runs out of 3)",
+   "n": 1,
+   "date": "2026-11-07"
+  },
+  {
+   "for": [
+    "i_ballistic_fabric"
+   ],
+   "place": "X01 Executive Room",
+   "where": "Admin Offices, 2nd floor",
+   "threat": "X01",
+   "key": "Encode \"Executive Access\" at a Keycard Encoder (Supply Depot or Data Center)",
+   "n": 1,
+   "date": "2026-11-07"
+  },
+  {
+   "for": [
+    "w_kg_7_vulcan"
+   ],
+   "place": "X01 Audit Room",
+   "where": "Main Warehouse top floor, safe",
+   "threat": "X01",
+   "key": "Jacket or Industrial Locker in the Supply Depot, Bio Lab jacket, Admin surveillance room",
+   "n": 1,
+   "date": "2026-11-07"
+  },
+  {
+   "for": [
+    "i_gold_bar"
+   ],
+   "place": "X01 Small Test Chamber",
+   "where": "Tech Lab, safe",
+   "threat": "X01",
+   "key": "Keycard source not reported",
+   "n": 1,
+   "date": "2026-11-07"
+  },
+  {
+   "for": [
+    "i_encrypted_archive"
+   ],
+   "place": "X01 Small Test Chamber",
+   "where": "Tech Lab, safe",
+   "threat": "X01",
+   "key": "Keycard source not reported",
+   "n": 1,
+   "date": "2026-11-07"
+  },
+  {
+   "for": [
+    "i_alloyed_plating"
+   ],
+   "place": "X01 Maintenance Room",
+   "where": "Top of Production Assembly",
+   "threat": "X01",
+   "key": "Encode \"Maintenance Access\", or the Executive Room jacket",
+   "n": 1,
+   "date": "2026-11-07"
+  },
+  {
+   "for": [
+    "i_comms_module"
+   ],
+   "place": "X01 Maintenance Room",
+   "where": "Top of Production Assembly",
+   "threat": "X01",
+   "key": "Encode \"Maintenance Access\", or the Executive Room jacket",
+   "n": 1,
+   "date": "2026-11-07"
+  },
+  {
+   "for": [
+    "i_encrypted_archive"
+   ],
+   "place": "X01 Maintenance Room",
+   "where": "Top of Production Assembly",
+   "threat": "X01",
+   "key": "Encode \"Maintenance Access\", or the Executive Room jacket",
+   "n": 1,
+   "date": "2026-11-07"
+  },
+  {
+   "for": [
+    "i_regional_combat_notes"
+   ],
+   "place": "X01 Deep Vault 301",
+   "where": "Deep Vault",
+   "threat": "X01",
+   "key": "Random; The Captain usually drops it",
+   "n": 1,
+   "date": "2026-11-07"
+  },
+  {
+   "for": [
+    "w_m4"
+   ],
+   "place": "Prison Citadel yard",
+   "where": "Tool Chest",
+   "threat": "Critical",
+   "key": null,
+   "n": 1,
+   "date": "2026-11-06"
+  },
+  {
+   "for": [
+    "w_finn_lmg"
+   ],
+   "place": "Cheongun Village station",
+   "where": "Rail Depot Storage in the basement",
+   "threat": "Low",
+   "key": null,
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "w_vel_46"
+   ],
+   "place": "Deadtown Re-Education Center",
+   "where": "Military Locker",
+   "threat": null,
+   "key": null,
+   "n": 1,
+   "date": "2026-11-03"
+  },
+  {
+   "for": [
+    "w_type_73",
+    "w_ppsh_41",
+    "r_zip_gun"
+   ],
+   "place": "Chang-san barracks (Operation Iron Citadel)",
+   "where": "Duffels on the bunks",
+   "threat": "Critical",
+   "key": null,
+   "n": 2,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "r_combat_drone"
+   ],
+   "place": "Chang-san barracks (Operation Iron Citadel)",
+   "where": "Green footlocker",
+   "threat": "Critical",
+   "key": null,
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "r_pain_killers",
+    "r_energy_drink",
+    "r_drill_charge"
+   ],
+   "place": "Chang-san barracks (Operation Iron Citadel)",
+   "where": "Mirrored medicine cabinets over the washroom sinks",
+   "threat": "Critical",
+   "key": null,
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "w_type_73"
+   ],
+   "place": "Cheonwang Peak Array",
+   "where": "Filing cabinet",
+   "threat": "Medium",
+   "key": null,
+   "n": 1,
+   "date": "2026-11-03"
+  },
+  {
+   "for": [
+    "w_kastov_762",
+    "w_jokr"
+   ],
+   "place": "Irradiated Container",
+   "where": "Decontaminate it at Reactor 02; 16 of 16 held a Manual",
+   "threat": "High",
+   "key": null,
+   "n": 16,
+   "date": "2026-11-03"
+  },
+  {
+   "for": [
+    "w_rpg_8",
+    "r_advanced_uav"
+   ],
+   "place": "Iron Citadel armory, Chang-san bunker",
+   "where": "Weapons Locker",
+   "threat": "Extreme",
+   "key": null,
+   "n": 1,
+   "date": "2026-11-03"
+  },
+  {
+   "for": [
+    "w_sang_9mm"
+   ],
+   "place": "Train through Cheongun Outskirts",
+   "where": "Blue duffel on a seat",
+   "threat": null,
+   "key": null,
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "r_zip_gun"
+   ],
+   "place": "Cheongun Village fire station",
+   "where": "Upstairs cache",
+   "threat": "Low",
+   "key": null,
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "r_screamer_mine"
+   ],
+   "place": "Hotel Lucera, Suite 703",
+   "where": "Bedroom weapons locker",
+   "threat": "Critical",
+   "key": "Key",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "r_smelling_salts"
+   ],
+   "place": "Reactor 02 Control Room",
+   "where": "Chemical Storage",
+   "threat": "High",
+   "key": null,
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "r_2_plate_ballistic_gel_vest"
+   ],
+   "place": "Casino",
+   "where": "Grey filing cabinet in a small office",
+   "threat": "High",
+   "key": null,
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "r_2_plate_helmet_vest"
+   ],
+   "place": "Compound Echo",
+   "where": "Roof crates by the SAM site",
+   "threat": "Medium",
+   "key": null,
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "r_large_scavenger_backpack"
+   ],
+   "place": "Fire station, North Korean Wilderness",
+   "where": "First aid kit on a garage pillar",
+   "threat": null,
+   "key": null,
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_power_regulator",
+    "i_cpu"
+   ],
+   "place": "Cheonwang Peak Array",
+   "where": "Server building, 4th floor: server blades and racks",
+   "threat": "Medium",
+   "key": null,
+   "n": 3,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_turned_components"
+   ],
+   "place": "North Korean Wilderness",
+   "where": "Industrial lockers",
+   "threat": null,
+   "key": null,
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_turned_components",
+    "i_comms_module"
+   ],
+   "place": "Police Weapon Depository, Wolves Stadium",
+   "where": "Lockers and the server blade",
+   "threat": null,
+   "key": "Key",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_alloyed_plating"
+   ],
+   "place": "Bubun Yard",
+   "where": "Tool chest",
+   "threat": null,
+   "key": null,
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_alloyed_plating",
+    "i_nylon_laminate"
+   ],
+   "place": "Commandant Office",
+   "where": "Weapons locker and military locker",
+   "threat": null,
+   "key": "Key (one came from the Old Barber Shop)",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_volatile_explosives"
+   ],
+   "place": "Oamsik Turtle Island",
+   "where": "Hidden cache",
+   "threat": null,
+   "key": null,
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_ballistic_fabric"
+   ],
+   "place": "Shop Records Room",
+   "where": "Inside the room",
+   "threat": null,
+   "key": "Key",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_ballistic_fabric",
+    "i_w_m_d_manifest"
+   ],
+   "place": "Irradiated Container",
+   "where": "Decontaminate it at Reactor 02",
+   "threat": "High",
+   "key": null,
+   "n": 2,
+   "date": "2026-11-03"
+  },
+  {
+   "for": [
+    "i_high_tenacity_fibers"
+   ],
+   "place": "Chang-san Air Base",
+   "where": "Armory and Barracks",
+   "threat": "Extreme",
+   "key": null,
+   "n": 1,
+   "date": "2026-11-10"
+  },
+  {
+   "for": [
+    "i_binding_catalyst"
+   ],
+   "place": "Mirae General Hospital",
+   "where": "Medical tents and the cache by the Chemical Lab door",
+   "threat": "Low",
+   "key": null,
+   "n": 2,
+   "date": "2026-11-08"
+  },
+  {
+   "for": [
+    "i_nylon_cloth"
+   ],
+   "place": "Prison Citadel wings",
+   "where": "Also Deadtown underground holding and Mujin Nightclub",
+   "threat": "Critical",
+   "key": null,
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_specter_fabric_sample"
+   ],
+   "place": "Inside X01",
+   "where": "Rare random loot; nobody has reported a fixed spot",
+   "threat": "X01",
+   "key": null,
+   "n": 1,
+   "date": "2026-11-10"
+  },
+  {
+   "for": [
+    "i_military_composites"
+   ],
+   "place": "The Colossus",
+   "where": "Not every kill. Reliable spot: behind the armory door in the Chang-san bunker (Operation Iron Citadel)",
+   "threat": "Critical",
+   "key": null,
+   "n": 2,
+   "date": "2026-11-11"
+  },
+  {
+   "for": [
+    "i_prototype_rf_module"
+   ],
+   "place": "Deathstalker wreck",
+   "where": "6 of 6 wrecks in one count. Mostly over The Grid (G6); one RPG-8 hit downs it",
+   "threat": "High",
+   "key": null,
+   "n": 6,
+   "date": "2026-11-15"
+  },
+  {
+   "for": [
+    "i_nano_structured_alloy"
+   ],
+   "place": "Destroyed Battle Tank",
+   "where": "Vehicle Hatch, Engine and Turret containers. One Impact Warhead destroys it",
+   "threat": null,
+   "key": null,
+   "n": 3,
+   "date": "2026-11-12"
+  },
+  {
+   "for": [
+    "i_experimental_compounds"
+   ],
+   "place": "The Colossus",
+   "where": "Drops sometimes",
+   "threat": "Critical",
+   "key": null,
+   "n": 2,
+   "date": "2026-11-11"
+  },
+  {
+   "for": [
+    "i_experimental_compounds"
+   ],
+   "place": "Deathstalker wreck",
+   "where": "2 of 6 wrecks in one count",
+   "threat": "High",
+   "key": null,
+   "n": 2,
+   "date": "2026-11-15"
+  },
+  {
+   "for": [
+    "i_experimental_compounds"
+   ],
+   "place": "Destroyed Battle Tank",
+   "where": "1 of 3 tanks in one count",
+   "threat": null,
+   "key": null,
+   "n": 1,
+   "date": "2026-11-12"
+  },
+  {
+   "for": [
+    "i_power_regulator",
+    "i_nylon_laminate"
+   ],
+   "place": "Destroyed Battle Tank",
+   "where": "Wreck containers",
+   "threat": null,
+   "key": null,
+   "n": 1,
+   "date": "2026-11-12"
+  },
+  {
+   "for": [
+    "i_structural_alloy"
+   ],
+   "place": "Bale",
+   "where": "His backpack. Deadtown Re-Education Center top floor, or the Chang-san bunker",
+   "threat": "Medium",
+   "key": null,
+   "n": 1,
+   "date": "2026-11-12"
+  },
+  {
+   "for": [
+    "i_sanctioned_assassination_list"
+   ],
+   "place": "Roze",
+   "where": "Her backpack. DBN Headquarters roof, The Grid",
+   "threat": "Extreme",
+   "key": null,
+   "n": 1,
+   "date": "2026-11-12"
+  },
+  {
+   "for": [
+    "i_gold_bar",
+    "i_gold_skull"
+   ],
+   "place": "Compound Alpha",
+   "where": "Safes (7 from 33 in one count)",
+   "threat": "Medium",
+   "key": null,
+   "n": 7,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_gold_bar",
+    "i_gold_skull"
+   ],
+   "place": "Wolves Stadium",
+   "where": "Safes (about 1 in 8)",
+   "threat": null,
+   "key": null,
+   "n": 3,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_sanctioned_assassination_list"
+   ],
+   "place": "Western bunkers",
+   "where": "Military Lockers",
+   "threat": "Extreme",
+   "key": null,
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_foreign_intelligence_targets"
+   ],
+   "place": "Mirae Hospital Electrical Room (B2)",
+   "where": "Server blade",
+   "threat": "Low",
+   "key": "Key",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_foreign_intelligence_targets"
+   ],
+   "place": "Gaming Computers",
+   "where": "About 1 in 18, anywhere",
+   "threat": null,
+   "key": null,
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_w_m_d_manifest"
+   ],
+   "place": "DBN HQ, Executive Arms Auction",
+   "where": "Inside the room",
+   "threat": null,
+   "key": "Key",
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_nuclear_program_files"
+   ],
+   "place": "Reactor 02 Control Room",
+   "where": "Computer",
+   "threat": "High",
+   "key": null,
+   "n": 1,
+   "date": "2026-11-05"
+  },
+  {
+   "for": [
+    "i_regional_combat_notes"
+   ],
+   "place": "Compound Delta",
+   "where": "About 1 in 5 containers",
+   "threat": "Medium",
+   "key": null,
+   "n": 3,
+   "date": "2026-11-05"
+  }
+ ],
+ "rooms": [
+  {
+   "id": "room_shopping_drc",
+   "name": "Shopping DRC Locker",
+   "where": "Under NuriGO Mall",
+   "keyFrom": "Key is random loot (one came from a Cheonwang Peak Array safe)",
+   "threat": "Medium–High",
+   "loot": "APOC-338, Patriot XMR and Rezi 12 Manuals; Large Secure Backpack (15,000)",
+   "date": "2026-11-05",
+   "x01": false
+  },
+  {
+   "id": "room_reactor_drc",
+   "name": "Reactor DRC Locker",
+   "where": "Underwater in the Reactor 02 pool",
+   "keyFrom": "Key is the Operation Fallen Ember reward",
+   "threat": "High",
+   "loot": "Warlord Manual, 3-Plate Ballistic Gel Vest, Large Secure Backpack",
+   "date": "2026-11-05",
+   "x01": false
+  },
+  {
+   "id": "room_airbase_drc",
+   "name": "Air Base DRC Weapons Locker",
+   "where": "Chang-san bunker armory",
+   "keyFrom": "Key is random loot (one in a duffel at Imjin Farmland)",
+   "threat": "Extreme",
+   "loot": "Cronen Squall Manual (reported as \"Cronin\"), 3-Plate Helmet Armor Vest",
+   "date": "2026-11-05",
+   "x01": false
+  },
+  {
+   "id": "room_netshin_it",
+   "name": "Netshin IT Room",
+   "where": "Netshin Tech Complex, floor 14",
+   "keyFrom": "Key from apartment lockers or random loot",
+   "threat": "Extreme",
+   "loot": "Rezi 12 Manual, Power Regulator, Volatile Explosives, 5 intel items",
+   "date": "2026-11-05",
+   "x01": false
+  },
+  {
+   "id": "room_netshin_security",
+   "name": "Netshin Security Office",
+   "where": "Netshin Tech Complex upper floor, rifle case",
+   "keyFrom": "Key",
+   "threat": "Extreme",
+   "loot": "ISO Nightshade Manual",
+   "date": "2026-11-05",
+   "x01": false
+  },
+  {
+   "id": "room_counting_vault",
+   "name": "Counting Room Vault",
+   "where": "Casino",
+   "keyFrom": "Operation Silent Ledger; industrial locker on the Rice Mill catwalk; Haksan School armory",
+   "threat": "High",
+   "loot": "Zip Gun recipe, Gold Skull",
+   "date": "2026-11-05",
+   "x01": false
+  },
+  {
+   "id": "room_vault_armory",
+   "name": "Vault Armory",
+   "where": "Under the Casino",
+   "keyFrom": "Casino carpet, Songdo Wharf duffel, Irradiated Container, Prison Encampment Storage",
+   "threat": "High",
+   "loot": "Cipher Code Ledger, Stabilized Reagents, Alloyed Plating, Nuclear Program Files",
+   "date": "2026-11-05",
+   "x01": false
+  },
+  {
+   "id": "room_south_block",
+   "name": "South Block Armory",
+   "where": "Prison Citadel",
+   "keyFrom": "Counter in the Citadel Main Control Room (needs its own key)",
+   "threat": "Critical",
+   "loot": "Gold Skull, Sanctioned Assassination List, a recipe",
+   "date": "2026-11-05",
+   "x01": false
+  },
+  {
+   "id": "room_bank_vault",
+   "name": "Bank Branch Vault",
+   "where": "Wolves branch or Cheongun branch",
+   "keyFrom": "Teller counter at Wolves, or the floor behind the teller windows in Cheongun",
+   "threat": "Medium",
+   "loot": "Cipher Code Ledger, 8 intel items, once a Gold Skull",
+   "date": "2026-11-05",
+   "x01": false
+  },
+  {
+   "id": "room_gangbyeon_b",
+   "name": "Gangbyeon Apartment B",
+   "where": "Compound Echo apartments",
+   "keyFrom": "Bookshelf or desk in a Compound Echo apartment",
+   "threat": "Medium",
+   "loot": "2 W.M.D Manifests, 3 Degraded Execution Footage, Comms Module, Prison Encampment key",
+   "date": "2026-11-05",
+   "x01": false
+  },
+  {
+   "id": "room_hanex_guard",
+   "name": "Hanex Guard Station",
+   "where": "Hanex Bank",
+   "keyFrom": "Key is random loot",
+   "threat": "Extreme",
+   "loot": "Power Regulator (loose), Cipher Code Ledger, a Legendary Warlord",
+   "date": "2026-11-05",
+   "x01": false
+  },
+  {
+   "id": "room_coin_den",
+   "name": "Coin Mining Den",
+   "where": "NuriGO West, upstairs",
+   "keyFrom": "Key is the Operation Shopping Hacks reward",
+   "threat": null,
+   "loot": ".50 GS Manual, 6 CPUs, Nuclear Program Files",
+   "date": "2026-11-05",
+   "x01": false
+  },
+  {
+   "id": "room_doctor",
+   "name": "The Doctor's Command Office",
+   "where": "Mirae General Hospital, floor 7, rooms 704 and 705",
+   "keyFrom": "Drops from The Doctor (not every kill)",
+   "threat": "Low",
+   "loot": "Tempered Armor Vest recipe on one run. A second run had no recipe: Legendary Doctor's Salve rifle (6,900), Volatile Explosives, High-Tenacity Fibers, Encrypted Archive; about 28,000",
+   "date": "2026-11-11",
+   "x01": false
+  },
+  {
+   "id": "room_chemist",
+   "name": "The Chemist's Secure Armory",
+   "where": "Haneul Nuclear Reactor I4, a bunker on the northeast side just inside the radiation zone",
+   "keyFrom": "Drops from The Chemist (not every kill); one was in The Scavenger's backpack",
+   "threat": null,
+   "loot": "W.M.D Manifest (5,000), Legendary Chemical Reaction (5,900), Ballistic Fabric, Nuclear Program Files, 2 Durable Gas Masks, 15 Chemicals; about 32,000",
+   "date": "2026-11-11",
+   "x01": false
+  },
+  {
+   "id": "room_militia_depot",
+   "name": "Militia Arms Depot",
+   "where": "Compound Echo apartment block B (G7), one flight up inside the Gangbyeon Apartment B front door",
+   "keyFrom": "Key is random loot; the front door also needs the Gangbyeon Apartment B key",
+   "threat": "Medium",
+   "loot": "Binding Catalyst, Nuclear Program Files, 2 Degraded Execution Footage, 5 more intel items; about 14,000",
+   "date": "2026-11-14",
+   "x01": false
+  },
+  {
+   "id": "room_roze_armory",
+   "name": "Roze's Highrise Armory",
+   "where": "Netshin Tech Complex, floor 14",
+   "keyFrom": "Drops from Roze on the DBN Headquarters roof (not every kill); also the Operation Grid Assault reward",
+   "threat": "Extreme",
+   "loot": "A Lieutenant crate and two weapon lockers; one visit had the Legendary Kraken sniper",
+   "date": "2026-11-12",
+   "x01": false
+  },
+  {
+   "id": "room_downtown_lobby",
+   "name": "Downtown Branch Lobby Main",
+   "where": "Hanex Bank downtown branch lobby, north edge of The Grid (G6)",
+   "keyFrom": "Key is random loot",
+   "threat": "Critical",
+   "loot": "Encrypted Archive, a Vault Armory key and Bank Branch Vault Access; about 2,900",
+   "date": "2026-11-10",
+   "x01": false
+  },
+  {
+   "id": "room_gorani",
+   "name": "Gorani's Scout Overlook",
+   "where": "Mujin Pass",
+   "keyFrom": "Drops from Lieutenant Gorani",
+   "threat": null,
+   "loot": "Legendary \"Incisor\" rifle, UAV",
+   "date": "2026-11-05",
+   "x01": false
+  },
+  {
+   "id": "room_barber",
+   "name": "Old Barber Shop",
+   "where": "Barber shop",
+   "keyFrom": "Key is random loot",
+   "threat": "Low",
+   "loot": "Cipher Code Ledger, Legendary Revive Pistol, Commandant Office key",
+   "date": "2026-11-05",
+   "x01": false
+  },
+  {
+   "id": "room_hanwoori",
+   "name": "Hanwoori Art Records Room",
+   "where": "The Grid",
+   "keyFrom": "Key",
+   "threat": "Critical",
+   "loot": "Screamer Mine and Stim recipes, Power Regulator",
+   "date": "2026-11-05",
+   "x01": false
+  },
+  {
+   "id": "room_hoesik",
+   "name": "Hoesik Supply Room",
+   "where": "By the Rice Mill",
+   "keyFrom": "Key",
+   "threat": "Medium",
+   "loot": "Impact Warhead recipe (cache), Nylon Laminate on the shelf by the door, 2 Degraded Execution Footage",
+   "date": "2026-11-05",
+   "x01": false
+  },
+  {
+   "id": "room_radio",
+   "name": "Haejeok Radio Station",
+   "where": "Imjin Farmland D6, upstairs in the white building under the red mast",
+   "keyFrom": "Key is random loot",
+   "threat": null,
+   "loot": "2 Comms Modules, Power Regulator, 5 CPUs, 10 Electronic Sensors, 6 Control Units, safe with 7 intel items; about 25,000",
+   "date": "2026-11-09",
+   "x01": false
+  },
+  {
+   "id": "room_chem_lockers",
+   "name": "Hospital Chemical Lab and Lockers",
+   "where": "Mirae Hospital basement (F5)",
+   "keyFrom": "Lab key: floor 7 office desk or shelves. Locker keys: morgue table or lab bench, one per locker",
+   "threat": "Low",
+   "loot": "2-Plate Helmet Armor Vest recipe, Binding Catalyst (unlocked cache by the lab door), 7 Detonators, 2 Medkits",
+   "date": "2026-11-08",
+   "x01": false
+  },
+  {
+   "id": "room_mod_workshop",
+   "name": "Weapons Mod Workshop",
+   "where": "Chang-san Air Base B5, upstairs in the repair garage",
+   "keyFrom": "Key is random loot",
+   "threat": "Extreme",
+   "loot": "Small Secure Backpack recipe, Cipher Code Ledger, 2-Plate Helmet Armor Vest; about 17,000",
+   "date": "2026-11-10",
+   "x01": false
+  },
+  {
+   "id": "room_police_armory",
+   "name": "Police Station Armory",
+   "where": "Basement of each police station (D2, C4, F4, H5, G7)",
+   "keyFrom": "Inside each station, usually on an office desk or table",
+   "threat": "Low–Medium",
+   "loot": "Ballistic Fabric (Cheongun), CPUs, a KG-7 Vulcan; 2,600 to 5,100 a station",
+   "date": "2026-11-09",
+   "x01": false
+  },
+  {
+   "id": "room_field_depot",
+   "name": "Field Depot",
+   "where": "Chang-san Air Base B5, supply warehouse",
+   "keyFrom": "Key is random loot (one from a Wilderness bunk duffel)",
+   "threat": "Extreme",
+   "loot": "Legendary Parachute, Hazard Storehouse key; about 8,500",
+   "date": "2026-11-08",
+   "x01": false
+  },
+  {
+   "id": "room_haksan",
+   "name": "Haksan School Armory",
+   "where": "Deadtown B7, second-floor classroom",
+   "keyFrom": "Key is random loot (one in Chol-Min's Stash Room)",
+   "threat": null,
+   "loot": "Structural Alloy, Encrypted Archive; about 10,000. No recipes or Manuals",
+   "date": "2026-11-09",
+   "x01": false
+  },
+  {
+   "id": "room_foreman",
+   "name": "Imjin Mill Foreman's Office",
+   "where": "Rice Mill D8, upstairs",
+   "keyFrom": "Key is random loot",
+   "threat": "Medium",
+   "loot": "About 6,750. No recipes or Manuals",
+   "date": "2026-11-08",
+   "x01": false
+  },
+  {
+   "id": "room_gas_station",
+   "name": "Gas Station Electrical Room",
+   "where": "Under the Korin Oil station, Construction Zone H7",
+   "keyFrom": "Key is random loot",
+   "threat": null,
+   "loot": "Turned Components, 5 CPUs, Printed Circuit Board; about 8,600",
+   "date": "2026-11-09",
+   "x01": false
+  },
+  {
+   "id": "room_hazard",
+   "name": "Hazard Storehouse",
+   "where": "Haneul Reactor I5, south of the cooling towers (radiation zone)",
+   "keyFrom": "Key is random loot (Field Depot locker; enemy operator at the Cheongun Outskirts gas station)",
+   "threat": "High",
+   "loot": "2 Binding Catalyst, Radiation Blockers; about 7,250",
+   "date": "2026-11-08",
+   "x01": false
+  },
+  {
+   "id": "room_mechanic",
+   "name": "Mechanic's Shack",
+   "where": "Cheongun Village F5, south of the clinic",
+   "keyFrom": "Key is random loot (one in a military locker on the train)",
+   "threat": "Low",
+   "loot": "Legendary Large Backpack; about 8,400. No recipes or Manuals",
+   "date": "2026-11-08",
+   "x01": false
+  },
+  {
+   "id": "x01_superintendent",
+   "name": "X01 Superintendent's Office",
+   "where": "Upper level, west of the Main Warehouse icon",
+   "keyFrom": "Keycard is random loot",
+   "threat": "X01",
+   "loot": "Weapons Grade Isotope (12,000), 2 Human Trial Records (8,000 each), Legendary MAR-9, Zip Gun recipe, 2 High-Tenacity Fibers; about 60,000",
+   "date": "2026-11-09",
+   "x01": true
+  },
+  {
+   "id": "x01_cholmin",
+   "name": "X01 Lt. Chol-Min's Stash Room",
+   "where": "Motor Pool E7, above his hall; climb the rope in the cage in his room",
+   "keyFrom": "Drops from Lt. Chol-Min",
+   "threat": "X01",
+   "loot": "Medium Scavenger Backpack recipe, Legendary Swaegolja LMG, Cipher Code Ledger, Haksan School Armory key; about 29,000",
+   "date": "2026-11-09",
+   "x01": true
+  },
+  {
+   "id": "x01_406",
+   "name": "X01 Deep Vault 406",
+   "where": "Deep Vault",
+   "keyFrom": "Keycard on the Executive Room desk (3 runs out of 3)",
+   "threat": "X01",
+   "loot": "SR-16 Bio Agent Sample loose on the lab table; 4 safes, about 29,000",
+   "date": "2026-11-07",
+   "x01": true
+  },
+  {
+   "id": "x01_executive",
+   "name": "X01 Executive Room",
+   "where": "Admin Offices, 2nd floor",
+   "keyFrom": "Encode \"Executive Access\" at a Keycard Encoder (Supply Depot or Data Center)",
+   "threat": "X01",
+   "loot": "Weapons Grade Isotope (12,000), R-4 Bio-Compound, Ballistic Fabric, plus the 406 and Maintenance Room cards in a jacket",
+   "date": "2026-11-07",
+   "x01": true
+  },
+  {
+   "id": "x01_audit",
+   "name": "X01 Audit Room",
+   "where": "Main Warehouse top floor, safe",
+   "keyFrom": "Jacket or Industrial Locker in the Supply Depot, Bio Lab jacket, Admin surveillance room",
+   "threat": "X01",
+   "loot": "KG-7 Vulcan Manual, Gilded Medal (15,000), Gilded Maritime Relic (7,000)",
+   "date": "2026-11-07",
+   "x01": true
+  },
+  {
+   "id": "x01_test_chamber",
+   "name": "X01 Small Test Chamber",
+   "where": "Tech Lab, safe",
+   "keyFrom": "Keycard source not reported",
+   "threat": "X01",
+   "loot": "Gold Bar, 2 Gilded Maritime Relics, Encrypted Archive",
+   "date": "2026-11-07",
+   "x01": true
+  },
+  {
+   "id": "x01_maintenance",
+   "name": "X01 Maintenance Room",
+   "where": "Top of Production Assembly",
+   "keyFrom": "Encode \"Maintenance Access\", or the Executive Room jacket",
+   "threat": "X01",
+   "loot": "Alloyed Plating, Comms Module, Encrypted Archive",
+   "date": "2026-11-07",
+   "x01": true
+  },
+  {
+   "id": "x01_106",
+   "name": "X01 Deep Vault 106",
+   "where": "Deep Vault",
+   "keyFrom": "Enemy operator in a Data Center stairwell",
+   "threat": "X01",
+   "loot": "Legendary Rezi 12, Wz. 55 Striga, intel",
+   "date": "2026-11-07",
+   "x01": true
+  },
+  {
+   "id": "x01_301",
+   "name": "X01 Deep Vault 301",
+   "where": "Deep Vault",
+   "keyFrom": "Random; The Captain usually drops it",
+   "threat": "X01",
+   "loot": "Animal Trial Records, Han 86, Regional Combat Notes",
+   "date": "2026-11-07",
+   "x01": true
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-11-15",
+   "title": "Resupply Run is live",
+   "sub": "Trade items at the FOB for six rewards; reported to end before Nov 19",
+   "ref": null
+  },
+  {
+   "date": "2026-11-15",
+   "title": "Deathstalker drops counted",
+   "sub": "Prototype RF Module in 6 of 6 wrecks",
+   "ref": "i_prototype_rf_module"
+  },
+  {
+   "date": "2026-11-14",
+   "title": "Militia Arms Depot",
+   "sub": "Binding Catalyst and intel items; about 14,000",
+   "ref": "room_militia_depot"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "Legendary ingredients sell for cash again",
+   "sub": "Patch: 3,500 each. Manuals and recipes now convert when you enter X01 from Hajin",
+   "ref": null
+  },
+  {
+   "date": "2026-11-12",
+   "title": "Battle Tank loot",
+   "sub": "Nano-Structured Alloy in the Hatch, Engine or Turret",
+   "ref": "i_nano_structured_alloy"
+  },
+  {
+   "date": "2026-11-11",
+   "title": "The Chemist's Secure Armory",
+   "sub": "About 32,000, with a W.M.D Manifest",
+   "ref": "room_chemist"
+  },
+  {
+   "date": "2026-11-11",
+   "title": "Bombing Run is off inside X01",
+   "sub": "Patch: solos and duos also build Bounty a little faster",
+   "ref": null
+  },
+  {
+   "date": "2026-11-10",
+   "title": "UAVs are off inside X01",
+   "sub": "Patch: UAVs and Advanced UAVs can't be used in X01",
+   "ref": null
+  },
+  {
+   "date": "2026-11-10",
+   "title": "Failing to exfil now pays some cash",
+   "sub": "Patch: Scavenger Bonus, based on loot value and time deployed",
+   "ref": null
+  },
+  {
+   "date": "2026-11-10",
+   "title": "Weapons Mod Workshop",
+   "sub": "Small Secure Backpack recipe, Cipher Code Ledger",
+   "ref": "room_mod_workshop"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "X01 Superintendent's Office",
+   "sub": "About 60,000 and a Zip Gun recipe",
+   "ref": "x01_superintendent"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "X01 Lt. Chol-Min's Stash Room",
+   "sub": "Medium Scavenger Backpack recipe",
+   "ref": "x01_cholmin"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "Haejeok Radio Station",
+   "sub": "2 Comms Modules, Power Regulator, 5 CPUs",
+   "ref": "room_radio"
+  },
+  {
+   "date": "2026-11-08",
+   "title": "Hospital Chemical Lockers",
+   "sub": "2-Plate Helmet Armor Vest recipe, Binding Catalyst",
+   "ref": "room_chem_lockers"
+  },
+  {
+   "date": "2026-11-07",
+   "title": "X01 Audit Room safe",
+   "sub": "KG-7 Vulcan Manual",
+   "ref": "x01_audit"
+  },
+  {
+   "date": "2026-11-07",
+   "title": "X01 Deep Vault 406",
+   "sub": "SR-16 Bio Agent Sample on the lab table",
+   "ref": "x01_406"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "Thermal Padding hides you from UAVs",
+   "sub": "Patch: so does the Sedative Inhaler; an Advanced UAV still finds you",
+   "ref": null
+  },
+  {
+   "date": "2026-11-05",
+   "title": "Season 1 guns",
+   "sub": "Cronen Osprey at Battle Pass tier 16, CSG-35 at tier 36; both come with their Manual",
+   "ref": "w_cronen_osprey"
   }
  ]
 }
