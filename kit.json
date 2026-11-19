@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "rev": 2026111501,
- "asOf": "Nov 15, 2026",
- "notice": "Resupply Run is live and reported to end before Nov 19: trade items at the FOB for six rewards. Intel has boss drop counts and new key rooms, and four new Box recipes are in Crafting.",
+ "rev": 2026111901,
+ "asOf": "Nov 19, 2026",
+ "notice": "Nov 16 patch: Lieutenant dog tag cash now goes to every squad member. Resupply Run is listed as ending Nov 19, and War Chest as starting the same day (one source).",
  "mapURL": "https://github.com/Jb631/exfil-ledger-data/blob/main/MAP.md",
  "safeMap": {
   "url": "https://codmunity.gg/dmz/map",
@@ -3919,7 +3919,7 @@
   {
    "id": "route",
    "title": "Hot loot spots",
-   "subtitle": "Newest reported finds · Nov 15, 2026",
+   "subtitle": "Newest reported finds · Nov 19, 2026",
    "blocks": [
     {
      "type": "p",
@@ -3927,7 +3927,7 @@
     },
     {
      "type": "note",
-     "text": "**Resupply Run is live, and players report it ends before Nov 19.** Collect the listed items and trade them at the FOB for six rewards; finishing all six earns a SERE Kit. One trade, from a player's post: a 3-Plate Armor Vest for 10 C4, 10 Frag Grenades and 10 Semtex. The other five are on the event screen in the FOB."
+     "text": "**Lieutenant dog tag cash now goes to every squad member (Nov 16 patch).** Guides list a tag at 25,000 on extract; the patch notes give no amount, so check your extraction summary. **Events:** Resupply Run is listed as ending Nov 19. War Chest is listed as starting Nov 19: opening a container scores 5 points and a safe 50, on a leaderboard that resets every three hours (one source). Wager Match is listed as running to Dec 2."
     },
     {
      "type": "table",
@@ -4060,7 +4060,7 @@
   {
    "id": "manuals",
    "title": "Weapon Manual spots",
-   "subtitle": "By gun · Nov 15, 2026",
+   "subtitle": "By gun · Nov 19, 2026",
    "blocks": [
     {
      "type": "p",
@@ -4837,6 +4837,10 @@
        "50,000 first kill each"
       ],
       [
+       "Lieutenant dog tag",
+       "25,000 on extract in two guides; since Nov 16 the cash goes to every squad member"
+      ],
+      [
        "Manual or recipe",
        "5,000 on extract"
       ],
@@ -4860,6 +4864,10 @@
     },
     {
      "type": "p",
+     "text": "**Nov 16 patch:** the UAV Upgrade Pro trait now zooms the minimap out 1.5x, down from 3x. Loot from a destroyed Deathstalker wreck can be pinged, and a weapon extracted in the Backpack Weapon slot now equips properly on your next run."
+    },
+    {
+     "type": "p",
      "text": "**Nov 11 to 13 patches:** solos and duos build Bounty a little faster, Wager Match trophies drop more often, and a finished 3D Printer recipe can be untracked again. Activision says changes to DMZ time-to-kill are in testing."
     },
     {
@@ -4875,11 +4883,11 @@
   {
    "id": "sources",
    "title": "Where this comes from",
-   "subtitle": "Re-checked Nov 15, 2026",
+   "subtitle": "Re-checked Nov 19, 2026",
    "blocks": [
     {
      "type": "p",
-     "text": "Loot spots, costs and prices come from fan sites and player reports, re-checked Nov 15, 2026. Printer recipes and upgrade costs were compared on Nov 15 with COD Central's list (updated Nov 14) and match, except Survivor Box and Staff Emergency Exfil Keycard, where sources disagree. When the game disagrees with this app, trust the game and tell James."
+     "text": "Loot spots, costs and prices come from fan sites and player reports, re-checked Nov 19, 2026. Printer recipes and upgrade costs were compared on Nov 15 with COD Central's list (updated Nov 14) and match, except Survivor Box and Staff Emergency Exfil Keycard, where sources disagree. When the game disagrees with this app, trust the game and tell James."
     },
     {
      "type": "p",
@@ -6850,9 +6858,27 @@
  ],
  "news": [
   {
-   "date": "2026-11-15",
-   "title": "Resupply Run is live",
-   "sub": "Trade items at the FOB for six rewards; reported to end before Nov 19",
+   "date": "2026-11-19",
+   "title": "Events this week",
+   "sub": "Resupply Run listed as ending Nov 19; War Chest starting (one source); Wager Match to Dec 2",
+   "ref": null
+  },
+  {
+   "date": "2026-11-19",
+   "title": "Threat Briefing: The Captain",
+   "sub": "Listed to start Nov 24 in X01: kill The Captain and extract Prototype Helmets (one source)",
+   "ref": null
+  },
+  {
+   "date": "2026-11-16",
+   "title": "Lieutenant dog tag cash for the whole squad",
+   "sub": "Patch: every squad member is paid; guides list 25,000 a tag",
+   "ref": null
+  },
+  {
+   "date": "2026-11-16",
+   "title": "UAV Upgrade Pro trait cut back",
+   "sub": "Patch: minimap zoom-out is 1.5x, down from 3x",
    "ref": null
   },
   {

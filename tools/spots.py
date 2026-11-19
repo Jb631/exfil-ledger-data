@@ -205,7 +205,10 @@ S("i_nuclear_program_files", "Reactor 02 Control Room", "Computer", "High", None
 S("i_regional_combat_notes", "Compound Delta", "About 1 in 5 containers", "Medium", None, 3)
 
 # ---- What's new (sorted newest first at the end of this file) --------------------------------------
-N("2026-11-15", "Resupply Run is live", "Trade items at the FOB for six rewards; reported to end before Nov 19")
+N("2026-11-19", "Events this week", "Resupply Run listed as ending Nov 19; War Chest starting (one source); Wager Match to Dec 2")
+N("2026-11-19", "Threat Briefing: The Captain", "Listed to start Nov 24 in X01: kill The Captain and extract Prototype Helmets (one source)")
+N("2026-11-16", "Lieutenant dog tag cash for the whole squad", "Patch: every squad member is paid; guides list 25,000 a tag")
+N("2026-11-16", "UAV Upgrade Pro trait cut back", "Patch: minimap zoom-out is 1.5x, down from 3x")
 N("2026-11-15", "Deathstalker drops counted", "Prototype RF Module in 6 of 6 wrecks", "i_prototype_rf_module")
 N("2026-11-14", "Militia Arms Depot", "Binding Catalyst and intel items; about 14,000", "room_militia_depot")
 N("2026-11-13", "Legendary ingredients sell for cash again", "Patch: 3,500 each. Manuals and recipes now convert when you enter X01 from Hajin")

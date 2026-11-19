@@ -16,8 +16,8 @@ import os, tempfile
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 SCHEMA = 1
-REV = 2026111501          # yyyymmdd + 2-digit counter; bump on every data update
-AS_OF = "Nov 15, 2026"
+REV = 2026111901          # yyyymmdd + 2-digit counter; bump on every data update
+AS_OF = "Nov 19, 2026"
 
 TMP = os.path.join(tempfile.gettempdir(), "exfil_ledger_src.json")
 subprocess.run([sys.executable, os.path.join(HERE, "build_data.py"), TMP], check=True)
@@ -48,7 +48,7 @@ ingr = sorted([i for i in src["items"] if i["find"] and i["kind"] not in ("resou
 intel = [
     {"id": "route", "title": "Hot loot spots", "subtitle": "Newest reported finds · " + AS_OF, "blocks": [
         P("The best recent finds players have reported. Loot is random every match and most of these are from one run, so treat them as places worth checking, not guarantees."),
-        NOTE("**Resupply Run is live, and players report it ends before Nov 19.** Collect the listed items and trade them at the FOB for six rewards; finishing all six earns a SERE Kit. One trade, from a player's post: a 3-Plate Armor Vest for 10 C4, 10 Frag Grenades and 10 Semtex. The other five are on the event screen in the FOB."),
+        NOTE("**Lieutenant dog tag cash now goes to every squad member (Nov 16 patch).** Guides list a tag at 25,000 on extract; the patch notes give no amount, so check your extraction summary. **Events:** Resupply Run is listed as ending Nov 19. War Chest is listed as starting Nov 19: opening a container scores 5 points and a safe 50, on a leaderboard that resets every three hours (one source). Wager Match is listed as running to Dec 2."),
         TABLE(["Spot", "Threat", "What's been found"], [
             ["Deathstalker wreck. It flies mostly over The Grid (G6), and a new one arrives 7 to 8 minutes after a kill", "Varies", "Prototype RF Module in 6 of 6 wrecks, Experimental Compounds in 2 of 6. One RPG-8 hit brings it down; its three containers can scatter when it falls · Nov 15"],
             ["Militia Arms Depot, Compound Echo apartment block B (G7), one flight up inside the Gangbyeon Apartment B door (both keys are random loot)", "Medium", "Binding Catalyst, Nuclear Program Files, 2 Degraded Execution Footage, 5 more intel items; about 14,000 · Nov 14"],
@@ -228,10 +228,12 @@ intel = [
     {"id": "reference", "title": "Quick reference", "subtitle": "Cash, Bank caps, levels", "blocks": [
         TABLE(["Source", "Pays"], [["Dynamic Op", "10,000–20,000, straight to the Bank"], ["Orders page", "20,000 on most pages"], ["Side Op", "2,000"],
             ["Mission step", "500"], ["Lieutenant", "10,000 first kill each"], ["Commander", "50,000 first kill each"],
+            ["Lieutenant dog tag", "25,000 on extract in two guides; since Nov 16 the cash goes to every squad member"],
             ["Manual or recipe", "5,000 on extract"], ["Gold Bar", "25,000 to sell (Stash Weapon III and Bank X and XII need them)"],
             ["Legendary ingredient", "3,500 to sell"]]),
         P("**Scavenger Bonus (Nov 10):** if you die or miss exfil you now get some cash anyway, based on the value of what you had looted and how long you were deployed. Story Missions don't count. No amounts published."),
         P("**Hiding from UAVs (Nov 6):** Thermal Padding, Thermal Padding Pro and the Sedative Inhaler now hide you from UAVs and upgraded UAV Towers. An Advanced UAV still finds you. A bug that let Operators with the UAV Upgrade trait see you anyway was fixed Nov 12. Mini Tracker's radius was cut slightly on Nov 10."),
+        P("**Nov 16 patch:** the UAV Upgrade Pro trait now zooms the minimap out 1.5x, down from 3x. Loot from a destroyed Deathstalker wreck can be pinged, and a weapon extracted in the Backpack Weapon slot now equips properly on your next run."),
         P("**Nov 11 to 13 patches:** solos and duos build Bounty a little faster, Wager Match trophies drop more often, and a finished 3D Printer recipe can be untracked again. Activision says changes to DMZ time-to-kill are in testing."),
         P("**Bank caps:** Start 100,000 · I 250,000 · II 500,000 · III 1M · IV 2M · V 5M · VI 10M · VII 25M · VIII 50M · IX 100M · X 250M · XI 500M · XII 1B · XIII 2B. Cash over the cap is lost."),
         P("**Levels that matter:** 10 Gunsmith · 15 third Operator · 25 Gunsmith 5% off · 37 3-Plate vest · 48 Self-Revive Kit recipe · 55 Disposable Parachute · 70 +18 item slots. Police Stations: D2, C4, F4, H5, G7. Compounds: Foxtrot B4, Charlie D4, Alpha E7, Bravo F8, Echo G7, Delta H4."),
@@ -249,7 +251,7 @@ intel = [
 # scam pages (fake virus alerts, fake ad-blocker downloads). Don't link to it until that's gone.
 BLOCKED_HOSTS = ("dmzcodex.com",)
 MAP_URL = "https://github.com/Jb631/exfil-ledger-data/blob/main/MAP.md"
-NOTICE = "Resupply Run is live and reported to end before Nov 19: trade items at the FOB for six rewards. Intel has boss drop counts and new key rooms, and four new Box recipes are in Crafting."
+NOTICE = "Nov 16 patch: Lieutenant dog tag cash now goes to every squad member. Resupply Run is listed as ending Nov 19, and War Chest as starting the same day (one source)."
 # Build 4+ open this in the locked viewer; the page itself may only go to these hosts.
 SAFE_MAP = {"url": "https://codmunity.gg/dmz/map", "hosts": ["codmunity.gg"]}
 for sec in intel:
